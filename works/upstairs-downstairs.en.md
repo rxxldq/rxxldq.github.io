@@ -25,15 +25,15 @@ I always think the sky covers only a small patch. People keep emerging on the st
 
 I write a few sentences and discover that my grammar is becoming more and more Westernised. Sometimes I even think in English. It frightens me.
 
-The Sikh people on the street may think in Punjabi, thinking of their families in Punjab. I remember that *Punjab* comes from Persian: *panj* is five and *āb* is water, so Punjab ought to be translated as Five Rivers. The cognate Greek root *penta* also means five. Pentakill. I miss *League of Legends*, but it stopped being popular long ago. None of my friends will play it with me.
+The Sikhs on the street may think in Punjabi, thinking of their families in Punjab. I remember that *Punjab* comes from Persian: *panj* is five and *āb* is water, so Punjab ought to be translated as Five Rivers. The cognate Greek root *penta* also means five. Pentakill. I miss *League of Legends*, but it stopped being popular long ago. None of my friends will play it with me.
 
 The possibilities of what they might be thinking are often forgotten before I can guess them. The habit of thinking makes me tired, yet I cannot control it. Every time our eyes meet, I cannot help attaching myself to someone else. I want so badly to become every pair of eyes. Blurred or exhausted, each contains countless viewpoints and possibilities.
 
-I am not AI. Taking in too much has not made me any cleverer. When I am other people and other things, I remain curious and compassionate.
+I am not an AI. Taking in too much has not made me any cleverer. When I am other people and other things, I remain curious and compassionate.
 
 In the inferno of the living, Italo Calvino says, find the people and things that are not inferno; learn to recognise and record them, Calvino goes on. And I can become them.
 
-So many people perform for you, singing and dancing for you. On your phone, you really are an emperor. The people below all look identical: the same makeup, the same skin, the same shapes of face. Some are a little taller, some a little shorter, allowing people with different tastes to find a better match for their fantasies. More hateful are the ones with their own distinctive traits. There are too many of them. They put too much pressure on people.
+So many people perform for you, singing and dancing for you. On your phone, you really are an emperor. The people below all look identical: the same makeup, the same skin, the same shapes of face. Some are a little taller, some a little shorter, allowing people with different tastes to find a better match for their fantasies. Worse are the ones with distinctive traits of their own. There are too many of them. They put too much pressure on people.
 
 I do not want to meet anyone, yet I want to know what the people behind the camera think and how they live.
 
@@ -44,7 +44,7 @@ I also want to know what the person upstairs thinks about every day.
 A possibility for the person upstairs:
 He does not have to leave the room to communicate with people.
 
-Nor does he have to undress and expose his old long johns and feet. Only when he sees them does he remember to cut his nails, brush his teeth, and rinse his mouth. There is no hurry. He does not have to do any of it. No one can see him. He is watching.
+Nor does he have to undress and expose his old long johns and feet. Only when he sees them does he remember to cut his nails, brush his teeth, and rinse his mouth. There is no hurry. He does not have to do any of it. No one can see him. He watches unseen.
 
 The master of porn moves from one image to the next and, in the end, still prefers what is real. What is most real wounds most deeply.
 
@@ -58,7 +58,7 @@ Sex is a bad habit the master of porn abandoned long ago. He only watches, using
 
 Before having sex, they can pour out the first half of their lives or describe an entire encyclopedia in words. In the end they return to sameness, making the same movements while dreaming separate dreams in the same bed, staging another cycle of the hunt. Men treat women as prey and unowned property. Some women may be briefly possessed and then return to the wild. Men like seeing that most of all.
 
-Watching has a desexualised beauty. Appetite is restrained; every movement remains repressed and even-paced.
+Voyeurism has a desexualised beauty. Appetite is restrained; every movement remains repressed and even-paced.
 
 They dress women in work uniforms, put helmets on them, add the hats of ancient officials, design bikini armour, as if decorating a cake. Men see women at work and think: her cosplay is pretty good. She has made herself look delicious.
 
@@ -82,11 +82,11 @@ The room smells of rancid oil. He has everything. On his way to possess someone,
 
 He is like a retired county magistrate returning home in brocade, smoking in the lift with perfect assurance.
 
-Perhaps the master of porn can see this too: the man has returned to the room, but the person he wants to possess has not arrived. Perhaps they are friends; perhaps they have never met; perhaps this is paid cooperation. None of that matters. What matters are these few dozen minutes. Now and then he stands up. Sometimes he sits down and opens every group chat. When he talks to friends, he deliberately sends voice messages, enunciating heavily to bring out his hometown accent. By accident he opens WeChat Channels and starts scrolling. Random freaks take control of him for ages. His mind goes blank. He makes himself laugh with anger.
+Perhaps the master of porn can see this too: the man has returned to the room, but the person he wants to possess has not arrived. Perhaps they are friends; perhaps they have never met; perhaps it is a paid arrangement. None of that matters. What matters are these few dozen minutes. Now and then he stands up. Sometimes he sits down and opens every group chat. When he talks to friends, he deliberately sends voice messages, enunciating heavily to bring out his hometown accent. By accident he opens WeChat Channels and starts scrolling. Random freaks take control of him for ages. His mind goes blank, and finally he laughs in exasperation.
 
 A knock at the door. Always making it so mysterious.
 
-He puts down his phone and lights a cigarette, taking several fierce drags so that it looks as if he lit it thirty seconds before she arrived. The strategist Zhuge Liang might be waiting for her inside. He looks like a man who is always smoking. The smoke hides his wrinkles and makes his face less ugly. When the other person enters, it is like K. entering the village for the first time.
+He puts down his phone and lights a cigarette, taking several fierce drags so that it looks as if he lit it thirty seconds before she arrived. As if he were Zhuge Liang waiting for her inside. He looks like a man who is always smoking. The smoke hides his wrinkles and makes his face less ugly. When the other person enters, it is like K. entering the village for the first time.
 
 At this point the master of porn closes the webpage. Or perhaps this is only when the master of porn begins watching. He must also accept a certain fact—someone is watching him, wearing an expression as serious as his own.
 
@@ -109,13 +109,13 @@ Visitors have light footsteps or heavy ones. The staircase objectively reports t
 
 Surrounded by beauty, you probably want to light a cigarette. While reaching for the lighter, you habitually flip your phone through a hundred and eighty degrees until it is upright, the first joint of your little finger lodged against the charging port, and enter the passcode without thinking. With a swipe, the whole world reconnects with you. The people you least want to contact are the ones who were standing in the picture just now.
 
-Crooked white wired earphones have vanished from the streets. People walk while talking into Bluetooth headsets. Someone passing by thinks they are being called. Nervous or excited? A woman walks past a man talking to himself. Each notices the other and thinks the other is flirting, or that this might be a random attack, but none of it matters. We can always pretend nothing happened, as when we see the corpse of a little mouse and feel secretly pleased because at last it will no longer carry bacteria into the kitchen. Open the internet on your phone and there is always someone who ought to be dead but is not, someone who was alive but accidentally died. Somebody is secretly pleased. If the dead person is the same sex, there is one less rival for sexual resources. If the dead person is the other sex, it can at least prove there is one less competitor for a job. I carry this feeling like a castle.
+Crooked white wired earphones have vanished from the streets. People walk while talking into Bluetooth headsets. Someone passing by thinks they are being called. Nervous or excited? A woman walks past a man talking to himself. Each notices the other and thinks the other is flirting, or that this might be a random attack, but none of it matters. We can always pretend nothing happened, as when we see the corpse of a little mouse and feel secretly pleased because at last it will no longer carry bacteria into the kitchen. Go online on your phone and there is always someone who ought to be dead but is not, someone who was alive but accidentally died. Somebody is secretly pleased. If the dead person is the same sex, there is one less rival for sexual resources. If the dead person is the other sex, it can at least prove there is one less competitor for a job. I carry this feeling like a castle.
 
 “It seemed to K. then that all contact with him had been severed, that he was freer now than ever before and could wait as long as he liked in this place usually forbidden to him; that he had fought for this freedom as hardly anyone else could; that no one could touch him or drive him away, hardly even speak to him. Yet at the same time—and this conviction was at least as strong—nothing in the world could be more senseless, more desperate, than this freedom, this waiting, this invulnerability.”
 
-K. was always making up for the consequences of impulses committed out of lust, dignity, a sense of order, or merely the need for a presentable answer. Like the people of the whole world in the 1960s, his successes were always local. People believed they had won rights and freedom, then fell into a state of stagnant unease. The more obvious trait is that we are both the commodity and the salesperson. We package ourselves and wait to be chosen, forever possessing nothing through one cycle after another.
+K. was always making up for the consequences of impulsive acts born of lust, dignity, a sense of order, or merely the need for a presentable answer. Like the people of the whole world in the 1960s, his successes were always local. People believed they had won rights and freedom, then fell into a state of stagnant unease. The more obvious trait is that we are both the commodity and the salesperson. We package ourselves and wait to be chosen, forever possessing nothing through one cycle after another.
 
-Prostitutes and porn stars were probably the first professions to wake up and discover that they possessed the freedom of modernity. Everyone else keeps arguing: the ability to say no is freedom; the ability to choose is freedom; the ability not to choose is freedom. The person upstairs may not think so, but someone, or some little mouse, is always watching him from a hole. He truly is free.
+Prostitutes and porn stars were probably the first to wake up and discover that they possessed the freedom of modernity. Everyone else keeps arguing: the ability to say no is freedom; the ability to choose is freedom; the ability not to choose is freedom. The person upstairs may not think so, but someone, or some little mouse, is always watching him from a hole. He truly is free.
 
 We can go and verify it. Enter the door. Climb the creaking stairs.
 
@@ -141,7 +141,7 @@ The mouse moves beneath the drain cover, scraping against weeds and kicking smal
 
 The little mouse pays no rent. It appears on every street and keeps a tacit understanding with the houses. A certain higher ethic, in Laozi’s *Daodejing*: “The sage keeps to the deed that consists in taking no action and practises the teaching that uses no words. The work is done without dwelling on it; because there is no dwelling, it does not pass away.”
 
-The little mouse does not sing. It eats itself big and round. In an old house close to collapse, every step makes the ceiling tremble. It says not a word, only leaves scraps of food—there is a hole in your kitchen.
+The little mouse does not sing. It eats until its body grows big and round. In an old house close to collapse, every step makes the ceiling tremble. It says not a word, only leaves scraps of food—there is a hole in your kitchen.
 
 Negligent workers left a large gap beside the drain. Then there were the drunks who punched and kicked holes in the wall. Far too many drunk people have visited over the past hundred years. Human beings shout and frighten the little mouse half to death. Hiding in a corner, it does not know that humans are afraid of it.
 
