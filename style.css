@@ -66,22 +66,11 @@ a:focus-visible { text-decoration-color: currentColor; }
 }
 
 .year {
-  display: grid;
-  grid-template-columns: 4rem 1fr;
-  gap: 1.5rem;
   padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
 }
 
 .year + .year { margin-top: 3rem; }
-
-.year h3 {
-  margin: 0.1rem 0 0;
-  color: var(--quiet);
-  font-size: 0.8rem;
-  font-variant-numeric: tabular-nums;
-  font-weight: 400;
-}
 
 .writing-list {
   margin: 0;
@@ -237,7 +226,6 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   html { font-size: 17px; }
   .site { padding-top: 10vh; }
   .site-header { margin-bottom: 4rem; }
-  .year { grid-template-columns: 3.25rem 1fr; gap: 1rem; }
   .wrap { width: min(100% - 4.75rem, 38rem); }
   .note-popover {
     top: auto !important;

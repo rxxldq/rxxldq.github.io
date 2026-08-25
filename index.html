@@ -29,8 +29,7 @@ layout: null
       <h2 id="archive-title" class="visually-hidden">文章目录</h2>
       {% assign grouped = site.data.articles | group_by: 'year' | sort: 'name' | reverse %}
       {% for year in grouped %}
-      <section class="year" aria-labelledby="year-{{ year.name }}">
-        <h3 id="year-{{ year.name }}">{{ year.name }}</h3>
+      <section class="year">
         <ol class="writing-list">
           {% assign works = year.items | sort: 'order' %}
           {% for work in works %}
