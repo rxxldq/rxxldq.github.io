@@ -5,6 +5,13 @@
   order: 5
   english_url: /veterinary-medicine-en.html
   ai_translation: true
+- title: 扒手
+  english_title: Pickpocket
+  url: /pickpocket.html
+  year: 2026
+  order: 7
+  english_url: /pickpocket-en.html
+  ai_translation: true
 - title: 在秦皇岛，猫可以变成老虎
   english_title: In Qinhuangdao, Cats Can Become Tigers
   url: /cats-become-tigers.html
