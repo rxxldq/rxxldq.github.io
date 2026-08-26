@@ -353,6 +353,7 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .muted { color: var(--quiet); }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .line { height: 1px; margin: 1.5rem 0; background: var(--rule); }
+.error-page p { color: var(--quiet); }
 
 .back-home {
   position: fixed;

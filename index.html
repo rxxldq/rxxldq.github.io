@@ -9,7 +9,17 @@ layout: null
   <meta name="description" content="{{ site.description }}">
   <meta name="follow.it-verification-code" content="4zRwcNuxdsRV9wedkTEN">
   <title>{{ site.title }}</title>
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title | escape }}">
+  <meta name="twitter:description" content="{{ site.description | escape }}">
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
