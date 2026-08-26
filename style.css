@@ -30,6 +30,36 @@ body::before {
   pointer-events: none;
 }
 
+.home-page::before {
+  background-image:
+    url("images/map.png"), url("images/map.png"), url("images/map.png"),
+    url("images/map.png"), url("images/map.png"), url("images/map.png"),
+    url("images/map.png"), url("images/map.png"),
+    url("images/map.png"), url("images/map.png"), url("images/map.png"),
+    url("images/map.png"),
+    url("images/map.png"), url("images/map.png"), url("images/map.png"),
+    url("images/map.png"), url("images/map.png"), url("images/map.png");
+  background-position:
+    -13rem -14rem, -11.7rem -12.5rem, -10.4rem -11rem,
+    -9.1rem -9.5rem, -7.8rem -8rem, -6.5rem -6.5rem,
+    -5.2rem -5rem, -3.9rem -3.5rem,
+    calc(100% + 6.6rem) 14%, calc(100% + 5.5rem) 16%, calc(100% + 4.4rem) 18%,
+    calc(100% + 3.3rem) 20%,
+    -7rem calc(100% + 8rem), -5.8rem calc(100% + 6.5rem), -4.6rem calc(100% + 5rem),
+    calc(100% + 7rem) calc(100% + 8rem), calc(100% + 5.7rem) calc(100% + 6.4rem), calc(100% + 4.4rem) calc(100% + 4.8rem);
+  background-size:
+    24rem auto, 24rem auto, 24rem auto,
+    24rem auto, 24rem auto, 24rem auto,
+    24rem auto, 24rem auto,
+    12rem auto, 12rem auto, 12rem auto,
+    12rem auto,
+    15rem auto, 15rem auto, 15rem auto,
+    17rem auto, 17rem auto, 17rem auto;
+  background-repeat: no-repeat;
+  filter: blur(0.35px);
+  opacity: 0.038;
+}
+
 a {
   color: inherit;
   text-decoration-color: var(--rule);
@@ -392,6 +422,25 @@ html[lang="zh-CN"] .article-body {
 
 @media (max-width: 36rem) {
   html { font-size: 17px; }
+  .home-page::before {
+    background-position:
+      -15rem -15rem, -13.9rem -13.7rem, -12.8rem -12.4rem,
+      -11.7rem -11.1rem, -10.6rem -9.8rem, -9.5rem -8.5rem,
+      -8.4rem -7.2rem, -7.3rem -5.9rem,
+      calc(100% + 7.4rem) 23%, calc(100% + 6.5rem) 25%, calc(100% + 5.6rem) 27%,
+      calc(100% + 4.7rem) 29%,
+      -8rem calc(100% + 7rem), -6.9rem calc(100% + 5.7rem), -5.8rem calc(100% + 4.4rem),
+      calc(100% + 8rem) calc(100% + 8rem), calc(100% + 6.8rem) calc(100% + 6.5rem), calc(100% + 5.6rem) calc(100% + 5rem);
+    background-size:
+      22rem auto, 22rem auto, 22rem auto,
+      22rem auto, 22rem auto, 22rem auto,
+      22rem auto, 22rem auto,
+      10rem auto, 10rem auto, 10rem auto,
+      10rem auto,
+      13rem auto, 13rem auto, 13rem auto,
+      14rem auto, 14rem auto, 14rem auto;
+    opacity: 0.032;
+  }
   .site { padding-top: 10vh; }
   .site-header { margin-bottom: 4rem; }
   .wrap { width: min(100% - 2.5rem, 38rem); }
