@@ -52,5 +52,5 @@
 - 正文字号保持电脑端 18px、手机端 17px，并同时检查两种宽度。
 - 单篇文章连续滚动；长篇如需拆分，应按章节拆页，不按固定字数翻页。
 - 迁移旧页面时先逐段核对文字并逐项核对图片；确认新页面完整后删除旧框架和重复副本。固定网址优先保留为薄入口，但正文只维护一份。
-- 订阅以 `feed.xml` 为基础，未来可接入读取 RSS 的邮件服务，无需在站内保存订阅者邮箱。
+- 订阅以 `feed.xml` 为基础，由 Follow.it 处理邮箱与新文章推送，站内不保存订阅者邮箱。弹窗中的引文、按钮文字和 Follow.it 表单地址统一保存在 `_data/subscription.json`；版式与交互分别位于 `_includes/subscription-form.html`、`subscription-form.js` 和 `style.css`。
 - 首页上方和英文文章页共用的 AI 翻译说明保存在 `_data/translation_statement.json`；修改其中的简短提示及中英文数组即可，不需要调整弹窗结构或脚本。

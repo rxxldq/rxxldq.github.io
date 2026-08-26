@@ -7,6 +7,7 @@ layout: null
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
+  <meta name="follow.it-verification-code" content="4zRwcNuxdsRV9wedkTEN">
   <title>{{ site.title }}</title>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
@@ -44,8 +45,9 @@ layout: null
       </section>
       {% endfor %}
     </section>
-    <footer class="site-footer"><a href="{{ '/hall.html' | relative_url }}">关于作者</a> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
+    <footer class="site-footer"><a href="{{ '/hall.html' | relative_url }}">关于作者</a> <button class="site-footer-button" type="button" data-subscription-open aria-haspopup="dialog" aria-controls="subscription-dialog" lang="en">Subscribe</button> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
   </main>
   {% include translation-statement.html %}
+  {% include subscription-form.html %}
 </body>
 </html>

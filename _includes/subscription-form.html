@@ -1,0 +1,19 @@
+{% assign subscription = site.data.subscription %}
+<dialog class="subscription-dialog" id="subscription-dialog" aria-labelledby="subscription-heading">
+  <div class="subscription-panel">
+    <button class="subscription-close" type="button" data-subscription-close aria-label="Close subscription form">×</button>
+    <div class="subscription-quotation">
+      <blockquote lang="it">“{{ subscription.quote_it }}”</blockquote>
+      <p class="subscription-translation" lang="en">“{{ subscription.quote_en }}”</p>
+      <p class="subscription-source"><cite>{{ subscription.source }}</cite><span aria-hidden="true"> · </span>{{ subscription.translator }}</p>
+    </div>
+    <form class="subscription-form" action="{{ subscription.form_action }}" method="post" target="_blank" rel="noopener">
+      <label id="subscription-heading" for="subscription-email" lang="en">{{ subscription.label }}</label>
+      <div class="subscription-fields">
+        <input id="subscription-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="{{ subscription.placeholder }}" aria-label="{{ subscription.placeholder }}" required>
+        <button type="submit">{{ subscription.button }}</button>
+      </div>
+    </form>
+  </div>
+</dialog>
+<script src="{{ '/subscription-form.js' | relative_url }}"></script>
