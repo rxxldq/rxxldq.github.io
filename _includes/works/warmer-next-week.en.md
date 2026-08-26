@@ -1,15 +1,3 @@
----
-layout: article
-title: Warmer Next Week
-lang: en
-permalink: /novel-002-en.html
-alternate: /novel-002.html
-alternate_lang: zh-CN
-ai_translation: true
-year: 2025
-order: 40
----
-
 Lately it had been hot. Bad weather. Forty-five degrees today; next week it was going to get warmer, with a high of fifty. Jc was not a good student. High temperatures could not stop bad kids from going to the hill behind the school. High-school students did not smoke just to look cool, nor to make the white kids think better of them.
 
 The boys were properly dressed—thanks to the school for raising such little gentlemen—in leather shoes, trousers, red ties bearing the school crest, white shirts, black belts, and grey suit jackets. Shirts had to be tucked in. Even with the temperature rising again next week, the whole suit had to be worn.
