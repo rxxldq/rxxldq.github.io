@@ -6,4 +6,3 @@ markdown: kramdown
 exclude:
   - README.md
   - scripts
-  - _templates
