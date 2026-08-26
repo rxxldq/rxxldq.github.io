@@ -377,6 +377,11 @@ html[lang="zh-CN"] .article-body {
 }
 .article-body h2 { margin: 4rem 0 2rem; font-size: 0.9rem; font-weight: 400; }
 .about-subtitle { margin: -2.25rem 0 2.75rem; color: var(--quiet); font-size: 0.78rem; }
+.article-hero { width: min(100%, 21rem); margin: -0.5rem auto 3.75rem; }
+.article-hero img { display: block; width: 100%; height: auto; filter: grayscale(1) contrast(1.02); mix-blend-mode: multiply; }
+.about-language-section + .about-language-section { margin-top: 4rem; padding-top: 3.5rem; border-top: 1px solid var(--rule); }
+.about-language-label { margin: 0 0 2.25rem !important; color: var(--quiet); font-size: 0.7rem !important; font-weight: 400; letter-spacing: 0.08em; }
+.about-language-section[lang="en"] { font-family: Georgia, serif; }
 .location-trigger { padding: 0.1rem 0.25rem; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
 .location-map { position: relative; overflow: hidden; margin: 0 0 3rem; }
 .map-globe { position: absolute; inset: 0; display: grid; place-items: center; font-size: 4rem; animation: globe-open 480ms ease-out forwards; }

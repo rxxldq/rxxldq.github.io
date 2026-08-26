@@ -1,10 +1,20 @@
 ---
 layout: article
-title: 关于作者
+title: 关于作者 / About the Author
 lang: zh-CN
-subtitle: 一个来自秦皇岛的人
-alternate: /hall-en.html
-alternate_lang: en
+subtitle: 一个来自秦皇岛的人 / Someone from Qinhuangdao
+location_map: true
+hero_image: /images/about-author.jpg
+hero_image_alt: 黑白线稿人物，数只手臂向外伸展
 ---
+<section class="about-language-section" lang="zh-CN" aria-labelledby="about-zh">
+<h2 id="about-zh" class="about-language-label">中文</h2>
 {% capture article_body %}{% include works/about-author.zh.md %}{% endcapture %}
 {{ article_body | markdownify }}
+</section>
+
+<section class="about-language-section" lang="en" aria-labelledby="about-en">
+<h2 id="about-en" class="about-language-label">English</h2>
+{% capture article_body_en %}{% include works/about-author.en.md %}{% endcapture %}
+{{ article_body_en | markdownify }}
+</section>
