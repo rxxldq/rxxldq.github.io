@@ -8,7 +8,7 @@ A cigarette did not take long to finish. Yet they wished it would never run out.
 
 Whenever he got tired of one, he could throw away the most expensive cigarette without caring that half remained. He could always steal more. High-school students did not know why they smoked. They only knew there were cigarettes in their hands that never ran out, and there would always be new ones in their fathers' glass cabinets. On the hill behind the school he could smoke openly; the cigarette grew longer the more he smoked it. Jc and his friends squandered their youth as they pleased. He thought every young person was like him.
 
-After school, everyone around him smoked with him, and the cigarettes seemed endless. Soon the bus from the neighbouring school would arrive; a crowd of white kids would get off and laugh at them. He became anxious and hurried his friends to throw their cigarettes away, waste be damned. Two last hard drags. He wanted to grow up quickly. Once he was grown, he thought, he would take his father's place. Plenty of people would give him cigarettes. He would never have to pay.
+After school, everyone around him smoked with him, and the cigarettes seemed endless. Soon the bus from the neighbouring school would arrive; a crowd of white kids would get off and laugh at them. He became anxious and wanted his friends to hurry up and throw their cigarettes away, without worrying about the waste. Two last hard drags. He wanted to grow up quickly. Once he was grown, he thought, he would take his father's place. Plenty of people would give him cigarettes. He would never have to pay.
 
 When Jc was little, his father smoked. He was always following his father to places like Yangcheng Hotel, the Wenzhou Chamber of Commerce, and the Overseas Chinese Association. Around the table sat middle-aged men and their fibrotic lungs; Jc had delicate tonsils, and the smoke made him sick. He could make no sense of the remarks—neither good nor bad—sloshing around in the liquor, so he would ask the uncles for their flip phones and play games. The private room was huge: a big round table as you came in, sofa chairs to one side. Gifts were always arriving and being left on those chairs. Cartons and cartons of cigarettes; Chunghwa cigarettes were not considered classy enough. Jc remembered big wooden boxes, ten cigarettes to a pack.
 
@@ -40,7 +40,7 @@ The Pacific inside the flag rippled in the wind. The sea drew a soft veil over t
 
 “Fuck!” Jc said.
 
-Below the lawn was the main hall. Then another lawn, a basketball court, a handball court, a cricket pitch, and finally the largest indoor sports centre. They had to slip into the trees behind it. The woods caught fire easily. They also brought on student smoking.
+Below the lawn was the main hall. Then another lawn, a basketball court, a handball court, a cricket pitch, and finally the largest indoor sports centre. They had to slip into the trees behind it. The woods caught fire easily, and easily set students smoking.
 
 “Fuck.”
 
@@ -48,7 +48,7 @@ Someone else shouted about the heat. They walked on, howling.
 
 He nodded and opened his phone to show them a meme. A great Arab poet once said: “go fuck yourself.”
 
-H said he had seen it in a QQ group chat two weeks earlier. Jc was not ahead of anything.
+H said he had seen it in a QQ group chat two weeks earlier. Jc was hardly cutting-edge.
 
 In two weeks the temperature would be better. They did not know what things would be like by then. Maybe everything would stay like this forever.
 
@@ -56,11 +56,11 @@ Jc played a video. An old woman had gone out to buy groceries and, not paying at
 
 He laughed.
 
-On reaching the back hill they began to smoke. The air was dry; ultraviolet light clung to every inch of space. The smoke they exhaled was almost invisible, sun-dried into threads.
+On reaching the back hill they began giving off smoke. The air was dry; ultraviolet light clung to every inch of space. The smoke they exhaled was almost invisible, sun-dried into threads.
 
 The back hill was full of large, smooth rocks. Fallen leaves were so brittle a breath of wind shattered them. They sat on the smooth stones and at once their bodies went warm and numb. Their trouser pockets were shallow; the cigarettes stolen from their fathers kept falling out, so they set them on the broad rock behind them.
 
-“How's the economics homework coming?” H guessed Jc would ask. He needed someone to copy from.
+“How's economics going?” H guessed Jc would ask. He needed someone to copy from.
 
 Jc asked exactly that.
 
