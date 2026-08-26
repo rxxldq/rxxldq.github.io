@@ -1,15 +1,3 @@
----
-layout: article
-title: The Secretary
-lang: en
-permalink: /novel-001-en.html
-alternate: /novel-001.html
-alternate_lang: zh-CN
-ai_translation: true
-year: 2026
-order: 30
----
-
 Everyone hoped they would soon be sitting in an office. That meant keeping their trousers dry: wet trousers would soak the computer chairs too. The cleaner at the bureau did not particularly want to get drenched either, though wet or dry made little difference. Almost no difference. For the moment, at least, she still had the freedom to stand in the rain.
 
 K remembered the division chief saying that, back then, whenever the officials saw her come into the bureau dripping wet, they would feel a pang of sympathy and let her rest. They would pour her a cup of hot water and tell her there was not much to do just then. They would ask what year her son was in at school, whether her parents' cancer had improved. Just a few questions.
