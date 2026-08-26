@@ -3,9 +3,14 @@ layout: article
 title: 扒手
 lang: zh-CN
 year: 2026
+listed: true
+order: 7
 permalink: /pickpocket.html
 alternate: /pickpocket-en.html
 alternate_lang: en
+english_title: Pickpocket
+english_url: /pickpocket-en.html
+english_ai_translation: true
 ---
 
 薄底皮鞋着地，声音不如厚底皮鞋响。

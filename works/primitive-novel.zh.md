@@ -3,9 +3,14 @@ layout: article
 title: 原始小说剧中人物
 lang: zh-CN
 year: 0
+listed: true
+order: 10
 permalink: /primitive-novel.html
 alternate: /primitive-novel-en.html
 alternate_lang: en
+english_title: Characters in a Primitive Novel
+english_url: /primitive-novel-en.html
+english_ai_translation: true
 ---
 
 ## 1

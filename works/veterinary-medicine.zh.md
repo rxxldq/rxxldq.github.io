@@ -3,9 +3,14 @@ layout: article
 title: 兽药
 lang: zh-CN
 year: 2026
+listed: true
+order: 5
 permalink: /veterinary-medicine.html
 alternate: /veterinary-medicine-en.html
 alternate_lang: en
+english_title: Veterinary Medicine
+english_url: /veterinary-medicine-en.html
+english_ai_translation: true
 source_url: https://lib.ru/BUNIN/r_tri_rubla.txt
 source_label: 蒲宁《三个卢布》
 source_lang: ru

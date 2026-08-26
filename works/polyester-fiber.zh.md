@@ -3,9 +3,14 @@ layout: article
 title: 聚酯纤维
 lang: zh-CN
 year: 2026
+listed: true
+order: 20
 permalink: /polyester-fiber.html
 alternate: /polyester-fiber-en.html
 alternate_lang: en
+english_title: Polyester Fiber
+english_url: /polyester-fiber-en.html
+english_ai_translation: true
 ---
 
 有天晚上，我在看书，突然接到朋友C的电话，可他早就死了。

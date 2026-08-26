@@ -4,7 +4,8 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}{{ site.baseurl }}/</loc></url>
-  {% for work in site.data.articles %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.url }}</loc></url>{% if work.english_url %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</loc></url>{% endif %}{% endfor %}
+  {% assign listed_pages = site.pages | where: 'listed', true %}
+  {% for work in listed_pages %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.url }}</loc></url>{% if work.english_url %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</loc></url>{% endif %}{% endfor %}
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children-en.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/hall.html</loc></url>

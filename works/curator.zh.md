@@ -3,9 +3,14 @@ layout: article
 title: 策展人
 lang: zh-CN
 year: 2025
+listed: true
+order: 30
 permalink: /curator.html
 alternate: /curator-en.html
 alternate_lang: en
+english_title: The Curator
+english_url: /curator-en.html
+english_ai_translation: true
 ---
 
 1

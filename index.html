@@ -28,7 +28,8 @@ layout: null
 
     <section class="archive" aria-labelledby="archive-title">
       <h2 id="archive-title" class="visually-hidden">文章目录</h2>
-      {% assign grouped = site.data.articles | group_by: 'year' | sort: 'name' | reverse %}
+      {% assign listed_pages = site.pages | where: 'listed', true %}
+      {% assign grouped = listed_pages | group_by: 'year' | sort: 'name' | reverse %}
       {% for year in grouped %}
       <section class="year">
         <ol class="writing-list">
@@ -36,7 +37,7 @@ layout: null
           {% for work in works %}
           <li class="title-pair">
             <a class="work-title" href="{{ work.url | relative_url }}">{{ work.title }}</a>
-            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}{% if work.ai_translation %}<span class="ai-mark"> · AI translation</span>{% endif %}</div>
+            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}{% if work.english_ai_translation %}<span class="ai-mark"> · AI translation</span>{% endif %}</div>
           </li>
           {% endfor %}
         </ol>

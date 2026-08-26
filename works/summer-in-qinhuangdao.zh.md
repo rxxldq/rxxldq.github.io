@@ -3,9 +3,14 @@ layout: article
 title: 夏天在秦皇岛
 lang: zh-CN
 year: 2024
+listed: true
+order: 20
 permalink: /summer-in-qinhuangdao.html
 alternate: /summer-in-qinhuangdao-en.html
 alternate_lang: en
+english_title: Summer in Qinhuangdao
+english_url: /summer-in-qinhuangdao-en.html
+english_ai_translation: true
 ---
 
 公园厕所与旁边狼狈的小房子都不怎么引人注目，譬如门卫室，传达室，某管理处。你看见它们时就意味着你已立在门口。今早我醒来，我立刻发现有什么东西变得不一样，昨晚下了过雨。

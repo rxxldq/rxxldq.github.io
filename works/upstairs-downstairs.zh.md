@@ -3,9 +3,14 @@ layout: article
 title: 楼上楼下
 lang: zh-CN
 year: 2025
+listed: true
+order: 10
 permalink: /upstairs-downstairs.html
 alternate: /upstairs-downstairs-en.html
 alternate_lang: en
+english_title: Upstairs and Downstairs
+english_url: /upstairs-downstairs-en.html
+english_ai_translation: true
 ---
 
 我们像是同间房的邻居，只是位置不大一样。

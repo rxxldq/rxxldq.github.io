@@ -13,23 +13,23 @@
 
 ## 新增文章
 
-1. 复制一份现有的 `works/*.zh.md`，填写标题、年份、顺序、固定网址和正文。
-2. 在 `_data/articles.yml` 增加一条目录记录；首页会按年份和 `order` 自动生成。
-3. 需要英文版时，创建对应 `.en.md`，在中英文文件的 `alternate` 字段中互相链接。
-4. 英文版 YAML 头部设置 `ai_translation: true` 后，页面会自动显示统一的 AI 翻译声明。
-5. 推送到 `main` 后，GitHub Pages 会自动生成文章页、首页目录、RSS 与站点地图。
+1. 复制一份现有的 `works/*.zh.md`，填写标题、年份、顺序、固定网址、英文标题与正文，并保留 `listed: true`。
+2. 需要英文版时，创建对应 `.en.md`，在中英文文件的 `alternate` 字段中互相链接；中文文件填写 `english_url`，首页就会自动生成英文入口。
+3. 英文版 YAML 头部设置 `ai_translation: true` 后，页面会自动显示统一的 AI 翻译声明；中文文件使用 `english_ai_translation: true`，只控制首页英文入口的标记。
+4. 推送到 `main` 后，GitHub Pages 会直接读取文章文件，自动生成首页目录、RSS 与站点地图，不需要维护第二份目录清单。
 
 ## 目录字段
 
-`_data/articles.yml` 每条记录使用：
+每篇列入首页的中文文章在 YAML 头部使用：
 
 - `title`：首页显示的中文标题
+- `listed: true`：把文章加入首页、RSS 和站点地图
 - `english_title`：显示在中文标题下方的英文标题；即使英文正文尚未发布也要填写
-- `url`：中文文章固定网址
+- `permalink`：中文文章固定网址
 - `year`：用于后台分组和排序，只写确认过的年份，不猜具体日期；无法确认年份而只知道早晚顺序时使用 `0`，它会排在所有已知年份之后
 - `order`：同一年内从小到大排列
 - `english_url`：有可发布英文版时才添加
-- `ai_translation: true`：英文入口标明为 AI 翻译
+- `english_ai_translation: true`：在首页英文入口标明为 AI 翻译，不会让中文正文页显示英文声明
 
 ## 英译标准
 

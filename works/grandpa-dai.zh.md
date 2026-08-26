@@ -3,9 +3,14 @@ layout: article
 title: 带爷爷的故事
 lang: zh-CN
 year: 2025
+listed: true
+order: 20
 permalink: /grandpa-dai.html
 alternate: /grandpa-dai-en.html
 alternate_lang: en
+english_title: The Story of Grandpa Dai
+english_url: /grandpa-dai-en.html
+english_ai_translation: true
 ---
 
 我们不是农民。
