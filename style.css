@@ -252,6 +252,10 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .site-footer a { text-decoration: none; }
 .site-footer > * + * { margin-left: 1rem; }
 .site-footer-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  vertical-align: middle;
   padding: 0;
   border: 0;
   background: none;
@@ -259,6 +263,7 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   text-decoration: none;
   cursor: pointer;
 }
+.site-footer-button-zh { margin-top: 0.08rem; font-size: 0.58rem; line-height: 1.25; }
 .site-footer-button:hover,
 .site-footer-button:focus-visible { color: var(--ink); text-decoration: underline; text-underline-offset: 0.22em; outline: none; }
 .translation-statement-trigger { padding: 0; border: 0; background: none; font: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; cursor: pointer; }
@@ -417,7 +422,7 @@ html[lang="zh-CN"] .article-body {
 .article-navigation-random { color: var(--quiet); font-size: 0.68rem; line-height: 1.45; }
 .article-navigation-title { overflow-wrap: anywhere; font-size: 0.76rem; line-height: 1.45; }
 .article-navigation-random { padding-top: 0.05rem; white-space: nowrap; }
-.proofread-mode .wrap { width: min(calc(100% - 4rem), 72rem); }
+.proofread-mode .wrap { width: min(calc(100% - 4rem), 72rem); max-width: none; }
 .proofread-mode .translation-statement-banner { display: none; }
 .proofread-toolbar {
   display: flex;

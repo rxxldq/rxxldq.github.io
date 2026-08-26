@@ -117,6 +117,7 @@ def main() -> int:
             "property=\"og:image\"",
             "summary_large_image",
             "include subscription-form.html",
+            "site-footer-button-zh",
         ),
         ROOT / "_layouts" / "article.html": (
             "hreflang=\"x-default\"",
