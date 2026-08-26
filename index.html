@@ -42,7 +42,21 @@ layout: null
       </section>
       {% endfor %}
     </section>
-    <footer class="site-footer"><a href="{{ '/hall.html' | relative_url }}">关于作者</a> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
+    {% assign translation_statement = site.data.translation_statement %}
+    <footer class="site-footer"><a href="{{ '/hall.html' | relative_url }}">关于作者</a> <button class="translation-statement-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ translation_statement.button }}</button> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
   </main>
+  <dialog class="translation-statement-dialog" id="translation-statement-dialog" aria-labelledby="translation-statement-title">
+    <div class="translation-statement-panel">
+      <button class="translation-statement-close" type="button" data-translation-statement-close aria-label="关闭 / Close">×</button>
+      <h2 id="translation-statement-title">{{ translation_statement.title }}</h2>
+      <div class="translation-statement-copy" lang="zh-CN">
+        {% for paragraph in translation_statement.zh %}<p>{{ paragraph }}</p>{% endfor %}
+      </div>
+      <div class="translation-statement-copy translation-statement-copy-en" lang="en">
+        {% for paragraph in translation_statement.en %}<p>{{ paragraph }}</p>{% endfor %}
+      </div>
+    </div>
+  </dialog>
+  <script src="{{ '/translation-statement.js' | relative_url }}"></script>
 </body>
 </html>
