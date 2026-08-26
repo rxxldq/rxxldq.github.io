@@ -7,6 +7,7 @@ permalink: /looking-for-he-li-en.html
 alternate: /looking-for-he-li.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-26
 ---
 
 The day my brother came with his bassist, only one sentence occurred to me: “Nothing looks emptier than an empty swimming pool.”

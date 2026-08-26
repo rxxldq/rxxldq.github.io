@@ -81,6 +81,13 @@ def main() -> int:
             if english_url and normalize_url(english_url) not in by_url:
                 errors.append(f"{path}: English page does not exist: {english_url}")
 
+        if meta.get("ai_translation") == "true":
+            revised = meta.get("translation_revised", "")
+            if not revised:
+                errors.append(f"{path}: AI translation is missing translation_revised")
+            elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", revised):
+                errors.append(f"{path}: invalid translation_revised date: {revised}")
+
     pairs = 0
     for zh_path in sorted((ROOT / "works").glob("*.zh.md")):
         en_path = zh_path.with_name(zh_path.name.replace(".zh.md", ".en.md"))

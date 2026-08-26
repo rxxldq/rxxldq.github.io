@@ -7,6 +7,7 @@ permalink: /grandpa-dai-en.html
 alternate: /grandpa-dai.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-23
 ---
 
 We are not peasants.

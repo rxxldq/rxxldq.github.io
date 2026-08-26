@@ -7,6 +7,7 @@ permalink: /summer-in-qinhuangdao-en.html
 alternate: /summer-in-qinhuangdao.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-21
 ---
 
 Park toilets and the shabby little buildings beside them do not attract much attention: gatehouses, reception rooms, some administration office. By the time you see them, you are already standing at the door. When I woke this morning, I knew at once that something had changed. It had rained last night.

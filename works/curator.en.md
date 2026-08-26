@@ -7,6 +7,7 @@ permalink: /curator-en.html
 alternate: /curator.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-23
 ---
 
 1

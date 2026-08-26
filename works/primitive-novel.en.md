@@ -7,6 +7,7 @@ permalink: /primitive-novel-en.html
 alternate: /primitive-novel.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-27
 ---
 
 ## 1

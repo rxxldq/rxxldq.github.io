@@ -7,6 +7,7 @@ permalink: /upstairs-downstairs-en.html
 alternate: /upstairs-downstairs.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-27
 ---
 
 We are like neighbours in the same room, only our positions are not quite the same.

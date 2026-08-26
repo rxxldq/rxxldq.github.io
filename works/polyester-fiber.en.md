@@ -7,6 +7,7 @@ permalink: /polyester-fiber-en.html
 alternate: /polyester-fiber.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-20
 ---
 
 One night I was reading when my friend C called me out of nowhere. He had been dead for ages.

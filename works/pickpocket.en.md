@@ -7,6 +7,7 @@ permalink: /pickpocket-en.html
 alternate: /pickpocket.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-27
 ---
 
 Thin-soled leather shoes do not strike the ground as loudly as thick-soled ones.

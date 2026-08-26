@@ -7,6 +7,7 @@ permalink: /cats-become-tigers-en.html
 alternate: /cats-become-tigers.html
 alternate_lang: zh-CN
 ai_translation: true
+translation_revised: 2026-08-20
 ---
 
 I used to be rather fond of tigers. When I was a child, liking tigers was nothing to be proud of. My other friends liked Tyrannosaurus rex, Velociraptors, bombers, Rayquaza, and Resident Evil. Tigers did not deserve to be liked. Tigers were pretty useless. So what if they had evolved claws?
