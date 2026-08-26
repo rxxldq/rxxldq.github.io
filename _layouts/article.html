@@ -19,7 +19,8 @@
     {% if page.kind == 'poetry' %}<p class="edition-label">{% if page.lang == 'en' %}Poetry{% else %}诗{% endif %}</p>{% endif %}
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
-    {% if page.ai_translation %}<p class="translation-note">AI translation — closely following the imagery and cadence of the original Chinese.</p>{% endif %}
+    {% if page.source_url %}<p class="source-link"><a href="{{ page.source_url }}"{% if page.source_lang %} hreflang="{{ page.source_lang }}"{% endif %} target="_blank" rel="noopener noreferrer">{{ page.source_label | default: page.source_url }} <span aria-hidden="true">↗</span></a></p>{% endif %}
+    {% if page.ai_translation %}<p class="translation-note{% if page.source_url %} has-source{% endif %}">AI translation — closely following the imagery and cadence of the original Chinese.</p>{% endif %}
     <article class="article-body">
       {{ content }}
     </article>

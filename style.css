@@ -131,6 +131,9 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .language-switch { margin: 0 0 2.25rem; color: var(--quiet); font-size: 0.72rem; word-spacing: 0.65rem; }
 .language-switch a { text-decoration: none; }
 .language-switch [aria-current="page"] { color: var(--ink); }
+.source-link { margin: -2.25rem 0 3rem; color: var(--quiet); font-size: 0.72rem; line-height: 1.6; }
+.source-link a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+.source-link + .translation-note { margin-top: -2.3rem; }
 .translation-note { margin: -1.75rem 0 3rem; color: var(--quiet); font-size: 0.72rem; line-height: 1.6; }
 .note-ref {
   display: inline-grid;
