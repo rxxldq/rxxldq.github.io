@@ -7,7 +7,7 @@ permalink: /veterinary-medicine.html
 alternate: /veterinary-medicine-en.html
 alternate_lang: en
 source_url: https://lib.ru/BUNIN/r_tri_rubla.txt
-source_label: 俄文原文 · 蒲宁《三个卢布》
+source_label: 蒲宁《三个卢布》
 source_lang: ru
 ---
 

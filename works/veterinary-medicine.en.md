@@ -8,7 +8,7 @@ alternate: /veterinary-medicine.html
 alternate_lang: zh-CN
 ai_translation: true
 source_url: https://lib.ru/BUNIN/r_tri_rubla.txt
-source_label: 'Russian original · Ivan Bunin, “Three Rubles”'
+source_label: 'Ivan Bunin, “Three Rubles”'
 source_lang: ru
 ---
 
