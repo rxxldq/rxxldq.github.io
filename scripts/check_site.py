@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import struct
 import sys
 from pathlib import Path
 
@@ -103,8 +104,19 @@ def main() -> int:
                 errors.append(f"{path}: local link target does not exist: {url}")
 
     required_text = {
-        ROOT / "index.html": ("rel=\"canonical\"", "property=\"og:title\"", "include subscription-form.html"),
-        ROOT / "_layouts" / "article.html": ("hreflang=\"x-default\"", "property=\"og:title\""),
+        ROOT / "index.html": (
+            "rel=\"canonical\"",
+            "property=\"og:title\"",
+            "property=\"og:image\"",
+            "summary_large_image",
+            "include subscription-form.html",
+        ),
+        ROOT / "_layouts" / "article.html": (
+            "hreflang=\"x-default\"",
+            "property=\"og:title\"",
+            "property=\"og:image\"",
+            "summary_large_image",
+        ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
@@ -117,6 +129,21 @@ def main() -> int:
         for needle in needles:
             if needle not in text:
                 errors.append(f"{path.relative_to(ROOT)}: missing expected text: {needle}")
+
+    share_cover = ROOT / "images" / "share-cover.png"
+    if not share_cover.exists():
+        errors.append("required file is missing: images/share-cover.png")
+    else:
+        with share_cover.open("rb") as image_file:
+            header = image_file.read(24)
+        if len(header) < 24 or header[:8] != b"\x89PNG\r\n\x1a\n":
+            errors.append("images/share-cover.png: not a valid PNG file")
+        else:
+            width, height = struct.unpack(">II", header[16:24])
+            if (width, height) != (1200, 630):
+                errors.append(
+                    f"images/share-cover.png: expected 1200x630, found {width}x{height}"
+                )
 
     if errors:
         print("Site integrity check failed:")
