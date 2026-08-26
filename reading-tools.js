@@ -27,6 +27,13 @@
   const urlKey = language === "en" ? "enUrl" : "zhUrl";
   const titleKey = language === "en" ? "enTitle" : "zhTitle";
   const normalize = (value) => new URL(value, window.location.origin).pathname.replace(/\/+$/, "") || "/";
+  const preserveProofread = new URLSearchParams(window.location.search || "").get("proofread") === "1";
+  const destinationUrl = (value) => {
+    if (!preserveProofread || language !== "en") return value;
+    const url = new URL(value, window.location.origin);
+    url.searchParams.set("proofread", "1");
+    return `${url.pathname}${url.search}`;
+  };
   const current = normalize(navigation.dataset.currentUrl || window.location.pathname);
   const available = entries.filter((entry) => entry[urlKey]);
   const index = available.findIndex((entry) => normalize(entry[urlKey]) === current);
@@ -39,7 +46,7 @@
       if (link) link.hidden = true;
       return;
     }
-    link.href = entry[urlKey];
+    link.href = destinationUrl(entry[urlKey]);
     if (title) title.textContent = entry[titleKey];
   };
 
@@ -53,7 +60,7 @@
       if (!choices.length) return;
       const destination = choices[Math.floor(Math.random() * choices.length)];
       event.preventDefault();
-      window.location.assign(destination[urlKey]);
+      window.location.assign(destinationUrl(destination[urlKey]));
     });
   }
 

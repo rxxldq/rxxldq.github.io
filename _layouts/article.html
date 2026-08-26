@@ -32,7 +32,7 @@
 <body>
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   <a href="{{ '/' | relative_url }}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
-  <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}">
+  <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}"{% if page.alternate %} data-alternate-url="{{ page.alternate | relative_url }}"{% endif %}>
     {% if page.alternate %}
     <nav class="language-switch" aria-label="{% if page.lang == 'en' %}Language{% else %}语言{% endif %}">
       {% if page.lang == 'en' %}<a href="{{ page.alternate | relative_url }}">中文</a> <span aria-current="page">English</span>{% else %}<span aria-current="page">中文</span> <a href="{{ page.alternate | relative_url }}" lang="en">English</a>{% endif %}
@@ -77,5 +77,6 @@
   <script src="{{ '/reading-tools.js' | relative_url }}"></script>
   {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}"></script>{% endif %}
   {% if page.ai_translation %}{% include translation-statement.html auto_notice=true %}{% endif %}
+  {% if page.lang == 'en' and page.alternate %}<script src="{{ '/proofread-mode.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>

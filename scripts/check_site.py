@@ -124,11 +124,13 @@ def main() -> int:
             "property=\"og:image\"",
             "summary_large_image",
             "reading-sequence",
+            "proofread-mode.js",
         ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
         ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort"),
+        ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),
     }
     for path, needles in required_text.items():
         if not path.exists():

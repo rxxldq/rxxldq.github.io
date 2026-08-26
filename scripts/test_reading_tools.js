@@ -15,7 +15,7 @@ function link() {
   };
 }
 
-function verifyLanguage(language) {
+function verifyLanguage(language, proofread = false) {
   const suffix = language === "en" ? "-en" : "";
   const previous = link();
   const next = link();
@@ -61,6 +61,7 @@ function verifyLanguage(language) {
     location: {
       origin: "https://example.test",
       pathname: `/b${suffix}.html`,
+      search: proofread ? "?proofread=1" : "",
       assign(destination) {
         assigned = destination;
       },
@@ -68,19 +69,22 @@ function verifyLanguage(language) {
     addEventListener() {},
   };
 
-  vm.runInNewContext(source, { document, window, URL });
+  vm.runInNewContext(source, { document, window, URL, URLSearchParams });
 
   if (progress.style.transform !== "scaleX(0.25)") throw new Error(`${language}: progress failed`);
-  if (previous.href !== `/a${suffix}.html`) throw new Error(`${language}: previous crossed languages`);
-  if (next.href !== `/c${suffix}.html`) throw new Error(`${language}: next crossed languages`);
+  const query = proofread && language === "en" ? "?proofread=1" : "";
+  if (previous.href !== `/a${suffix}.html${query}`) throw new Error(`${language}: previous crossed languages or lost mode`);
+  if (next.href !== `/c${suffix}.html${query}`) throw new Error(`${language}: next crossed languages or lost mode`);
   if (navigation.hidden) throw new Error(`${language}: navigation stayed hidden`);
 
   random.listeners.click({ preventDefault() { prevented = true; } });
   if (!prevented) throw new Error(`${language}: random did not intercept the link`);
-  if (language === "en" && !/-en\.html$/.test(assigned)) throw new Error("en: random crossed languages");
-  if (language === "zh" && /-en\.html$/.test(assigned)) throw new Error("zh: random crossed languages");
+  if (language === "en" && !/-en\.html(?:\?|$)/.test(assigned)) throw new Error("en: random crossed languages");
+  if (language === "zh" && /-en\.html(?:\?|$)/.test(assigned)) throw new Error("zh: random crossed languages");
+  if (proofread && language === "en" && !/\?proofread=1$/.test(assigned)) throw new Error("en: random lost proofreading mode");
 }
 
 verifyLanguage("zh");
 verifyLanguage("en");
+verifyLanguage("en", true);
 console.log("Reading tools test passed for Chinese and English.");

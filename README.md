@@ -58,9 +58,11 @@
 - 单篇文章连续滚动；长篇如需拆分，应按章节拆页，不按固定字数翻页。
 - 文章页的顶部阅读进度和文末上一篇／随机一篇／下一篇由 `reading-tools.js` 统一生成；顺序继续读取文章现有的 `year` 与 `order`，无需维护第二份目录。
 - 修改篇章导航后运行 `node scripts/test_reading_tools.js`；测试会同时确认中文与英文链接不会跨语言。
+- 英文文章网址后添加 `?proofread=1` 可进入隐藏校对模式：电脑端中英并列，手机端每段中文在上、英文在下，并显示段落编号。普通读者页面不出现校对入口；上一篇、随机一篇和下一篇会在英文文章之间保留校对模式。
 - 迁移旧页面时先逐段核对文字并逐项核对图片；确认新页面完整后删除旧框架和重复副本。固定网址优先保留为薄入口，但正文只维护一份。
 - 订阅以 `feed.xml` 为基础，由 Follow.it 处理邮箱与新文章推送，站内不保存订阅者邮箱。弹窗中的引文、按钮文字和 Follow.it 表单地址统一保存在 `_data/subscription.json`；版式与交互分别位于 `_includes/subscription-form.html`、`subscription-form.js` 和 `style.css`。
 - 首页上方和英文文章页共用的 AI 翻译说明保存在 `_data/translation_statement.json`；修改其中的简短提示及中英文数组即可，不需要调整弹窗结构或脚本。
 - “关于作者”的中文页与英文页分别是 `hall.html` 和 `hall-en.html`，正文继续分别保存在 `_includes/works/about-author.zh.md` 和 `_includes/works/about-author.en.md`。两页以顶部语言按钮互相切换；共用引文时先显示原文语言，再显示当前页面语言，人物图固定在正文最底部。
 - 分享到 Messages、Instagram 私信等平台时使用 `images/share-cover.png` 作为统一封面；它由 `scripts/generate_social_card.py` 根据网站背景图生成。更换 `images/map.png` 或标题后，运行该脚本即可重新生成 1200×630 封面。
+- `images/site-card.png` 是用于手机和社交平台的 1080×1080 网站名片，由 `scripts/generate_site_card.py` 使用同一张原始人物图排版生成，不使用生成式图片。
 - 每次推送或创建拉取请求时，`.github/workflows/site-integrity.yml` 会运行 `scripts/check_site.py`，检查固定网址、双语互链、目录必填字段、正文段落数量、RSS、站点地图和订阅表单结构。
