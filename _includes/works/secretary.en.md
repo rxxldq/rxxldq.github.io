@@ -1,8 +1,8 @@
-Everyone hoped they would soon be sitting in an office. That meant keeping their trousers dry: wet trousers would soak the computer chairs too. The cleaner at the bureau did not particularly want to get drenched either, though wet or dry made little difference. Almost no difference. For the moment, at least, she still had the freedom to stand in the rain.
+Everyone hoped to be sitting in an office in a little while. That meant keeping their trousers dry: wet trousers would soak the computer chairs too. The cleaner at the bureau did not particularly want to get drenched either, though wet or dry made little difference. Almost no difference. For the moment, at least, she still had the freedom to be rained on.
 
 K remembered the division chief saying that, back then, whenever the officials saw her come into the bureau dripping wet, they would feel a pang of sympathy and let her rest. They would pour her a cup of hot water and tell her there was not much to do just then. They would ask what year her son was in at school, whether her parents' cancer had improved. Just a few questions.
 
-Whichever official happened to be chatting with the cleaner would offer a few remarks about young people: “Look how clean it is around the printer. Saves you the trouble. Only they don't use their heads when they work. Day after day. Kids now, every last one of them.”
+Whichever official happened to be chatting with the cleaner would offer a few remarks about young people: “Look how clean it is around the printer. Saves you the worry. Only they don't use their heads when they work. Day after day. Kids now, every last one of them.”
 
 The cleaner asked why the official did not arrange a bureau job for his own son. He could not even be bothered to laugh. It was still an iron rice bowl—a secure job for life, she said. The official replied that his son had been spoiled since childhood—how could he endure this kind of hardship? When the official himself was in his thirties, he had drunk with business contacts until the early hours every night, leaving his child home alone. She said, ah. She said, right.
 
@@ -22,13 +22,13 @@ The officials were afraid of them too, imagining them as a herd of wildebeest cr
 
 None of the cleaners intended to stay for long. They would even threaten Human Resources with resignation, demanding higher wages or more leave.
 
-Finances were tight. How could anyone joke about that? New employees earned less than the city average. Look at their CVs: every one of them had a master's from the University of Manchester, every one enduring the hours at a cramped little computer desk. Their chairs came standard from the supplier: round backs, square seats, a thin layer of padding, paired with white desks.
+Finances were tight. How could anyone joke about that? New employees earned less than the city average. Look at their CVs: every one of them had a master's from the University of Manchester, every one enduring the hours at a cramped little computer desk. They all sat on the same company-standard chairs: round backs, square seats, a thin layer of padding, paired with white desks.
 
 The bureau once had everything.
 
 That morning, K stepped out of the family compound and was soaked as soon as he came downstairs. He wore a blue suit. His mother had arranged for him to serve as the division chief's secretary. K used to love the bureau. Everything in his childhood had revolved around it: the bureau's housing estate, the bureau's benefits. But the bureau was failing now, and he did not want to stake his future on it.
 
-The first housing estates, built around the year 2000, were beautiful. Six Roman columns stood at the entrance. There were nine six-storey apartment blocks and yet five gardens, each crowded with marble statues: Venus, Young Pioneers. Back then nothing would ever stop. Everything was new, pouring down without end like rain. The place had been built by people who did not know how fortunate they were.
+The first housing estates, built around the year 2000, were beautiful. Six Roman columns stood at the entrance. There were nine six-storey apartment blocks and yet five gardens, each crowded with marble statues: Venus, Young Pioneers. Back then nothing would ever stop. Everything was new, pouring in without end like rain. The place had been built by people who did not know how fortunate they were.
 
 When K was a child, his mother had brought him to the bureau. The bureau looked like this then; the city did too. Personal computers were rare, but everyone in the bureau had one. The word bureau carried real weight. Every day the most important things happened inside it. Everyone ate in the work-unit canteen. The system of allocating housing had only just ended, and people were becoming addicted to business entertaining.
 
@@ -38,7 +38,7 @@ The cleaner remembered the bureau entirely differently: as something repellent. 
 
 When K was a child, he went to a wedding in the county town. He had never seen people eating outdoors, flies circling the dishes. The flies frightened him. The guests spoke dialects he could not understand. Dogs ran around, plenty of people smoked, and he kept retching.
 
-In those days, the cleaners would rather put up with rats running around a restaurant than look at the cadres' faces. Before entering the bureau building, they had to cross a bare, empty car park. They hated the glare off the glass and concrete. Now and then a cadre dropped a few cigarette butts on the ground. Every storey seemed impossibly high. The glass doors had the handles of a grand hotel; the dark red velvet carpet gathered dust; the ceilings of the bureau rose far above them. People from different departments never mixed, and the cleaners could not freely chat with women from their hometowns.
+In those days, the cleaners would rather put up with rats running around a restaurant than look at the cadres' faces. Before entering the bureau building, they had to cross a bare, empty car park. They hated the glare off the glass and concrete. Now and then a cadre dropped a few cigarette butts on the ground. Every storey seemed impossibly high. The glass doors had the handles of a grand hotel; the dark red velvet carpet gathered dust; the ceilings of the bureau rose far above them. People from different departments never mixed, and the cleaners could not freely chat with people from their hometowns.
 
 Now the cleaner was growing old, though her square face remained as rigid as ever. She had always moved this slowly. By now she was out of new tricks.
 
@@ -46,9 +46,9 @@ K could not remember how many storeys the building had. He had never paid attent
 
 Every floor was the same, and K could not remember which ones he had visited. Whenever the lift doors opened, an enormous space appeared before him, rows of fluorescent tubes extending to the limit of sight. He could not even be sure there were windows at the far end. Pale blue carpet covered the floor, looking like plastic under the harsh white light. Then came the cubicles and workstations.
 
-The bureau gave people a sense of security. When K was a child, he did not yet know how to swear. Now, standing in the rain, he did not much want to go in. On a day of heavy rain he might as well stay home and read in comfort. He did not want to face this reality. These days even cadres did not want their children entering the bureau; only ordinary people dreaming of climbing the social ladder wanted in. But K's mother would rather see him become a secretary than read at home every day. Having weighed it up, K found he would rather spend his life as a cowardly secretary, never taking a step outside the bureau: going to work by day, staring speechless at the filthy green glass; writing a few lines of complaint on paper at night—even if the bureau remained forever stalled in the year 2000, when everything was an employee benefit to be proud of, when even telephone directories were rare.
+The bureau gave people a sense of security. When K was a child, he did not yet know how to swear. Now, standing in the rain, he did not much want to go in. On a day of heavy rain he might as well stay home and read in comfort. He did not want to face this reality. These days even cadres did not want their children entering the bureau; only petty urbanites dreaming of a leap in social class wanted in. But K's mother would rather see him become a secretary than read at home every day. Having weighed it up, K found he would rather spend his life as a cowardly secretary, never taking a step outside the bureau: going to work by day, staring speechless at the filthy green glass; writing a few lines of complaint on paper at night—even if the bureau remained forever stalled in the year 2000, when everything was an employee benefit to be proud of, when even the Yellow Pages were rare.
 
-In the old days, the bureau offered employment for life. Perhaps K remembered it wrong, but no one was ever fired; they were merely moved to the sidelines. He could no longer remember exactly what the bureau looked like. He assumed everyone knew without his having to say. Not everyone had been inside one, yet anyone could easily imagine it and point fingers.
+In the old days, the bureau offered employment for life. Perhaps K remembered it wrong, but no one was ever fired; they were merely moved to secondary posts. He could no longer remember exactly what the bureau looked like. He assumed everyone knew without his having to say. Not everyone had been inside one, yet anyone could easily imagine it and point fingers.
 
 The bureau around the year 2000 looked much the same as it did now, except that now it had no money. The lack of money was not their fault, nor was it the bureau's. But what could anyone do?
 
@@ -70,7 +70,7 @@ The cleaner sometimes brought her child to the mall. K knew her. Sometimes she t
 
 The cleaner slapped her son. The little boy did not cry.
 
-K did not want to serve the bureau, nor did he want to stop here, least of all before the claw machines or in the mall. He slept like a pitiful fish.
+K did not want to serve the bureau, nor did he want to stop here, least of all before the claw machines or in the mall. Like a pitiful fish, he was asleep.
 
 Looking at the claw machines, K always wanted to say something to the cleaner. Your child is your entire hope. You never had an education. You look at these fish and feel nothing, but your child is a little heartbroken. Look how timid he is.
 
@@ -118,11 +118,11 @@ K sank into the division chief's chair, just as he had on the day they first met
 
 “I haven't read a book since I finished middle school,” the cleaner's son said.
 
-At that moment, K began to recall every feeling he had ever written. He thought of all those insignificant feelings of his. They were nothing before the bureau. Even now, they were nothing.
+At that moment, K began to recall every feeling he had ever written. He thought of all his feelings, humble as they were. They were nothing before the bureau. Even now, they were nothing.
 
 “Did you have sex with the division chief?” the cleaner's son asked.
 
-K did not answer. People were like little fish in claw machines, barely finding a breath of oxygen at the thin surface of the water, waiting for ignorant children to carry them away in plastic tanks worth three or five yuan. There was nothing he could do. K said nothing.
+K did not answer. People were like little fish in claw machines, barely finding a breath of oxygen in the shallow water, waiting for ignorant children to carry them away in plastic tanks worth three or five yuan. There was nothing he could do. K said nothing.
 
 The cleaner's son began moving faster with the brutal strength he seemed born with. K wanted to moan a few times. He held it back and thought instead of grand stories, the worlds he had created, worlds that belonged only to him.
 
@@ -134,6 +134,6 @@ K's world would never come true. The stories he wrote, the feelings he described
 
 K could not bear it any longer. He did not move.
 
-He remembered the wedding in the county town: flies circling the gaudy plates of cold noodles, cigarette butts covering the ground, rough men with square faces smoking. The cleaner's son had a square face too, like his mother.
+He remembered the wedding in the county town: flies circling colourful platters of cold mung-bean noodles, cigarette butts covering the ground, rough men with square faces smoking. The cleaner's son had a square face too, like his mother.
 
 K did not answer. The cleaner's son clamped both hands around his throat with all his strength, powerful hands like the claw of a claw machine. K could not breathe, like a little fish lifted out of the water.
