@@ -9,4 +9,5 @@ layout: null
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children-en.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/hall.html</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/hall-en.html</loc></url>
 </urlset>

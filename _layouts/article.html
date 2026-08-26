@@ -71,6 +71,7 @@
       {"zhUrl":{{ work.url | relative_url | jsonify }},"enUrl":{% if work.english_url %}{{ work.english_url | relative_url | jsonify }}{% else %}null{% endif %},"zhTitle":{{ work.title | jsonify }},"enTitle":{{ work.english_title | jsonify }},"year":{{ work.year | default: 0 }},"order":{{ work.order | default: 0 }}}{% endfor %}
     ]</script>
     {% endif %}
+    {% if page.bottom_image %}<figure class="article-footer-image"><img src="{{ page.bottom_image | relative_url }}" alt="{{ page.bottom_image_alt | default: '' | escape }}" width="1280" height="1280" loading="lazy" decoding="async"></figure>{% endif %}
   </main>
   <script src="{{ '/footnotes.js' | relative_url }}"></script>
   <script src="{{ '/reading-tools.js' | relative_url }}"></script>

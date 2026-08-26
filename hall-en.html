@@ -1,0 +1,33 @@
+---
+layout: article
+title: About the Author
+lang: en
+subtitle: Someone from Qinhuangdao
+alternate: /hall.html
+alternate_lang: zh-CN
+location_map: true
+ai_translation: true
+bottom_image: /images/about-author.jpg
+bottom_image_alt: Black-and-white line drawing of a figure with several arms reaching outward
+---
+{% capture article_body %}{% include works/about-author.en.md %}{% endcapture %}
+{{ article_body | markdownify }}
+
+<section class="about-quotation" aria-label="Rainer Maria Rilke, Autumn Day">
+  <blockquote lang="de">
+    <p>Wer jetzt kein Haus hat, baut sich keines mehr.<br>
+    Wer jetzt allein ist, wird es lange bleiben,<br>
+    wird wachen, lesen, lange Briefe schreiben<br>
+    und wird in den Alleen hin und her<br>
+    unruhig wandern, wenn die Blätter treiben.</p>
+    <footer>— Rainer Maria Rilke, <cite>Herbsttag</cite></footer>
+  </blockquote>
+  <blockquote lang="en">
+    <p>Whoever has no house now will never build one.<br>
+    Whoever is alone now will remain alone for a long time,<br>
+    will stay awake, read, write long letters,<br>
+    and wander restlessly up and down the avenues<br>
+    when the leaves are drifting.</p>
+    <footer>— Rainer Maria Rilke, “Autumn Day”</footer>
+  </blockquote>
+</section>

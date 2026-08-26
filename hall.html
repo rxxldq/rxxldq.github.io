@@ -1,20 +1,31 @@
 ---
 layout: article
-title: 关于作者 / About the Author
+title: 关于作者
 lang: zh-CN
-subtitle: 一个来自秦皇岛的人 / Someone from Qinhuangdao
-location_map: true
-hero_image: /images/about-author.jpg
-hero_image_alt: 黑白线稿人物，数只手臂向外伸展
+subtitle: 一个来自秦皇岛的人
+alternate: /hall-en.html
+alternate_lang: en
+bottom_image: /images/about-author.jpg
+bottom_image_alt: 黑白线稿人物，数只手臂向外伸展
 ---
-<section class="about-language-section" lang="zh-CN" aria-labelledby="about-zh">
-<h2 id="about-zh" class="about-language-label">中文</h2>
 {% capture article_body %}{% include works/about-author.zh.md %}{% endcapture %}
 {{ article_body | markdownify }}
-</section>
 
-<section class="about-language-section" lang="en" aria-labelledby="about-en">
-<h2 id="about-en" class="about-language-label">English</h2>
-{% capture article_body_en %}{% include works/about-author.en.md %}{% endcapture %}
-{{ article_body_en | markdownify }}
+<section class="about-quotation" aria-label="里尔克《秋日》">
+  <blockquote lang="de">
+    <p>Wer jetzt kein Haus hat, baut sich keines mehr.<br>
+    Wer jetzt allein ist, wird es lange bleiben,<br>
+    wird wachen, lesen, lange Briefe schreiben<br>
+    und wird in den Alleen hin und her<br>
+    unruhig wandern, wenn die Blätter treiben.</p>
+    <footer>— Rainer Maria Rilke, <cite>Herbsttag</cite></footer>
+  </blockquote>
+  <blockquote lang="zh-CN">
+    <p>谁此刻没有屋，就不会再造屋，<br>
+    谁此刻孤独，就会长久孤独，<br>
+    就会长久醒着，将长信书写，阅读，<br>
+    就会在落叶纷飞的时节，<br>
+    不安地在林荫道上往来踟蹰。</p>
+    <footer>— 里尔克，《秋日》</footer>
+  </blockquote>
 </section>
