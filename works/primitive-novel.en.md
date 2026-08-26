@@ -37,7 +37,7 @@ Strong Man: The shadow.
 
 Man 3: Then let’s shoot one too… (belches) Let’s shoot it now. (retches) A documentary.
 
-Man 2: Like those modern Chinese films. Our lines have to be remembered, like, “Whoever has no house now will never build one…”
+Man 2: Like those modern Chinese films. Our lines have to be remembered, like, “Whoever has no house now will never build one…”<button class="note-ref" type="button" data-note="An allusion to Rainer Maria Rilke’s poem “Autumn Day” (“Herbsttag”).">※</button>
 
 Man 3: Where would primitive men get houses? We all live in caves. Remember: art must not lose touch with reality.
 

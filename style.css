@@ -30,6 +30,25 @@ body::before {
   pointer-events: none;
 }
 
+.reading-progress {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 30;
+  height: 1px;
+  pointer-events: none;
+}
+
+.reading-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
 .home-page::before {
   background-image:
     url("images/map.png"), url("images/map.png"), url("images/map.png"),
@@ -376,6 +395,28 @@ html[lang="zh-CN"] .article-body {
   font-weight: 400;
 }
 .article-body h2 { margin: 4rem 0 2rem; font-size: 0.9rem; font-weight: 400; }
+.translation-status { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--quiet); }
+.translation-status p { margin: 0 0 0.45rem; font-size: 0.68rem; line-height: 1.6; }
+.article-navigation {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem;
+  margin-top: 5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+.article-navigation[hidden] { display: none; }
+.article-navigation a { text-decoration: none; }
+.article-navigation a:hover,
+.article-navigation a:focus-visible { text-decoration: underline; outline: none; }
+.article-navigation-link { display: grid; gap: 0.35rem; min-width: 0; }
+.article-navigation-link[hidden] { display: none; }
+.article-navigation-next { text-align: right; }
+.article-navigation-direction,
+.article-navigation-random { color: var(--quiet); font-size: 0.68rem; line-height: 1.45; }
+.article-navigation-title { overflow-wrap: anywhere; font-size: 0.76rem; line-height: 1.45; }
+.article-navigation-random { padding-top: 0.05rem; white-space: nowrap; }
 .about-subtitle { margin: -2.25rem 0 2.75rem; color: var(--quiet); font-size: 0.78rem; }
 .article-hero { width: min(100%, 21rem); margin: -0.5rem auto 3.75rem; }
 .article-hero img { display: block; width: 100%; height: auto; filter: grayscale(1) contrast(1.02); mix-blend-mode: multiply; }

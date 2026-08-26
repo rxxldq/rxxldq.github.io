@@ -116,10 +116,12 @@ def main() -> int:
             "property=\"og:title\"",
             "property=\"og:image\"",
             "summary_large_image",
+            "reading-sequence",
         ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
+        ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort"),
     }
     for path, needles in required_text.items():
         if not path.exists():

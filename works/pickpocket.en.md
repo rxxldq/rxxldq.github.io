@@ -29,7 +29,7 @@ This was how he was. As he walked, he thought his leather shoes felt expensive. 
 
 “Do I look good?” He looked down at his expensive trousers and shoes and asked her.
 
-Sometimes he wore the same skinny flared jeans as everyone else and pretended he had never seen a photograph of a Hedi Boy. Wide-legged suit trousers were different.
+Sometimes he wore the same skinny flared jeans as everyone else and pretended he had never seen a photograph of a Hedi Slimane boy. Wide-legged suit trousers were different.
 
 She did not look. She said, Don’t you wear this sort of thing every day?
 

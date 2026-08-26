@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
   <a href="{{ '/' | relative_url }}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
   <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}">
     {% if page.alternate %}
@@ -47,8 +48,32 @@
     <article class="article-body">
       {{ content }}
     </article>
+    {% if page.ai_translation %}
+    <footer class="translation-status" lang="en">
+      <p>{{ site.data.translation_statement.status_en }}</p>
+      {% if page.translation_revised %}<p>Last revised: <time datetime="{{ page.translation_revised }}">{{ page.translation_revised | date: "%e %B %Y" | strip }}</time></p>{% endif %}
+    </footer>
+    {% endif %}
+    {% if page.listed or page.ai_translation or page.kind == 'poetry' %}
+    <nav class="article-navigation" data-current-url="{{ page.url }}" data-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}" aria-label="{% if page.lang == 'en' %}Article navigation{% else %}文章导航{% endif %}" hidden>
+      <a class="article-navigation-link article-navigation-previous" href="{{ '/' | relative_url }}" data-reading-previous>
+        <span class="article-navigation-direction">{% if page.lang == 'en' %}Previous{% else %}上一篇{% endif %}</span>
+        <span class="article-navigation-title" data-reading-previous-title></span>
+      </a>
+      <a class="article-navigation-random" href="{{ '/' | relative_url }}" data-reading-random>{% if page.lang == 'en' %}Random{% else %}随机一篇{% endif %}</a>
+      <a class="article-navigation-link article-navigation-next" href="{{ '/' | relative_url }}" data-reading-next>
+        <span class="article-navigation-direction">{% if page.lang == 'en' %}Next{% else %}下一篇{% endif %}</span>
+        <span class="article-navigation-title" data-reading-next-title></span>
+      </a>
+    </nav>
+    <script id="reading-sequence" type="application/json">[
+      {"zhUrl":"{{ '/middle-class-children.html' | relative_url }}","enUrl":"{{ '/middle-class-children-en.html' | relative_url }}","zhTitle":"中产阶级的孩子们三篇","enTitle":"The Children of the Middle Class: A Poetry Triptych","year":9999,"order":0}{% assign listed_pages = site.pages | where: 'listed', true %}{% for work in listed_pages %},
+      {"zhUrl":{{ work.url | relative_url | jsonify }},"enUrl":{% if work.english_url %}{{ work.english_url | relative_url | jsonify }}{% else %}null{% endif %},"zhTitle":{{ work.title | jsonify }},"enTitle":{{ work.english_title | jsonify }},"year":{{ work.year | default: 0 }},"order":{{ work.order | default: 0 }}}{% endfor %}
+    ]</script>
+    {% endif %}
   </main>
   <script src="{{ '/footnotes.js' | relative_url }}"></script>
+  <script src="{{ '/reading-tools.js' | relative_url }}"></script>
   {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}"></script>{% endif %}
   {% if page.ai_translation %}{% include translation-statement.html auto_notice=true %}{% endif %}
 </body>

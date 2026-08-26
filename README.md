@@ -41,8 +41,10 @@
 - 西方人物第一次在单篇正文出现时通常用通行全名，例如 `Italo Calvino`、`James Joyce`；后文再按英文习惯用姓氏。艺名、单名和原文刻意只用姓氏的情形可例外，避免破坏口吻。
 - 英文读者不容易辨认的中文品牌或事物，在首次出现时加一个最短的类别词，例如 `Chunghwa cigarettes`；不写冗长脚注，后文可只用名称。
 - 无法在正文内简短说明、且理解作品确实需要背景的信息，才使用弹出式脚注；这也包括会影响理解的中文语境，如谐音、方言、典故、网络梗或品牌暗含的社会意味。格式：`<button class="note-ref" type="button" data-note="Short note in English.">※</button>`。注释只补必要事实，不替读者解释作品或规定感受。
+- 文中未署名的引文，如果出处对理解作品之间的关系有意义，可用同一弹窗脚注补充作者与作品名；正文已经写出作者或作品时不重复注释。
 - `※` 会显示为可点击的圆形上标按钮；不要换成普通文本符号，也不要在 `data-note` 中放 HTML。
 - AI 英文版统一标注：`AI translation — closely following the imagery and cadence of the original Chinese.`
+- 英文页面底部会自动显示译文仍可能修订。只有确实记录了校订日期时，才在 YAML 头部填写 `translation_revised: YYYY-MM-DD`；不要猜日期。
 - 未经文学性校订的粗译不应在首页标为可用英文版。
 
 ## 版式与兼容
@@ -52,6 +54,8 @@
 - 正文字号保持电脑端 18px、手机端 17px，并同时检查两种宽度。
 - 手机正文两侧约保留 20px，段落不做首行缩进并保持左对齐；中文正文使用系统黑体，英文正文保留衬线字体，正文行距为 1.85。
 - 单篇文章连续滚动；长篇如需拆分，应按章节拆页，不按固定字数翻页。
+- 文章页的顶部阅读进度和文末上一篇／随机一篇／下一篇由 `reading-tools.js` 统一生成；顺序继续读取文章现有的 `year` 与 `order`，无需维护第二份目录。
+- 修改篇章导航后运行 `node scripts/test_reading_tools.js`；测试会同时确认中文与英文链接不会跨语言。
 - 迁移旧页面时先逐段核对文字并逐项核对图片；确认新页面完整后删除旧框架和重复副本。固定网址优先保留为薄入口，但正文只维护一份。
 - 订阅以 `feed.xml` 为基础，由 Follow.it 处理邮箱与新文章推送，站内不保存订阅者邮箱。弹窗中的引文、按钮文字和 Follow.it 表单地址统一保存在 `_data/subscription.json`；版式与交互分别位于 `_includes/subscription-form.html`、`subscription-form.js` 和 `style.css`。
 - 首页上方和英文文章页共用的 AI 翻译说明保存在 `_data/translation_statement.json`；修改其中的简短提示及中英文数组即可，不需要调整弹窗结构或脚本。
