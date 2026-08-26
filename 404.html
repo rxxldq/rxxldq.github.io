@@ -1,0 +1,30 @@
+---
+layout: null
+permalink: /404.html
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>页面未找到</title>
+  <link rel="stylesheet" href="/style.css">
+  <script>
+    (function () {
+      var legacyPrefix = "/qingxvlaogai.github.io";
+      var path = window.location.pathname;
+
+      if (path === legacyPrefix || path.indexOf(legacyPrefix + "/") === 0) {
+        var destination = path.slice(legacyPrefix.length) || "/";
+        window.location.replace(destination + window.location.search + window.location.hash);
+      }
+    }());
+  </script>
+</head>
+<body>
+  <main class="site-shell">
+    <a href="/" class="back-home">← 目录</a>
+    <h1>页面未找到</h1>
+  </main>
+</body>
+</html>
