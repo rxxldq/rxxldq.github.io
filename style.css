@@ -334,6 +334,17 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .subscription-fields button:hover,
 .subscription-fields button:focus-visible { background: transparent; color: var(--ink); outline: none; }
 .article-body > :first-child { margin-top: 0; }
+.article-body p {
+  margin-bottom: 1.75em;
+  font-size: 1rem;
+  line-height: 1.85;
+  text-align: left;
+  text-indent: 0;
+}
+html[lang="zh-CN"] .article-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+}
 .article-body h2 { margin: 4rem 0 2rem; font-size: 0.9rem; font-weight: 400; }
 .about-subtitle { margin: -2.25rem 0 2.75rem; color: var(--quiet); font-size: 0.78rem; }
 .location-trigger { padding: 0.1rem 0.25rem; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
@@ -383,7 +394,7 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   html { font-size: 17px; }
   .site { padding-top: 10vh; }
   .site-header { margin-bottom: 4rem; }
-  .wrap { width: min(100% - 4.75rem, 38rem); }
+  .wrap { width: min(100% - 2.5rem, 38rem); }
   .note-popover {
     top: auto !important;
     right: 1rem;
