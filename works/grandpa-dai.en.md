@@ -7,7 +7,7 @@ permalink: /grandpa-dai-en.html
 alternate: /grandpa-dai.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-23
+translation_revised: 2026-08-27
 ---
 
 We are not peasants.
@@ -68,7 +68,7 @@ There are countless avant-garde films in the world that no one can make head or 
 
 Grandpa Dai, a name children love to call out. They were as old as Grandpa Dai. The older they grew, the more they missed him.
 
-Grandpa Dai, come back. We only want to see you. The wren nests in the deep forest but uses no more than one branch; the mole drinks from the river but takes no more than a bellyful. The wish of a small man is merely to have enough. Should we spend money? Once we earn more and spend more, once we turn Qinhuangdao into a 5A tourist attraction and the financial center of Bohai Bay, will Grandpa Dai come back?
+Grandpa Dai, come back. We only want to see you. The wren nests in the deep forest but uses no more than one branch; the mole drinks from the river but takes no more than a bellyful.<button class="note-ref" type="button" data-note="From ‘Free and Easy Wandering’, the opening chapter of the Zhuangzi.">※</button> The wish of a small man is merely to have enough. Should we spend money? Once we earn more and spend more, once we turn Qinhuangdao into a 5A tourist attraction and the financial center of Bohai Bay, will Grandpa Dai come back?
 
 My grandfather and grandmother were the only newlyweds not married under Grandpa Dai's witness. My grandfather's childhood friend had followed General Duan in Tianjin and scraped together a little glory in battle. On the wedding day, he gave my grandfather a Hanyang 88 rifle. It shone like a hairtail in the sun, wood and iron growing together, a living gun, Grandpa Dai wandering.
 
