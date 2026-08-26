@@ -13,7 +13,7 @@ Thin-soled leather shoes do not strike the ground as loudly as thick-soled ones.
 
 If you let your heel land first, then, as you hear that deep yet gentle footfall, lightly sweep the ball of your foot into the ground and hold it close against the surface, you will hear the beautiful sound of rubber and leather stretching out, like someone working a zip back and forth without end.
 
-Thin-soled leather shoes allow a reconciliation with the earth. Thick-soled leather shoes increase the likelihood of caffeine addiction.
+Thin-soled leather shoes let you make peace with the earth. Thick-soled leather shoes increase the likelihood of caffeine addiction.
 
 Wooden soles, heels at least three and a half centimetres high, pointed or square—it makes no difference. Even after a protective sole has been added, each time the heel touches the ground you can clearly feel a kind of resistance.
 
@@ -33,9 +33,9 @@ Sometimes he wore the same skinny flared jeans as everyone else and pretended he
 
 She did not look. She said, Don’t you wear this sort of thing every day?
 
-Wind slipped in through the cuffs. At each step the wide-legged trousers bunched together like Caesar collapsing, then spread open again and drew in the wind. Standing still, he looked square, as though he had walked out of *Minecraft*.
+Wind slipped in through the trouser hems. At each step the wide-legged trousers bunched together like Caesar collapsing, then spread open again and drew in the wind. Standing still, he looked square, as though he had walked out of *Minecraft*.
 
-Sometimes the trouser legs twisted together as if they were inside a washing machine. Now the two of them were walking, the same as everyone else, their thoughts in chaos, thinking of everything, far too much. These people disgusted him, yet he was also afraid of being alone.
+Sometimes the trouser legs twisted together as if they were inside a washing machine. Now the two of them were walking, the same as everyone else, his mind in chaos, thinking of everything, far too much. These people disgusted him, yet he was also afraid of being alone.
 
 He always wanted to walk by himself, especially when they passed other people. He secretly shook free of the hand holding his, lowered his head and pretended he had something to do. Once, holding hands had counted as having something to do. Now it did not. He would rather do nothing. It was much the same.
 
@@ -45,7 +45,7 @@ He could be anyone. With their fingers interlocked, he became someone whose palm
 
 He would choose the right moment and draw his hand out naturally, raise it before his face for a glance, then press it to his left cheek and pretend it was soaked in sweat. He would wipe his face with his sleeve, taking care not to catch his facial piercings. Then he would draw the hand in a single line from his waist; when it reached the pocket, he would slide it straight inside and leave it there. His hand fidgeted around in the pocket. His lighter scraped against his phone’s tempered-glass screen protector, leaving a few white marks.
 
-When he was being led by the hand—and here that means the particular kind in which the person doing the leading walks in front and uses a few fingers to grasp most of the back of the other person’s hand—he still had a way out. Usually he would yank his hand free. At that very instant, just as half a flash of resentment rose in the other person, he would seize the hand again, release it, seize it several more times, pretending to be playing with them while deliberately using too much force. After a few grabs, he would slip his hand into his pocket as though to say, I’ve had enough of this game.
+When he was being led by the hand—and here that means the particular kind in which the person doing the leading walks in front and uses a few fingers to grasp most of the back of the other person’s hand—he still had a way out. Usually he would yank his hand free. In that split second, before the other person’s resentment had fully risen, he would seize the hand again, release it, seize it several more times, pretending to be playing with them while deliberately using too much force. After a few grabs, he would slip his hand into his pocket as though to say, I’ve had enough of this game.
 
 The trench-coat arrangement, with the other person linking arms, was genuinely difficult to break. First, it did not conflict with pretending to have something to do.
 
