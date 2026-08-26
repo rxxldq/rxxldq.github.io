@@ -1,45 +1,12 @@
 ---
-layout: null
+layout: article
+title: About the Author
+lang: en
+subtitle: Someone from Qinhuangdao
+alternate: /hall.html
+alternate_lang: zh-CN
+ai_translation: true
+location_map: true
 ---
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <title>About the Author</title>
-  <link rel="alternate" hreflang="zh-CN" href="hall.html">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <a href="index.html" class="back-home">← Index</a>
-  <main class="wrap article-en">
-    <nav class="language-switch" aria-label="Language"><a href="hall.html">中文</a> <span aria-current="page">English</span></nav>
-    <h1>About the Author</h1>
-    <p class="about-subtitle">Someone from Qinhuangdao <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">⌖</button></p>
-    <button class="translation-note translation-statement-inline-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>
-    <section class="location-map" id="location-map" aria-label="Qinhuangdao in East Asia" hidden>
-      <div class="map-globe" aria-hidden="true">◎</div>
-      <div class="map-frame">
-        <button class="map-close" type="button" aria-label="Close map">×</button>
-        <iframe title="Map showing Qinhuangdao in East Asia" data-src="https://www.openstreetmap.org/export/embed.html?bbox=103%2C23%2C146%2C48&amp;layer=mapnik&amp;marker=39.9354%2C119.6005"></iframe>
-        <p>Qinhuangdao · 39.9° N, 119.6° E</p>
-      </div>
-    </section>
-
-
-    <p>Sometimes I try to describe a feeling—countless skeletons; writers with hollow chests, clutching close their only private manuscripts, already weathered to ash. They themselves would never dare believe they might be remembered.</p>
-
-    <p>Thinking of this, I want to go home at once. I want to turn on my computer and carefully create a new folder—this time, not on the desktop. I will carefully give it an important name, something other than New Folder. I no longer trust distant cloud servers to keep my information. I no longer trust dumb computers. I know I will spill water on mine.</p>
-
-    <p>I set down their sentences and mine with care. Nothing special. Yes, I want to go home at once, even though I am already home. I only want, for a while, to fill myself with the desire to explore and to know, until I reach the edge of my comfort zone or the limits of what I know; after searching a few keywords, the past will abruptly return to me, and I will hang my head and go on inventing.</p>
-
-    <p>In <em>Invisible Cities</em>, Italo Calvino tells us to “seek and learn to recognize who and what, in the midst of the inferno, are not inferno, then make them endure, give them space.” I try to knead together the signs carried by people I once knew, shaping copies of them.</p>
-
-    <p>I think of the long, garrulous, lyrical letters that recur in modernist novels. There is no longer room for such things in people's minds. I hope there might still be room for these.</p>
-  </main>
-  {% include translation-statement.html auto_notice=true %}
-</body>
-<script src="location.js"></script>
-<script src="footnotes.js"></script>
-</html>
+{% capture article_body %}{% include works/about-author.en.md %}{% endcapture %}
+{{ article_body | markdownify }}

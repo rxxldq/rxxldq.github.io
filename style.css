@@ -237,7 +237,7 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .article-body h2 { margin: 4rem 0 2rem; font-size: 0.9rem; font-weight: 400; }
 .about-subtitle { margin: -2.25rem 0 2.75rem; color: var(--quiet); font-size: 0.78rem; }
 .location-trigger { padding: 0.1rem 0.25rem; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
-.location-map { position: relative; margin: 0 0 3rem; }
+.location-map { position: relative; overflow: hidden; margin: 0 0 3rem; }
 .map-globe { position: absolute; inset: 0; display: grid; place-items: center; font-size: 4rem; animation: globe-open 480ms ease-out forwards; }
 .map-frame { position: relative; overflow: hidden; border: 1px solid var(--rule); background: var(--paper); animation: map-open 520ms ease-out both; }
 .map-frame iframe { display: block; width: 100%; height: clamp(17rem, 52vw, 24rem); border: 0; filter: grayscale(1) contrast(.88) opacity(.82); }

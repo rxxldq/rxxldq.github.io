@@ -1,35 +1,10 @@
-<!doctype html>
-<html lang="zh">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>关于作者</title>
-  <link rel="alternate" hreflang="en" href="hall-en.html">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main class="wrap">
-    <nav class="language-switch" aria-label="语言"><span aria-current="page">中文</span> <a href="hall-en.html" lang="en">English</a></nav>
-    <div class="mono muted"><a href="index.html">← 目录</a></div>
-    <div class="line"></div>
-
-    <h1>关于作者</h1>
-    <p class="about-subtitle">一个来自秦皇岛的人</p>
-    <div class="muted">
-
-
-
-
-      <p>我有时会尝试描述一种感受——千万尸骨，胸腔空空的写作者，紧裹着只有已被风化成灰烬的个人手稿。他们才不敢肯定自己会否被人记得。</p>
-
-<p>我想到这些，想立刻回家。我想打开电脑，认真的新建一个文件夹，这次它不在桌面上。我会认真给它取个重要的名字不叫新建文件夹。我不再相信远方的云端服务器，由它们保管我的信息，我不再相信笨笨的电脑，我知道我会把水洒上去。</p>
-
-<p>我把它们的句子和我的句子认真的表达出来，没什么特别的。是的我想立刻回家，尽管我已经在家里。我只想暂时的用探索欲和求知欲把自己填满，直到触及我舒适圈或知识的边界，我会在搜索一些关键词后骤然联想起过去，然后垂头丧气地继续虚构。</p>
-
-<p>卡尔维诺在地狱里寻找非地狱的人和物，学会辨别他们，使他们存在下去，赋予他们空间。我试图把曾经见过的人们身上的符号糅杂捏合，去塑造一些它们的复制品。</p>
-
-<p>我想起现代主义小说中时长描绘的，喋喋不休的抒情信件。现在人们的精神已然容不下这些，但愿能容得下这些。</p>
-    </div>
-  </main>
-</body>
-</html>
+---
+layout: article
+title: 关于作者
+lang: zh-CN
+subtitle: 一个来自秦皇岛的人
+alternate: /hall-en.html
+alternate_lang: en
+---
+{% capture article_body %}{% include works/about-author.zh.md %}{% endcapture %}
+{{ article_body | markdownify }}
