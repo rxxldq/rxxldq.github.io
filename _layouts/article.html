@@ -20,11 +20,12 @@
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
     {% if page.source_url %}<p class="source-link"><a href="{{ page.source_url }}"{% if page.source_lang %} hreflang="{{ page.source_lang }}"{% endif %} target="_blank" rel="noopener noreferrer">{{ page.source_label | default: page.source_url }} <span aria-hidden="true">↗</span></a></p>{% endif %}
-    {% if page.ai_translation %}<p class="translation-note{% if page.source_url %} has-source{% endif %}">AI translation — closely following the imagery and cadence of the original Chinese.</p>{% endif %}
+    {% if page.ai_translation %}<button class="translation-note translation-statement-inline-trigger{% if page.source_url %} has-source{% endif %}" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>{% endif %}
     <article class="article-body">
       {{ content }}
     </article>
   </main>
   <script src="{{ '/footnotes.js' | relative_url }}"></script>
+  {% if page.ai_translation %}{% include translation-statement.html auto_notice=true %}{% endif %}
 </body>
 </html>

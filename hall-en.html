@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,7 +17,7 @@
     <nav class="language-switch" aria-label="Language"><a href="hall.html">中文</a> <span aria-current="page">English</span></nav>
     <h1>About the Author</h1>
     <p class="about-subtitle">Someone from Qinhuangdao <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">⌖</button></p>
-    <p class="translation-note">AI translation — closely following the imagery and cadence of the original Chinese.</p>
+    <button class="translation-note translation-statement-inline-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>
     <section class="location-map" id="location-map" aria-label="Qinhuangdao in East Asia" hidden>
       <div class="map-globe" aria-hidden="true">◎</div>
       <div class="map-frame">
@@ -35,6 +38,7 @@
 
     <p>I think of the long, garrulous, lyrical letters that recur in modernist novels. There is no longer room for such things in people's minds. I hope there might still be room for these.</p>
   </main>
+  {% include translation-statement.html auto_notice=true %}
 </body>
 <script src="location.js"></script>
 <script src="footnotes.js"></script>

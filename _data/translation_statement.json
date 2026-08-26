@@ -1,6 +1,9 @@
 {
   "button": "AI 翻译说明 / AI Translation Note",
   "title": "AI 翻译说明 / AI Translation Note",
+  "inline_en": "AI translation — reviewed by the author; closely following the imagery and cadence of the original Chinese.",
+  "notice_en": "This English edition was translated by AI and reviewed by the author. The translation remains provisional and may change.",
+  "read_more_en": "Read the full note",
   "zh": [
     "英文版由 AI 翻译，并由本人校对。看太多英文会让我头疼，所以校对会慢慢进行。译文不是最终版本，可能随时更改。",
     "我并不担心 AI 翻译会篡改我的意思，让作品不再纯净。我相信 AI 是天然带有无产阶级属性的创作工具。就像我一样，它也站在巨人的肩膀上，把前人的思想化作自己的。AI 也只是拟合语言与词语的工具；在本质上，我并不比 AI 更高明。",

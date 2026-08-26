@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,7 +16,7 @@
   <main class="wrap article-en">
     <nav class="language-switch" aria-label="Language"><a href="novel-001.html">中文</a> <span aria-current="page">English</span></nav>
     <h1>The Secretary</h1>
-    <p class="translation-note">AI translation — closely following the imagery and cadence of the original Chinese.</p>
+    <button class="translation-note translation-statement-inline-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>
 
     <p>Everyone hoped they would soon be sitting in an office. That meant keeping their trousers dry: wet trousers would soak the computer chairs too. The cleaner at the bureau did not particularly want to get drenched either, though wet or dry made little difference. Almost no difference. For the moment, at least, she still had the freedom to stand in the rain.</p>
 
@@ -156,5 +159,6 @@
     <p>K did not answer. The cleaner's son clamped both hands around his throat with all his strength, powerful hands like the claw of a claw machine. K could not breathe, like a little fish lifted out of the water.</p>
   </main>
   <script src="footnotes.js"></script>
+  {% include translation-statement.html auto_notice=true %}
 </body>
 </html>

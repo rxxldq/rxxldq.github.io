@@ -65,6 +65,11 @@ a:focus-visible { text-decoration-color: currentColor; }
   letter-spacing: 0.12em;
 }
 
+.translation-statement-home-trigger {
+  display: block;
+  margin-top: 1.15rem;
+}
+
 .year {
   padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
@@ -135,6 +140,20 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .source-link a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
 .source-link + .translation-note { margin-top: -2.3rem; }
 .translation-note { margin: -1.75rem 0 3rem; color: var(--quiet); font-size: 0.72rem; line-height: 1.6; }
+.translation-statement-inline-trigger {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
+.translation-statement-inline-trigger:hover,
+.translation-statement-inline-trigger:focus-visible { color: var(--ink); text-decoration-color: currentColor; outline: none; }
 .note-ref {
   display: inline-grid;
   place-items: center;
@@ -183,6 +202,27 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .site-footer a { text-decoration: none; }
 .site-footer > * + * { margin-left: 1rem; }
 .translation-statement-trigger { padding: 0; border: 0; background: none; font: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; cursor: pointer; }
+.translation-statement-home-trigger { font-size: 0.68rem; line-height: 1.5; }
+.translation-statement-banner {
+  position: fixed;
+  right: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 15;
+  width: min(31rem, calc(100vw - 2rem));
+  padding: 1rem 3.25rem 1rem 1.15rem;
+  border: 1px solid var(--rule);
+  background: rgba(251, 250, 247, 0.98);
+  box-shadow: 0 0.8rem 2.5rem rgba(20, 20, 18, 0.14);
+  color: var(--quiet);
+}
+.translation-statement-banner[hidden] { display: none; }
+.translation-statement-banner p { margin: 0 0 0.35rem; font-size: 0.72rem; line-height: 1.55; }
+.translation-statement-banner-link { padding: 0; border: 0; background: none; color: var(--ink); font: inherit; font-size: 0.68rem; text-decoration: underline; text-underline-offset: 0.18em; cursor: pointer; }
+.translation-statement-banner-close { position: absolute; top: 0.65rem; right: 0.65rem; width: 2.25rem; height: 2.25rem; padding: 0; border: 1px solid var(--rule); border-radius: 50%; background: var(--paper); color: var(--quiet); font: inherit; line-height: 1; cursor: pointer; }
+.translation-statement-banner-close:hover,
+.translation-statement-banner-close:focus-visible,
+.translation-statement-banner-link:hover,
+.translation-statement-banner-link:focus-visible { border-color: var(--ink); color: var(--ink); outline: none; }
 .translation-statement-dialog { width: min(38rem, calc(100vw - 2rem)); max-height: min(80vh, 44rem); padding: 0; overflow: auto; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); box-shadow: 0 1.2rem 4rem rgba(20, 20, 18, 0.18); }
 .translation-statement-dialog::backdrop { background: rgba(20, 20, 18, 0.32); }
 .translation-statement-panel { position: relative; padding: clamp(1.5rem, 5vw, 2.75rem); }
@@ -253,5 +293,10 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   .note-ref {
     min-width: 1.35rem;
     height: 1.35rem;
+  }
+  .translation-statement-banner {
+    right: 1rem;
+    left: 1rem;
+    width: auto;
   }
 }
