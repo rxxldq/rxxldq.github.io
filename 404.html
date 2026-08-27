@@ -8,14 +8,16 @@ permalink: /404.html
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>页面未找到</title>
+  <meta name="description" content="这里没有文章。">
+  <title>404 — 页面未找到</title>
   <link rel="stylesheet" href="/style.css?v={{ site.time | date: '%s' }}">
 </head>
-<body>
-  <a href="/" class="back-home">← 目录</a>
-  <main class="wrap error-page">
-    <h1>页面未找到</h1>
-    <p lang="en">Page not found.</p>
+<body class="error-body">
+  <main class="error-page">
+    <p class="error-code" aria-hidden="true">404</p>
+    <h1>这里没有文章。</h1>
+    <p lang="en">Nothing was written here.</p>
+    <a class="error-home" href="/">返回目录 <span lang="en">/ Index</span></a>
   </main>
 </body>
 </html>

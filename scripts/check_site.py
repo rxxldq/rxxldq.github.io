@@ -41,6 +41,14 @@ def paragraph_count(body: str) -> int:
     return len([block for block in re.split(r"\n\s*\n", body.strip()) if block.strip()])
 
 
+def png_size(path: Path) -> tuple[int, int] | None:
+    with path.open("rb") as image_file:
+        header = image_file.read(24)
+    if len(header) < 24 or header[:8] != b"\x89PNG\r\n\x1a\n":
+        return None
+    return struct.unpack(">II", header[16:24])
+
+
 def main() -> int:
     errors: list[str] = []
     pages: list[tuple[Path, dict[str, str], str]] = []
@@ -71,6 +79,12 @@ def main() -> int:
                 errors.append(f"{path}: alternate target does not link back")
             elif meta.get("alternate_lang") != target[1].get("lang"):
                 errors.append(f"{path}: alternate_lang does not match target language")
+            else:
+                for shared_field in ("kind", "hero_image", "bottom_image", "source_url"):
+                    if meta.get(shared_field, "") != target[1].get(shared_field, ""):
+                        errors.append(f"{path}: {shared_field} differs from alternate page")
+                if meta.get("listed") == "true" and meta.get("english_title") != target[1].get("title"):
+                    errors.append(f"{path}: english_title differs from alternate page title")
 
         if meta.get("listed") == "true":
             listed.append(path)
@@ -87,6 +101,14 @@ def main() -> int:
                 errors.append(f"{path}: AI translation is missing translation_revised")
             elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", revised):
                 errors.append(f"{path}: invalid translation_revised date: {revised}")
+
+        if meta.get("layout") == "article" and current_url:
+            slug = current_url.rsplit("/", 1)[-1].removesuffix(".html").removesuffix("-en")
+            card = ROOT / "images" / "social" / f"{slug}.png"
+            if not card.exists():
+                errors.append(f"{path}: article share card is missing: images/social/{slug}.png")
+            elif png_size(card) != (1200, 630):
+                errors.append(f"{path}: article share card must be a 1200x630 PNG")
 
     pairs = 0
     for zh_path in sorted((ROOT / "works").glob("*.zh.md")):
@@ -110,6 +132,20 @@ def main() -> int:
             if not target.exists() and normalize_url(url) not in by_url:
                 errors.append(f"{path}: local link target does not exist: {url}")
 
+    note_markup = re.compile(r'<button\s+class="note-ref"[^>]*data-note="([^"]+)"[^>]*>(.*?)</button>', re.S)
+    for path in sorted(list(ROOT.rglob("*.md")) + list(ROOT.rglob("*.html"))):
+        text = path.read_text(encoding="utf-8")
+        if 'class="note-ref"' not in text:
+            continue
+        matches = note_markup.findall(text)
+        if len(matches) != text.count('class="note-ref"'):
+            errors.append(f"{path.relative_to(ROOT)}: malformed context-note button")
+        for note, marker in matches:
+            if not note.strip():
+                errors.append(f"{path.relative_to(ROOT)}: empty context note")
+            if re.sub(r"<[^>]+>", "", marker).strip() != "※":
+                errors.append(f"{path.relative_to(ROOT)}: context-note marker must be ※")
+
     required_text = {
         ROOT / "index.html": (
             "rel=\"canonical\"",
@@ -124,6 +160,7 @@ def main() -> int:
             "property=\"og:title\"",
             "property=\"og:image\"",
             "summary_large_image",
+            "images/social",
             "reading-sequence",
             "proofread-mode.js",
             "reader-insights.js",
@@ -152,16 +189,11 @@ def main() -> int:
     if not share_cover.exists():
         errors.append("required file is missing: images/share-cover.png")
     else:
-        with share_cover.open("rb") as image_file:
-            header = image_file.read(24)
-        if len(header) < 24 or header[:8] != b"\x89PNG\r\n\x1a\n":
+        size = png_size(share_cover)
+        if size is None:
             errors.append("images/share-cover.png: not a valid PNG file")
-        else:
-            width, height = struct.unpack(">II", header[16:24])
-            if (width, height) != (1200, 630):
-                errors.append(
-                    f"images/share-cover.png: expected 1200x630, found {width}x{height}"
-                )
+        elif size != (1200, 630):
+            errors.append(f"images/share-cover.png: expected 1200x630, found {size[0]}x{size[1]}")
 
     if errors:
         print("Site integrity check failed:")

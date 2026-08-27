@@ -244,6 +244,33 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   line-height: 1.6;
 }
 .note-popover[hidden] { display: none; }
+.note-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--rule);
+}
+.note-popover-title {
+  color: var(--quiet);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+}
+.note-popover-copy { margin: 0; font-size: inherit; line-height: inherit; }
+.note-popover-close {
+  width: 1.65rem;
+  height: 1.65rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--quiet);
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
 .article-en { max-width: 36rem; }
 .site-footer { margin-top: 5rem; font-size: 0.68rem; }
 .site-footer a,
@@ -545,7 +572,27 @@ html[lang="zh-CN"] .article-body {
 .muted { color: var(--quiet); }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .line { height: 1px; margin: 1.5rem 0; background: var(--rule); }
-.error-page p { color: var(--quiet); }
+.error-body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+.error-page {
+  width: min(100% - 2.5rem, 38rem);
+  padding: 4rem 0;
+}
+.error-code {
+  margin: 0 0 2.4rem;
+  color: var(--rule);
+  font-size: clamp(5.5rem, 28vw, 11rem);
+  font-weight: 400;
+  letter-spacing: -0.08em;
+  line-height: 0.72;
+}
+.error-page h1 { margin: 0 0 0.45rem; font-size: 1.25rem; font-weight: 400; }
+.error-page p:not(.error-code) { margin: 0 0 2.5rem; color: var(--quiet); font-size: 0.82rem; }
+.error-home { color: var(--quiet); font-size: 0.72rem; text-decoration: none; }
+.error-home:hover { color: var(--ink); text-decoration: underline; }
 
 .back-home {
   position: fixed;
@@ -554,6 +601,11 @@ html[lang="zh-CN"] .article-body {
   color: var(--quiet);
   font-size: 0.75rem;
   text-decoration: none;
+}
+
+:where(a, button, input, textarea, summary):focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
 }
 
 .page-arrow {

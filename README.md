@@ -63,7 +63,8 @@
 - 订阅以 `feed.xml` 为基础，由 Follow.it 处理邮箱与新文章推送，站内不保存订阅者邮箱。弹窗中的引文、按钮文字和 Follow.it 表单地址统一保存在 `_data/subscription.json`；版式与交互分别位于 `_includes/subscription-form.html`、`subscription-form.js` 和 `style.css`。
 - 首页上方和英文文章页共用的 AI 翻译说明保存在 `_data/translation_statement.json`；修改其中的简短提示及中英文数组即可，不需要调整弹窗结构或脚本。
 - “关于作者”的中文页与英文页分别是 `hall.html` 和 `hall-en.html`，正文继续分别保存在 `_includes/works/about-author.zh.md` 和 `_includes/works/about-author.en.md`。两页以顶部语言按钮互相切换；共用引文时先显示原文语言，再显示当前页面语言，人物图固定在正文最底部。
-- 分享到 Messages、Instagram 私信等平台时使用 `images/share-cover.png` 作为统一封面；它由 `scripts/generate_social_card.py` 根据网站背景图生成。更换 `images/map.png` 或标题后，运行该脚本即可重新生成 1200×630 封面。
+- 首页分享到 Messages、Instagram 私信等平台时使用 `images/share-cover.png`；每篇文章则自动使用 `images/social/<文章网址>.png` 的独立双语封面。`scripts/generate_social_card.py` 从现有页面标题和背景人物图生成全部 1200×630 图片，不使用生成式图片；更换标题或 `images/map.png` 后重新运行一次即可。
+- 文章的分享摘要默认从该语言正文开头自动截取，中文页与英文页彼此独立；若以后需要人工指定，只需在相应页面头部增加 `description`，不必修改模板。
 - `images/site-card.png` 是用于手机和社交平台的 1080×1080 网站名片，由 `scripts/generate_site_card.py` 使用同一张原始人物图排版生成，不使用生成式图片。
 - 每次推送或创建拉取请求时，`.github/workflows/site-integrity.yml` 会运行 `scripts/check_site.py`，检查固定网址、双语互链、目录必填字段、正文段落数量、RSS、站点地图和订阅表单结构。
 - 同一流程还会用 GitHub Pages 的官方构建器生成完整网站，运行篇章导航测试，并用 `scripts/check_rendered_site.py` 检查生成后的内部链接、图片与脚本资源、页面语言、响应式 viewport、canonical、重复 ID、RSS 和站点地图。任何一项失败都会阻止检查通过。

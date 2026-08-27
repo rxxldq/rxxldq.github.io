@@ -5,9 +5,23 @@
   const popover = document.createElement('aside');
   popover.className = 'note-popover';
   popover.id = 'active-note';
-  popover.setAttribute('role', 'note');
+  popover.setAttribute('role', 'dialog');
+  popover.setAttribute('aria-modal', 'false');
+  popover.setAttribute('aria-labelledby', 'active-note-title');
+  popover.setAttribute('aria-describedby', 'active-note-copy');
   popover.hidden = true;
+  popover.innerHTML = `
+    <div class="note-popover-header">
+      <span class="note-popover-title" id="active-note-title"></span>
+      <button class="note-popover-close" type="button" aria-label="Close context note">×</button>
+    </div>
+    <p class="note-popover-copy" id="active-note-copy"></p>
+  `;
   document.body.appendChild(popover);
+
+  const popoverTitle = popover.querySelector('.note-popover-title');
+  const popoverCopy = popover.querySelector('.note-popover-copy');
+  const popoverClose = popover.querySelector('.note-popover-close');
 
   let active = null;
 
@@ -15,7 +29,8 @@
     if (active) active.setAttribute('aria-expanded', 'false');
     active = null;
     popover.hidden = true;
-    popover.textContent = '';
+    popoverTitle.textContent = '';
+    popoverCopy.textContent = '';
   }
 
   function positionNote(ref) {
@@ -31,6 +46,8 @@
   refs.forEach((ref, index) => {
     const isEnglish = document.documentElement.lang.toLowerCase().startsWith('en');
     const label = isEnglish ? `Context note ${index + 1}` : `语境注释 ${index + 1}`;
+    ref.textContent = '※';
+    ref.setAttribute('aria-haspopup', 'dialog');
     ref.setAttribute('aria-expanded', 'false');
     ref.setAttribute('aria-controls', popover.id);
     if (!ref.getAttribute('aria-label')) ref.setAttribute('aria-label', label);
@@ -45,13 +62,20 @@
       closeNote();
       active = ref;
       ref.setAttribute('aria-expanded', 'true');
-      popover.textContent = ref.dataset.note;
+      popoverTitle.textContent = label;
+      popoverCopy.textContent = ref.dataset.note;
+      popoverClose.setAttribute('aria-label', isEnglish ? 'Close context note' : '关闭语境注释');
       popover.hidden = false;
       positionNote(ref);
     });
   });
 
   popover.addEventListener('click', event => event.stopPropagation());
+  popoverClose.addEventListener('click', () => {
+    const ref = active;
+    closeNote();
+    if (ref) ref.focus();
+  });
   document.addEventListener('click', closeNote);
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
