@@ -21,3 +21,13 @@ jobs:
           python-version: "3.13"
       - name: Check bilingual structure and links
         run: python scripts/check_site.py
+      - name: Test rendered-site checker
+        run: python scripts/test_check_rendered_site.py
+      - name: Test same-language article navigation
+        run: node scripts/test_reading_tools.js
+      - name: Build the site with GitHub Pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: ./_site
+      - name: Check rendered pages, assets, RSS, and sitemap
+        run: python scripts/check_rendered_site.py _site

@@ -66,6 +66,7 @@
 - 分享到 Messages、Instagram 私信等平台时使用 `images/share-cover.png` 作为统一封面；它由 `scripts/generate_social_card.py` 根据网站背景图生成。更换 `images/map.png` 或标题后，运行该脚本即可重新生成 1200×630 封面。
 - `images/site-card.png` 是用于手机和社交平台的 1080×1080 网站名片，由 `scripts/generate_site_card.py` 使用同一张原始人物图排版生成，不使用生成式图片。
 - 每次推送或创建拉取请求时，`.github/workflows/site-integrity.yml` 会运行 `scripts/check_site.py`，检查固定网址、双语互链、目录必填字段、正文段落数量、RSS、站点地图和订阅表单结构。
+- 同一流程还会用 GitHub Pages 的官方构建器生成完整网站，运行篇章导航测试，并用 `scripts/check_rendered_site.py` 检查生成后的内部链接、图片与脚本资源、页面语言、响应式 viewport、canonical、重复 ID、RSS 和站点地图。任何一项失败都会阻止检查通过。
 
 ## 私密阅读后台
 
