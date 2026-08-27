@@ -25,6 +25,8 @@ jobs:
         run: python scripts/test_check_rendered_site.py
       - name: Test same-language article navigation
         run: node scripts/test_reading_tools.js
+      - name: Test private dashboard downloads
+        run: node --test backend/test/*.test.mjs
       - name: Build the site with GitHub Pages
         uses: actions/jekyll-build-pages@v1
         with:

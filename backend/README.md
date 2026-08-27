@@ -14,7 +14,11 @@ reader messages in Cloudflare D1. The public site remains on GitHub Pages.
   messages to five per hour per sender.
 - Counts and messages appear only at the password-protected `/admin` route.
 - The private dashboard can filter statistics to 7 days, 30 days, or all time,
-  and export article-level figures as CSV. Private messages are never exported.
+  and export article-level figures as CSV. That CSV never contains messages or
+  email addresses.
+- The password-protected `Private backup` download contains raw reading events
+  and private messages so they can be kept offline. It excludes the sender hash
+  used for rate limiting and never contains a raw IP address.
 
 ## Deployment
 

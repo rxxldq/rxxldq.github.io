@@ -136,6 +136,40 @@ function statsCsv(rows, period) {
   return `\uFEFF${[header, ...body].map((line) => line.map(csvCell).join(",")).join("\r\n")}\r\n`;
 }
 
+function privateBackup(events, messages, exportedAt) {
+  return {
+    format: "rxxldq-private-insights-backup",
+    version: 1,
+    exported_at: exportedAt,
+    privacy: {
+      raw_ip_addresses_included: false,
+      sender_hashes_included: false
+    },
+    reading_events: events.map((row) => ({
+      id: Number(row.id),
+      view_id: row.view_id,
+      article_slug: row.article_slug,
+      article_title: row.article_title,
+      language: row.language,
+      path: row.path,
+      event_type: row.event_type,
+      created_at: row.created_at
+    })),
+    private_messages: messages.map((row) => ({
+      id: Number(row.id),
+      article_slug: row.article_slug,
+      article_title: row.article_title,
+      language: row.language,
+      path: row.path,
+      sender_name: row.sender_name,
+      sender_email: row.sender_email,
+      message: row.message,
+      status: row.status,
+      created_at: row.created_at
+    }))
+  };
+}
+
 async function handleTrack(request, env, origin) {
   let input;
   try { input = await bodyJson(request); } catch (_) {
@@ -222,9 +256,9 @@ function dashboardHtml(rows, messages, period) {
   const periodLinks = STATS_PERIODS.map((option) => `<a href="/admin?range=${option.value}"${option.value === period.value ? ' aria-current="page"' : ""}>${option.shortLabel}</a>`).join("");
 
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private reading dashboard</title><style>
-  :root{color-scheme:light;--ink:#1d1d1b;--quiet:#77746e;--rule:#d9d6cf;--paper:#fbfaf7}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 ui-sans-serif,system-ui,sans-serif}a{color:inherit}main{width:min(100% - 32px,1040px);margin:0 auto;padding:64px 0 100px}h1{margin:0 0 8px;font:400 clamp(26px,4vw,42px)/1.15 Georgia,serif}.intro{margin:0 0 28px;color:var(--quiet)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:42px}.periods{display:flex;gap:4px}.periods a,.export{padding:7px 10px;border:1px solid var(--rule);font-size:11px;text-decoration:none}.periods a[aria-current="page"]{border-color:var(--ink);background:var(--ink);color:var(--paper)}.export:hover,.export:focus-visible,.periods a:hover,.periods a:focus-visible{border-color:var(--ink);outline:none}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-bottom:52px;background:var(--rule);border:1px solid var(--rule)}.summary div{padding:22px;background:var(--paper)}.summary strong{display:block;font:400 30px/1 Georgia,serif}.summary span{display:block;margin-top:8px;color:var(--quiet);font-size:12px}h2{margin:52px 0 18px;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}table{width:100%;border-collapse:collapse}th,td{padding:14px 10px;border-bottom:1px solid var(--rule);text-align:left}th{color:var(--quiet);font-size:11px;font-weight:500}td:nth-child(n+2){width:105px;font-variant-numeric:tabular-nums}td strong,td small{display:block}td small{color:var(--quiet);font-size:11px}.rate{display:inline-block;width:52px;height:2px;margin-right:8px;background:var(--rule);vertical-align:middle}.rate i{display:block;height:100%;background:var(--ink)}.message{margin:0 0 12px;padding:20px;border:1px solid var(--rule)}.message.unread{border-left:3px solid var(--ink)}.message header{display:flex;justify-content:space-between;gap:24px}.message header small{display:block;color:var(--quiet)}.message time{color:var(--quiet);font-size:11px;white-space:nowrap}.message p{margin:20px 0;white-space:normal}.message button{padding:7px 10px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font:inherit;font-size:11px;cursor:pointer}.read-label,.empty{color:var(--quiet);font-size:11px}@media(max-width:640px){main{padding-top:36px}.toolbar{align-items:flex-start;flex-direction:column}.summary{grid-template-columns:1fr}table{font-size:12px}th,td{padding:11px 5px}td:nth-child(n+2){width:auto}.rate{display:none}.message header{display:block}.message time{display:block;margin-top:5px}}
+  :root{color-scheme:light;--ink:#1d1d1b;--quiet:#77746e;--rule:#d9d6cf;--paper:#fbfaf7}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 ui-sans-serif,system-ui,sans-serif}a{color:inherit}main{width:min(100% - 32px,1040px);margin:0 auto;padding:64px 0 100px}h1{margin:0 0 8px;font:400 clamp(26px,4vw,42px)/1.15 Georgia,serif}.intro{margin:0 0 28px;color:var(--quiet)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:42px}.periods,.exports{display:flex;gap:4px;flex-wrap:wrap}.periods a,.export{padding:7px 10px;border:1px solid var(--rule);font-size:11px;text-decoration:none}.periods a[aria-current="page"]{border-color:var(--ink);background:var(--ink);color:var(--paper)}.export:hover,.export:focus-visible,.periods a:hover,.periods a:focus-visible{border-color:var(--ink);outline:none}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-bottom:52px;background:var(--rule);border:1px solid var(--rule)}.summary div{padding:22px;background:var(--paper)}.summary strong{display:block;font:400 30px/1 Georgia,serif}.summary span{display:block;margin-top:8px;color:var(--quiet);font-size:12px}h2{margin:52px 0 18px;font-size:12px;font-weight:500;letter-spacing:.08em;text-transform:uppercase}table{width:100%;border-collapse:collapse}th,td{padding:14px 10px;border-bottom:1px solid var(--rule);text-align:left}th{color:var(--quiet);font-size:11px;font-weight:500}td:nth-child(n+2){width:105px;font-variant-numeric:tabular-nums}td strong,td small{display:block}td small{color:var(--quiet);font-size:11px}.rate{display:inline-block;width:52px;height:2px;margin-right:8px;background:var(--rule);vertical-align:middle}.rate i{display:block;height:100%;background:var(--ink)}.message{margin:0 0 12px;padding:20px;border:1px solid var(--rule)}.message.unread{border-left:3px solid var(--ink)}.message header{display:flex;justify-content:space-between;gap:24px}.message header small{display:block;color:var(--quiet)}.message time{color:var(--quiet);font-size:11px;white-space:nowrap}.message p{margin:20px 0;white-space:normal}.message button{padding:7px 10px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);font:inherit;font-size:11px;cursor:pointer}.read-label,.empty{color:var(--quiet);font-size:11px}@media(max-width:640px){main{padding-top:36px}.toolbar{align-items:flex-start;flex-direction:column}.summary{grid-template-columns:1fr}table{font-size:12px}th,td{padding:11px 5px}td:nth-child(n+2){width:auto}.rate{display:none}.message header{display:block}.message time{display:block;margin-top:5px}}
   </style></head><body><main><h1>Private reading dashboard</h1><p class="intro">Only you can see these reading figures and messages. No raw IP addresses are stored.</p>
-  <nav class="toolbar" aria-label="Dashboard controls"><div class="periods" aria-label="Statistics period">${periodLinks}</div><a class="export" href="/admin/export.csv?range=${period.value}">Export CSV</a></nav>
+  <nav class="toolbar" aria-label="Dashboard controls"><div class="periods" aria-label="Statistics period">${periodLinks}</div><div class="exports"><a class="export" href="/admin/export.csv?range=${period.value}">Export CSV</a><a class="export" href="/admin/backup.json">Private backup</a></div></nav>
   <section class="summary"><div><strong>${totalViews}</strong><span>Article views · ${period.label}</span></div><div><strong>${overallRate}%</strong><span>Completion rate · ${period.label}</span></div><div><strong>${unread}</strong><span>Unread private messages · all time</span></div></section>
   <h2>By article and language · ${period.label}</h2><table><thead><tr><th>Article</th><th>Views</th><th>Completed</th><th>Rate</th></tr></thead><tbody>${statsRows}</tbody></table>
   <h2>Private messages</h2>${messageCards}</main></body></html>`;
@@ -270,6 +304,38 @@ async function handleAdminExport(request, env) {
   });
 }
 
+async function handleAdminBackup(request, env) {
+  if (!(await authorized(request, env))) return authRequired();
+  const [eventRows, messageRows] = await env.DB.batch([
+    env.DB.prepare(`
+      SELECT id, view_id, article_slug, article_title, language, path,
+             event_type, created_at
+      FROM reading_events ORDER BY id ASC
+    `),
+    env.DB.prepare(`
+      SELECT id, article_slug, article_title, language, path, sender_name,
+             sender_email, message, status, created_at
+      FROM messages ORDER BY id ASC
+    `)
+  ]);
+  const exportedAt = new Date().toISOString();
+  const backup = privateBackup(
+    eventRows.results || [],
+    messageRows.results || [],
+    exportedAt
+  );
+  return new Response(JSON.stringify(backup, null, 2), {
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Disposition": `attachment; filename="rxxldq-private-insights-${exportedAt.slice(0, 10)}.json"`,
+      "Cache-Control": "no-store",
+      "Referrer-Policy": "no-referrer",
+      "X-Content-Type-Options": "nosniff",
+      "X-Robots-Tag": "noindex, nofollow, noarchive"
+    }
+  });
+}
+
 async function handleMarkRead(request, env) {
   if (!(await authorized(request, env))) return authRequired();
   const period = statsPeriod(new URL(request.url));
@@ -286,6 +352,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/admin" && request.method === "GET") return handleAdmin(request, env);
     if (url.pathname === "/admin/export.csv" && request.method === "GET") return handleAdminExport(request, env);
+    if (url.pathname === "/admin/backup.json" && request.method === "GET") return handleAdminBackup(request, env);
     if (url.pathname === "/admin/mark-read" && request.method === "POST") return handleMarkRead(request, env);
 
     if (url.pathname.startsWith("/api/")) {

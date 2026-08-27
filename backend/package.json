@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "wrangler dev --local",
     "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.mjs",
     "db:local": "wrangler d1 migrations apply rxxldq-insights --local",
     "db:remote": "wrangler d1 migrations apply rxxldq-insights --remote"
   },

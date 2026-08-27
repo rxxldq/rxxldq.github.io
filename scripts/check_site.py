@@ -136,7 +136,7 @@ def main() -> int:
         ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort"),
         ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),
         ROOT / "reader-insights.js": ('send("view")', 'send("complete")', "/api/message", "completionMarker"),
-        ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "/admin/export.csv", "CF-Connecting-IP", "STATS_PERIODS"),
+        ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "/admin/export.csv", "/admin/backup.json", "CF-Connecting-IP", "STATS_PERIODS"),
         ROOT / "backend" / "migrations" / "0001_initial.sql": ("reading_events", "messages", "UNIQUE(view_id, event_type)"),
     }
     for path, needles in required_text.items():
