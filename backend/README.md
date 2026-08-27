@@ -8,11 +8,13 @@ reader messages in Cloudflare D1. The public site remains on GitHub Pages.
 - No cookies and no persistent reader identifier.
 - A fresh random view ID is created for each article load.
 - A view is recorded after the page remains visible for three seconds.
-- Completion is recorded only after at least fifteen seconds and when the last
-  block of the article becomes visible.
+- Completion is recorded only after at least fifteen seconds and when the
+  reader reaches the end marker after the article text.
 - Raw IP addresses are never stored. A salted hash is retained only to limit
   messages to five per hour per sender.
 - Counts and messages appear only at the password-protected `/admin` route.
+- The private dashboard can filter statistics to 7 days, 30 days, or all time,
+  and export article-level figures as CSV. Private messages are never exported.
 
 ## Deployment
 
