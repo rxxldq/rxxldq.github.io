@@ -3,6 +3,10 @@ description: 一个收录中文与英文写作的个人档案。
 url: https://rxxldq.github.io
 baseurl: ""
 markdown: kramdown
+# Filled after the private analytics Worker is deployed. Keeping the endpoint
+# here makes the reader UI and tracking switch on from one place.
+insights_endpoint: ""
 exclude:
   - README.md
   - scripts
+  - backend

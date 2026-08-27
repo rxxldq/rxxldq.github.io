@@ -66,3 +66,11 @@
 - 分享到 Messages、Instagram 私信等平台时使用 `images/share-cover.png` 作为统一封面；它由 `scripts/generate_social_card.py` 根据网站背景图生成。更换 `images/map.png` 或标题后，运行该脚本即可重新生成 1200×630 封面。
 - `images/site-card.png` 是用于手机和社交平台的 1080×1080 网站名片，由 `scripts/generate_site_card.py` 使用同一张原始人物图排版生成，不使用生成式图片。
 - 每次推送或创建拉取请求时，`.github/workflows/site-integrity.yml` 会运行 `scripts/check_site.py`，检查固定网址、双语互链、目录必填字段、正文段落数量、RSS、站点地图和订阅表单结构。
+
+## 私密阅读后台
+
+- `reader-insights.js` 记录文章阅读与完读事件；它不使用 Cookie，也不建立长期读者档案。打开文章三秒后才计一次阅读，至少停留十五秒且读到正文末段才计一次完读。
+- 每篇文章末尾的“给作者留言 / Leave a private note”只把内容发送到作者后台，不在公开页面形成评论区。姓名与回复邮箱均为选填。
+- 后端位于 `backend/`，使用 Cloudflare Worker 与 D1；公开站仍由 GitHub Pages 发布。后台 `/admin` 受独立密码保护，集中显示每篇阅读量、完读数、完读率和私信。
+- 原始 IP 不写入数据库；只对 IP 加盐散列，用来限制同一来源每小时最多五条留言。
+- Worker 上线后，只需把地址填入 `_config.yml` 的 `insights_endpoint`。留空时统计和留言完全不加载，正文阅读不受影响。

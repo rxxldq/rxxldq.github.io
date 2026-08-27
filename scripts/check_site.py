@@ -126,12 +126,17 @@ def main() -> int:
             "summary_large_image",
             "reading-sequence",
             "proofread-mode.js",
+            "reader-insights.js",
+            "include reader-message.html",
         ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
         ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort"),
         ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),
+        ROOT / "reader-insights.js": ('send("view")', 'send("complete")', "/api/message"),
+        ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "CF-Connecting-IP"),
+        ROOT / "backend" / "schema.sql": ("reading_events", "messages", "UNIQUE(view_id, event_type)"),
     }
     for path, needles in required_text.items():
         if not path.exists():

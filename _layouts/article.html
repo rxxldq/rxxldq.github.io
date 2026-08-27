@@ -29,7 +29,7 @@
   <meta name="twitter:image:alt" content="L’imagination au pouvoir ! — 让想象力夺权">
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
-<body>
+<body data-insights-endpoint="{{ site.insights_endpoint | escape }}" data-article-path="{{ page.url | escape }}" data-article-title="{{ page.title | escape }}" data-article-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}">
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   <a href="{{ '/' | relative_url }}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
   <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}"{% if page.alternate %} data-alternate-url="{{ page.alternate | relative_url }}"{% endif %}>
@@ -54,6 +54,7 @@
       {% if page.translation_revised %}<p>Last revised: <time datetime="{{ page.translation_revised }}">{{ page.translation_revised | date: "%e %B %Y" | strip }}</time></p>{% endif %}
     </footer>
     {% endif %}
+    {% include reader-message.html %}
     {% if page.listed or page.ai_translation or page.kind == 'poetry' %}
     <nav class="article-navigation" data-current-url="{{ page.url }}" data-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}" aria-label="{% if page.lang == 'en' %}Article navigation{% else %}文章导航{% endif %}" hidden>
       <a class="article-navigation-link article-navigation-previous" href="{{ '/' | relative_url }}" data-reading-previous>
@@ -75,6 +76,7 @@
   </main>
   <script src="{{ '/footnotes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script src="{{ '/reading-tools.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/reader-insights.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
   {% if page.ai_translation %}{% include translation-statement.html auto_notice=true %}{% endif %}
   {% if page.lang == 'en' and page.alternate %}<script src="{{ '/proofread-mode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}

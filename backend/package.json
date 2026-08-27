@@ -1,0 +1,14 @@
+{
+  "name": "rxxldq-private-insights",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 execute rxxldq-insights --local --file=./schema.sql",
+    "db:remote": "wrangler d1 execute rxxldq-insights --remote --file=./schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "4.126.0"
+  }
+}

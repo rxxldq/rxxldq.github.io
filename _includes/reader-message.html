@@ -1,0 +1,32 @@
+{% if site.insights_endpoint != empty %}
+<details class="reader-message" data-reader-message>
+  <summary>{% if page.lang == 'en' %}Leave a private note{% else %}给作者留言{% endif %}</summary>
+  <div class="reader-message-panel">
+    <p class="reader-message-privacy">{% if page.lang == 'en' %}Only the author can read this.{% else %}仅作者可见。{% endif %}</p>
+    <form data-reader-message-form novalidate>
+      <label>
+        <span>{% if page.lang == 'en' %}Message{% else %}留言{% endif %}</span>
+        <textarea name="message" rows="5" maxlength="3000" required></textarea>
+      </label>
+      <div class="reader-message-details">
+        <label>
+          <span>{% if page.lang == 'en' %}Name (optional){% else %}称呼（选填）{% endif %}</span>
+          <input type="text" name="name" maxlength="80" autocomplete="name">
+        </label>
+        <label>
+          <span>{% if page.lang == 'en' %}Email for a reply (optional){% else %}回复邮箱（选填）{% endif %}</span>
+          <input type="email" name="email" maxlength="180" autocomplete="email" inputmode="email">
+        </label>
+      </div>
+      <label class="reader-message-trap" aria-hidden="true">
+        <span>Website</span>
+        <input type="text" name="website" tabindex="-1" autocomplete="off">
+      </label>
+      <div class="reader-message-actions">
+        <button type="submit">{% if page.lang == 'en' %}Send privately{% else %}私下发送{% endif %}</button>
+        <span class="reader-message-status" data-reader-message-status role="status" aria-live="polite"></span>
+      </div>
+    </form>
+  </div>
+</details>
+{% endif %}
