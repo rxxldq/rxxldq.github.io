@@ -27,7 +27,7 @@
   <meta name="twitter:description" content="{{ page.description | default: page.title | escape }}">
   <meta name="twitter:image" content="{{ '/images/share-cover.png' | absolute_url }}">
   <meta name="twitter:image:alt" content="L’imagination au pouvoir ! — 让想象力夺权">
-  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true"><span></span></div>
@@ -73,10 +73,10 @@
     {% endif %}
     {% if page.bottom_image %}<figure class="article-footer-image"><img src="{{ page.bottom_image | relative_url }}" alt="{{ page.bottom_image_alt | default: '' | escape }}" width="1280" height="1280" loading="lazy" decoding="async"></figure>{% endif %}
   </main>
-  <script src="{{ '/footnotes.js' | relative_url }}"></script>
-  <script src="{{ '/reading-tools.js' | relative_url }}"></script>
-  {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}"></script>{% endif %}
+  <script src="{{ '/footnotes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/reading-tools.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
   {% if page.ai_translation %}{% include translation-statement.html auto_notice=true %}{% endif %}
-  {% if page.lang == 'en' and page.alternate %}<script src="{{ '/proofread-mode.js' | relative_url }}"></script>{% endif %}
+  {% if page.lang == 'en' and page.alternate %}<script src="{{ '/proofread-mode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}
 </body>
 </html>
