@@ -136,7 +136,7 @@ def main() -> int:
         ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),
         ROOT / "reader-insights.js": ('send("view")', 'send("complete")', "/api/message"),
         ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "CF-Connecting-IP"),
-        ROOT / "backend" / "schema.sql": ("reading_events", "messages", "UNIQUE(view_id, event_type)"),
+        ROOT / "backend" / "migrations" / "0001_initial.sql": ("reading_events", "messages", "UNIQUE(view_id, event_type)"),
     }
     for path, needles in required_text.items():
         if not path.exists():

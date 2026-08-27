@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "wrangler dev --local",
     "deploy": "wrangler deploy",
-    "db:local": "wrangler d1 execute rxxldq-insights --local --file=./schema.sql",
-    "db:remote": "wrangler d1 execute rxxldq-insights --remote --file=./schema.sql"
+    "db:local": "wrangler d1 migrations apply rxxldq-insights --local",
+    "db:remote": "wrangler d1 migrations apply rxxldq-insights --remote"
   },
   "devDependencies": {
+    "@types/node": "^26.3.0",
     "wrangler": "4.126.0"
   }
 }

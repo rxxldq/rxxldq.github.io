@@ -5,7 +5,7 @@ baseurl: ""
 markdown: kramdown
 # Filled after the private analytics Worker is deployed. Keeping the endpoint
 # here makes the reader UI and tracking switch on from one place.
-insights_endpoint: ""
+insights_endpoint: "https://rxxldq-private-insights.rxxldq.workers.dev"
 exclude:
   - README.md
   - scripts

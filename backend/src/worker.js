@@ -51,7 +51,16 @@ async function sha256(value) {
   return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
 }
 
-function authorized(request, env) {
+async function secureEqual(left, right) {
+  const encoder = new TextEncoder();
+  const [leftDigest, rightDigest] = await Promise.all([
+    crypto.subtle.digest("SHA-256", encoder.encode(String(left ?? ""))),
+    crypto.subtle.digest("SHA-256", encoder.encode(String(right ?? "")))
+  ]);
+  return crypto.subtle.timingSafeEqual(leftDigest, rightDigest);
+}
+
+async function authorized(request, env) {
   const header = request.headers.get("Authorization") || "";
   if (!header.startsWith("Basic ")) return false;
   try {
@@ -60,7 +69,11 @@ function authorized(request, env) {
     if (separator < 0) return false;
     const username = decoded.slice(0, separator);
     const password = decoded.slice(separator + 1);
-    return username === env.ADMIN_USERNAME && password === env.ADMIN_PASSWORD;
+    const [usernameMatches, passwordMatches] = await Promise.all([
+      secureEqual(username, env.ADMIN_USERNAME),
+      secureEqual(password, env.ADMIN_PASSWORD)
+    ]);
+    return usernameMatches && passwordMatches;
   } catch (_) {
     return false;
   }
@@ -165,7 +178,7 @@ function dashboardHtml(rows, messages) {
 }
 
 async function handleAdmin(request, env) {
-  if (!authorized(request, env)) return authRequired();
+  if (!(await authorized(request, env))) return authRequired();
   const [stats, messageRows] = await env.DB.batch([
     env.DB.prepare(`
       SELECT article_slug, article_title, language,
@@ -194,7 +207,7 @@ async function handleAdmin(request, env) {
 }
 
 async function handleMarkRead(request, env) {
-  if (!authorized(request, env)) return authRequired();
+  if (!(await authorized(request, env))) return authRequired();
   const data = await request.formData();
   const id = Number(data.get("id"));
   if (Number.isInteger(id) && id > 0) {

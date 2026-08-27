@@ -19,7 +19,7 @@ reader messages in Cloudflare D1. The public site remains on GitHub Pages.
 1. Install dependencies with `pnpm install` and authenticate Wrangler with
    `pnpm exec wrangler login`.
 2. Create the database: `pnpm exec wrangler d1 create rxxldq-insights`.
-3. Put its `database_id` in `wrangler.toml`.
+3. Put its `database_id` in `wrangler.jsonc`.
 4. Create the tables: `pnpm run db:remote`.
 5. Set `ADMIN_PASSWORD` and `RATE_SALT` with
    `pnpm exec wrangler secret put NAME`.
@@ -27,5 +27,6 @@ reader messages in Cloudflare D1. The public site remains on GitHub Pages.
 7. Put the resulting `https://...workers.dev` URL in the root `_config.yml` as
    `insights_endpoint`, rebuild, test, and publish the site.
 
-The admin page uses HTTP Basic authentication. Its username is `rxxldq`; the
-password is the encrypted Worker secret and is never committed to Git.
+The admin page uses HTTP Basic authentication with timing-safe credential
+comparison. Its username is `rxxldq`; the password is the encrypted Worker
+secret and is never committed to Git.
