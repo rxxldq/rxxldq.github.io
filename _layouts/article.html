@@ -47,6 +47,7 @@
     {% if page.location_map %}{% include location-map.html %}{% endif %}
     <article class="article-body">
       {{ content }}
+      <span class="reading-completion-marker" data-reading-completion-marker aria-hidden="true"></span>
     </article>
     {% if page.ai_translation %}
     <footer class="translation-status" lang="en">

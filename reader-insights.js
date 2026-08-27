@@ -52,11 +52,11 @@
   });
 
   if (article) {
-    const lastBlock = article.lastElementChild;
-    if (lastBlock && "IntersectionObserver" in window) {
+    const completionMarker = article.querySelector("[data-reading-completion-marker]");
+    if (completionMarker && "IntersectionObserver" in window) {
       function markCompletionIfReady() {
         if (completionSent || Date.now() - openedAt < 15000) return;
-        const rect = lastBlock.getBoundingClientRect();
+        const rect = completionMarker.getBoundingClientRect();
         const visible = rect.top < window.innerHeight && rect.bottom > 0;
         if (visible) {
           completionSent = true;
@@ -72,8 +72,8 @@
           return;
         }
         markCompletionIfReady();
-      }, { threshold: 0.6 });
-      observer.observe(lastBlock);
+      }, { threshold: 0 });
+      observer.observe(completionMarker);
     }
   }
 
