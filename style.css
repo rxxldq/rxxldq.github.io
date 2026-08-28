@@ -294,7 +294,13 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
   text-decoration: none;
   cursor: pointer;
 }
-.site-footer-button-zh { margin-top: 0.08rem; font-size: 0.58rem; line-height: 1.25; }
+.site-footer-link-pair {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  vertical-align: middle;
+}
+.site-footer-label-zh { margin-top: 0.08rem; font-size: 0.58rem; line-height: 1.25; }
 .site-footer-button:hover,
 .site-footer-button:focus-visible { color: var(--ink); text-decoration: underline; text-underline-offset: 0.22em; outline: none; }
 .translation-statement-trigger { padding: 0; border: 0; background: none; font: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; cursor: pointer; }
