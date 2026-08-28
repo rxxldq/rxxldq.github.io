@@ -7,7 +7,7 @@ permalink: /polyester-fiber-en.html
 alternate: /polyester-fiber.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-20
+translation_revised: 2026-08-28
 ---
 
 One night I was reading when my friend C called me out of nowhere. He had been dead for ages.
@@ -58,7 +58,7 @@ F came and sat there.
 
 Your mother kept her head down, not daring to look at the piercings in F's face or the tattoos on her hands.
 
-“Auntie,” she said, trembling, “I really did love him.”
+“Auntie,” she said, trembling, “I really liked him.”
 
 Your mother said, “C was a good child. When he was little… so well behaved. He just fell in with a bad crowd.”
 
@@ -167,7 +167,7 @@ Everyone has a few dead friends.
 
 Once you get a little older, the paths of your lives have long since diverged. Some people think having a friend die is an exceptionally singular event in their lives.
 
-All they have done is acquire a dead friend, along with things one does for a dead friend—things they have never done themselves, only heard about. Singing for him on a mountaintop, drinking in front of his headstone. These are the most interesting things they are capable of. While doing them, they think about their friend: ah, he's dead already, so what does it hurt for us to do this?
+All they<button class="note-ref" type="button" data-note="The Chinese switches here to 它们, the nonhuman written form of ‘they’.">※</button> have done is acquire a dead friend, along with things one does for a dead friend—things they have never done themselves, only heard about. Singing for him on a mountaintop, drinking in front of his headstone. These are the most interesting things they are capable of. While doing them, they think about their friend: ah, he's dead already, so what does it hurt for us to do this?
 
 I have many dead friends. All I can do is think about them often. They lived into their teens or twenties
 and then went and died.
