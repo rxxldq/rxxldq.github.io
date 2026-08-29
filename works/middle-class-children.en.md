@@ -7,6 +7,7 @@ alternate: /middle-class-children.html
 alternate_lang: zh-CN
 kind: poetry
 paragraph_alignment: independent
+english_text_by_author: true
 ---
 <p>[中国人的孩子，有些被归类成中产阶级，这是个被发明出来的词汇。最后才发现，我们和所有人都一样。什么都想是，什么都不是。<br>
   I’m a Chinese guy, some of us are classified as middle class, a term invented by society. In the end, we realize that we are all the same. We want to be everything and none at all]</p>
@@ -208,4 +209,3 @@ paragraph_alignment: independent
 <p>or you who understands yourselves better?</p>
 <p>I know what that feels like.</p>
 <p>Because we are all ignorant middle class children of this generation.</p>
-

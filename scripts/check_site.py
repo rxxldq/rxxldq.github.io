@@ -102,6 +102,19 @@ def main() -> int:
             elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", revised):
                 errors.append(f"{path}: invalid translation_revised date: {revised}")
 
+        if meta.get("lang") == "en" and meta.get("alternate"):
+            origin_count = sum(
+                (
+                    meta.get("ai_translation") == "true",
+                    bool(meta.get("translator")),
+                    meta.get("english_text_by_author") == "true",
+                )
+            )
+            if origin_count != 1:
+                errors.append(
+                    f"{path}: English page must declare exactly one text origin"
+                )
+
         if meta.get("layout") == "article" and current_url:
             slug = current_url.rsplit("/", 1)[-1].removesuffix(".html").removesuffix("-en")
             card = ROOT / "images" / "social" / f"{slug}.png"
@@ -164,6 +177,10 @@ def main() -> int:
             "property=\"og:title\"",
             "property=\"og:image\"",
             "summary_large_image",
+            "translationOfWork",
+            "workTranslation",
+            "page.translator",
+            "page.english_text_by_author",
             "images/social",
             "reading-sequence",
             "proofread-mode.js",

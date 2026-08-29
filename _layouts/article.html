@@ -34,6 +34,32 @@
   <meta name="twitter:description" content="{{ share_description | escape }}">
   <meta name="twitter:image" content="{{ share_image | strip | absolute_url }}">
   <meta name="twitter:image:alt" content="{{ page.title | escape }} — {{ site.title | escape }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "@id": {{ page.url | absolute_url | append: '#work' | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "name": {{ page.title | jsonify }},
+    "inLanguage": {% if page.lang == 'en' %}"en"{% else %}"zh-CN"{% endif %},
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": {{ '/' | absolute_url | append: '#website' | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }}
+    },
+    "image": {{ share_image | strip | absolute_url | jsonify }}{% if page.alternate %},
+    {% if page.lang == 'en' %}"translationOfWork"{% else %}"workTranslation"{% endif %}: {
+      "@type": "CreativeWork",
+      "@id": {{ page.alternate | absolute_url | append: '#work' | jsonify }},
+      "url": {{ page.alternate | absolute_url | jsonify }}
+    }{% endif %}{% if page.translator %},
+    "translator": {
+      "@type": "Person",
+      "name": {{ page.translator | jsonify }}
+    }{% endif %}
+  }
+  </script>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body data-insights-endpoint="{{ site.insights_endpoint | escape }}" data-article-path="{{ page.url | escape }}" data-article-title="{{ page.title | escape }}" data-article-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}">
@@ -47,11 +73,14 @@
     {% endif %}
     {% if page.kind == 'poetry' %}<p class="edition-label">{% if page.lang == 'en' %}Poetry{% else %}诗{% endif %}</p>{% endif %}
     <h1>{{ page.title }}</h1>
-    {% if page.translator %}<p class="translation-credit">Translated by {{ page.translator | escape }}</p>{% endif %}
     {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}{% if page.location_map %} <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">&#x2316;</button>{% endif %}</p>{% endif %}
     {% if page.hero_image %}<figure class="article-hero"><img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: '' | escape }}" width="1280" height="1280" decoding="async"></figure>{% endif %}
-    {% if page.source_url %}<p class="source-link"><a href="{{ page.source_url }}"{% if page.source_lang %} hreflang="{{ page.source_lang }}"{% endif %} target="_blank" rel="noopener noreferrer">{{ page.source_label | default: page.source_url }} <span aria-hidden="true">↗</span></a></p>{% endif %}
-    {% if page.ai_translation %}<button class="translation-note translation-statement-inline-trigger{% if page.source_url %} has-source{% endif %}" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>{% endif %}
+    {% if page.translator or page.english_text_by_author or page.ai_translation or page.source_url %}
+    <div class="edition-meta">
+      {% if page.translator %}<p class="translation-credit">Translated by {{ page.translator | escape }}</p>{% elsif page.english_text_by_author %}<p class="translation-credit">English text provided by the author</p>{% elsif page.ai_translation %}<button class="translation-note translation-statement-inline-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>{% endif %}
+      {% if page.source_url %}<p class="source-link"><a href="{{ page.source_url }}"{% if page.source_lang %} hreflang="{{ page.source_lang }}"{% endif %} target="_blank" rel="noopener noreferrer">{{ page.source_label | default: page.source_url }} <span aria-hidden="true">↗</span></a></p>{% endif %}
+    </div>
+    {% endif %}
     {% if page.location_map %}{% include location-map.html %}{% endif %}
     <article class="article-body">
       {{ content }}
