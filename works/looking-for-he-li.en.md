@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Looking for He Li
+description: 'The day my brother came with his bassist, only one sentence occurred to me: “Nothing looks emptier than an empty swimming pool.”'
 lang: en
 year: 2024
 permalink: /looking-for-he-li-en.html

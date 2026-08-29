@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 在秦皇岛，猫可以变成老虎
+description: '以前，我挺喜欢老虎的。小时候喜欢老虎并不是一件有面子的事。'
 lang: zh-CN
 year: 2026
 listed: true

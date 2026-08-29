@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 夏天在秦皇岛
+description: '公园厕所与旁边狼狈的小房子都不怎么引人注目，譬如门卫室，传达室，某管理处。你看见它们时就意味着你已立在门口。'
 lang: zh-CN
 year: 2024
 listed: true

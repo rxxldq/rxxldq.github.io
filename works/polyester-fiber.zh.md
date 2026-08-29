@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 聚酯纤维
+description: '有天晚上，我在看书，突然接到朋友C的电话，可他早就死了。'
 lang: zh-CN
 year: 2026
 listed: true

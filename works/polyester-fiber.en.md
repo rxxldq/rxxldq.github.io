@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Polyester Fiber
+description: 'One night I was reading when my friend C called me out of nowhere. He had been dead for ages.'
 lang: en
 year: 2026
 permalink: /polyester-fiber-en.html

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Secretary
+description: 'Everyone hoped to be sitting in an office in a little while. That meant keeping their trousers dry: wet trousers would soak the computer chairs too.'
 lang: en
 permalink: /novel-001-en.html
 alternate: /novel-001.html
@@ -147,4 +148,3 @@ K could not bear it any longer. He did not move.
 He remembered the wedding in the county town: flies circling colourful platters of cold mung-bean noodles, cigarette butts covering the ground, rough men with square faces smoking. The cleaner's son had a square face too, like his mother.
 
 K did not answer. The cleaner's son clamped both hands around his throat with all his strength, powerful hands like the claw of a claw machine. K could not breathe, like a little fish lifted out of the water.
-

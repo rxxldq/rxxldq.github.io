@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Story of Grandpa Dai
+description: 'We are not peasants.'
 lang: en
 year: 2025
 permalink: /grandpa-dai-en.html

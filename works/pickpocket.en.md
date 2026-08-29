@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Pickpocket
+description: 'Thin-soled leather shoes do not strike the ground as loudly as thick-soled ones.'
 lang: en
 year: 2026
 permalink: /pickpocket-en.html

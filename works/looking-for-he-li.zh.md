@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 寻找何莉
+description: '哥哥带着他的贝斯手来那天，我只想到一句话：“再也没有什么看起来比空虚的游泳池更空虚的了。”'
 lang: zh-CN
 year: 2024
 listed: true

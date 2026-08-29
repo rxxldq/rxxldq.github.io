@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 策展人
+description: '想上欧洲去。地图搜一下，打个车，选特惠车，便宜。不一会就到这里：地中海沿岸。'
 lang: zh-CN
 year: 2025
 listed: true

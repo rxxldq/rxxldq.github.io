@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "The Children of the Middle Class: A Poetry Triptych"
+description: 'I’m a Chinese guy, some of us are classified as middle class, a term invented by society.'
 lang: en
 permalink: /middle-class-children-en.html
 alternate: /middle-class-children.html

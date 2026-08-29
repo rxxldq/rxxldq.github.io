@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 楼上楼下
+description: '我们像是同间房的邻居，只是位置不大一样。也许是楼上楼下。'
 lang: zh-CN
 year: 2025
 listed: true

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 直雨
+description: '嗡嗡响，车底盘嗡嗡响，轮胎在地上干磨。遍地是坑，几吨的大卡车压出来沟辙，附近矿场的车。'
 lang: zh-CN
 year: 2020
 order: 10

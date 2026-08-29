@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Curator
+description: 'Wants to go to Europe. Searches the map, calls a car, chooses the special-fare option—cheaper. Before long he is here: the Mediterranean coast.'
 lang: en
 year: 2025
 permalink: /curator-en.html

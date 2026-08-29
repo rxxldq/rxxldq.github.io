@@ -116,6 +116,11 @@ def main() -> int:
                 )
 
         if meta.get("layout") == "article" and current_url:
+            description = meta.get("description", "").strip()
+            if not description:
+                errors.append(f"{path}: article is missing an explicit share description")
+            elif len(description) > 200:
+                errors.append(f"{path}: share description exceeds 200 characters")
             slug = current_url.rsplit("/", 1)[-1].removesuffix(".html").removesuffix("-en")
             card = ROOT / "images" / "social" / f"{slug}.png"
             if not card.exists():

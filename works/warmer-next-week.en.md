@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Warmer Next Week
+description: 'Lately it had been hot. Bad weather. Forty-five degrees today; next week it was going to get warmer, with a high of fifty. Jc was not a good student.'
 lang: en
 permalink: /novel-002-en.html
 alternate: /novel-002.html
@@ -133,4 +134,3 @@ H suggested rescuing what remained of the half-burnt cigarettes and carrying on 
 Jc kicked all the cigarettes down the slope. Students should not smoke.
 
 But Jc was used to it now. The next time he went back to China, he would steal cigarettes again.
-

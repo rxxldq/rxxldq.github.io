@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Upstairs and Downstairs
+description: 'We are like neighbours in the same room, only our positions are not quite the same. Perhaps one of us is upstairs and the other downstairs.'
 lang: en
 year: 2025
 permalink: /upstairs-downstairs-en.html

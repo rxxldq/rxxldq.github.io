@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 原始小说剧中人物
+description: '漆黑的洞穴里，一团肮脏的人围着祭司。他在熬制一锅汤剂。'
 lang: zh-CN
 year: 0
 listed: true

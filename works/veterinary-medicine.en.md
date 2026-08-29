@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Veterinary Medicine
+description: 'At the time, everyone was smoking in the room. K smoked too, but he could not stand secondhand smoke.'
 lang: en
 year: 2026
 permalink: /veterinary-medicine-en.html

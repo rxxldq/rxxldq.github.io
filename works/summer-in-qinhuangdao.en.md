@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Summer in Qinhuangdao
+description: 'Park toilets and the shabby little buildings beside them do not attract much attention: gatehouses, reception rooms, some administration office.'
 lang: en
 year: 2024
 permalink: /summer-in-qinhuangdao-en.html

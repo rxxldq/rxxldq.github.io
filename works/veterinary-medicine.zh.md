@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 兽药
+description: '当时大家都在房间里抽烟。K也是个抽烟的人，但他闻不得二手烟。'
 lang: zh-CN
 year: 2026
 listed: true

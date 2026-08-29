@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 下周升温
+description: '最近很热，坏天气，今天四十五度，下周要升温，最高五十度。Jc不是个好学生。'
 lang: zh-CN
 year: 2025
 listed: true
@@ -137,4 +138,3 @@ Jc反驳道，“我是你爹。”
 Jc一脚把烟都踢下坡。学生不该抽烟。
 
 但Jc已经习惯了，下次回国，还会偷烟。
-

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: In Qinhuangdao, Cats Can Become Tigers
+description: 'I used to be rather fond of tigers. When I was a child, liking tigers was nothing to be proud of.'
 lang: en
 year: 2026
 permalink: /cats-become-tigers-en.html

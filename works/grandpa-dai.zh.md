@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 带爷爷的故事
+description: '我们不是农民。'
 lang: zh-CN
 year: 2025
 listed: true

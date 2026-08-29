@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Characters in a Primitive Novel
+description: 'In the pitch-black cave, a filthy knot of people huddles around the Priest. He is simmering a cauldron of brew.'
 lang: en
 year: 0
 permalink: /primitive-novel-en.html
