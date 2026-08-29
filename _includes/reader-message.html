@@ -42,5 +42,9 @@
     </div>
   </dialog>
 </section>
-<button class="reader-selection-note" type="button" data-reader-selection-note hidden>{% if page.lang == 'en' %}Comment on this passage{% else %}就这段留言{% endif %}</button>
+<div class="reader-selection-actions" data-reader-selection-actions hidden>
+  <button type="button" data-reader-selection-note>{% if page.lang == 'en' %}Comment on this passage{% else %}就这段留言{% endif %}</button>
+  <button type="button" data-reader-selection-copy>{% if page.lang == 'en' %}Copy paragraph link{% else %}复制本段链接{% endif %}</button>
+  <span class="visually-hidden" data-reader-selection-status role="status" aria-live="polite"></span>
+</div>
 {% endif %}

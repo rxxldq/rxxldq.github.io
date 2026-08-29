@@ -82,7 +82,10 @@
   const dialog = document.querySelector("[data-reader-message-dialog]");
   const openButton = document.querySelector("[data-reader-message-open]");
   const closeButton = document.querySelector("[data-reader-message-close]");
+  const selectionActions = document.querySelector("[data-reader-selection-actions]");
   const selectionButton = document.querySelector("[data-reader-selection-note]");
+  const selectionCopy = document.querySelector("[data-reader-selection-copy]");
+  const selectionStatus = document.querySelector("[data-reader-selection-status]");
   const contextPanel = form.querySelector("[data-reader-message-context]");
   const contextQuote = form.querySelector("[data-reader-message-quote]");
   const quoteInput = form.querySelector('input[name="quote"]');
@@ -91,7 +94,29 @@
   const status = form.querySelector("[data-reader-message-status]");
   const submit = form.querySelector('button[type="submit"]');
   const english = lang === "en";
+  const passageBlocks = article
+    ? Array.from(article.querySelectorAll("p, h2, h3, blockquote, li"))
+    : [];
   let pendingContext = null;
+  let copyLabelTimer = 0;
+
+  passageBlocks.forEach(function (block, index) {
+    if (!block.id) block.id = `passage-${index + 1}`;
+  });
+
+  function revealLinkedPassage() {
+    if (!article || !window.location.hash) return;
+    let anchor = "";
+    try { anchor = decodeURIComponent(window.location.hash.slice(1)); } catch (_) { return; }
+    const target = document.getElementById(anchor);
+    if (!target || !article.contains(target)) return;
+    const reveal = function () { target.scrollIntoView({ block: "center" }); };
+    if (typeof window.requestAnimationFrame === "function") window.requestAnimationFrame(reveal);
+    else window.setTimeout(reveal, 0);
+  }
+
+  revealLinkedPassage();
+  window.addEventListener("hashchange", revealLinkedPassage);
 
   function clearContext() {
     contextPanel.hidden = true;
@@ -141,20 +166,54 @@
     const block = startNode && startNode.closest
       ? startNode.closest("p, h2, h3, blockquote, li")
       : null;
-    const blocks = Array.from(article.querySelectorAll("p, h2, h3, blockquote, li"));
-    const blockPosition = block && article.contains(block) ? blocks.indexOf(block) : -1;
-    return { quote, paragraphIndex: blockPosition >= 0 ? blockPosition + 1 : null };
+    const blockPosition = block && article.contains(block) ? passageBlocks.indexOf(block) : -1;
+    return {
+      quote,
+      paragraphIndex: blockPosition >= 0 ? blockPosition + 1 : null,
+      anchor: blockPosition >= 0 ? passageBlocks[blockPosition].id : null
+    };
   }
 
   function refreshSelectionAction() {
     const context = selectionContext();
     if (!context) {
-      selectionButton.hidden = true;
+      selectionActions.hidden = true;
       pendingContext = null;
       return;
     }
     pendingContext = context;
-    selectionButton.hidden = false;
+    selectionActions.hidden = false;
+  }
+
+  async function copyText(text) {
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch (_) {}
+    }
+    const helper = document.createElement("textarea");
+    helper.value = text;
+    helper.setAttribute("readonly", "");
+    helper.style.position = "fixed";
+    helper.style.opacity = "0";
+    document.body.appendChild(helper);
+    helper.select();
+    const copied = typeof document.execCommand === "function" && document.execCommand("copy");
+    document.body.removeChild(helper);
+    if (!copied) throw new Error("copy failed");
+  }
+
+  function setCopyFeedback(success) {
+    const message = success
+      ? (english ? "Copied" : "已复制")
+      : (english ? "Copy failed" : "复制失败");
+    selectionCopy.textContent = message;
+    selectionStatus.textContent = message;
+    window.clearTimeout(copyLabelTimer);
+    copyLabelTimer = window.setTimeout(function () {
+      selectionCopy.textContent = english ? "Copy paragraph link" : "复制本段链接";
+    }, 1800);
   }
 
   if (openButton && dialog) {
@@ -164,14 +223,28 @@
       if (event.target === dialog) closeDialog();
     });
   }
-  if (selectionButton && article && dialog) {
+  if (selectionActions && selectionButton && selectionCopy && article && dialog) {
     document.addEventListener("selectionchange", function () {
       window.setTimeout(refreshSelectionAction, 0);
     });
+    selectionActions.addEventListener("pointerdown", function (event) {
+      event.preventDefault();
+    });
     selectionButton.addEventListener("click", function () {
       const context = pendingContext;
-      selectionButton.hidden = true;
+      selectionActions.hidden = true;
       openDialog(context);
+    });
+    selectionCopy.addEventListener("click", async function () {
+      if (!pendingContext || !pendingContext.anchor) return;
+      const url = new URL(window.location.href);
+      url.hash = pendingContext.anchor;
+      try {
+        await copyText(url.toString());
+        setCopyFeedback(true);
+      } catch (_) {
+        setCopyFeedback(false);
+      }
     });
   }
   clearContextButton.addEventListener("click", clearContext);

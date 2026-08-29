@@ -14,6 +14,9 @@ function target(properties = {}) {
 
 const block = {
   nodeType: 1,
+  id: "",
+  scrolled: null,
+  scrollIntoView(options) { this.scrolled = options; },
   closest() { return this; }
 };
 const textNode = { nodeType: 3, parentElement: block };
@@ -71,8 +74,13 @@ const dialog = target({
 });
 const openButton = target();
 const closeButton = target();
-const selectionButton = target({ hidden: true });
+const selectionActions = target({ hidden: true });
+const selectionButton = target();
+const selectionCopy = target({ textContent: "Copy paragraph link" });
+const selectionStatus = { textContent: "" };
 const documentListeners = {};
+let fallbackHelper = null;
+let fallbackCopiedUrl = null;
 const document = {
   body: {
     dataset: {
@@ -80,10 +88,27 @@ const document = {
       articlePath: "/article-en.html",
       articleTitle: "Article",
       articleLanguage: "en"
-    }
+    },
+    appendChild(node) { fallbackHelper = node; },
+    removeChild() { fallbackHelper = null; }
   },
   documentElement: { lang: "en" },
   visibilityState: "visible",
+  getElementById(id) { return id === block.id ? block : null; },
+  createElement(name) {
+    if (name !== "textarea") throw new Error(`Unexpected element: ${name}`);
+    return {
+      value: "",
+      style: {},
+      setAttribute() {},
+      select() {}
+    };
+  },
+  execCommand(command) {
+    if (command !== "copy" || !fallbackHelper) return false;
+    fallbackCopiedUrl = fallbackHelper.value;
+    return true;
+  },
   querySelector(selector) {
     return ({
       ".article-body": article,
@@ -91,18 +116,37 @@ const document = {
       "[data-reader-message-dialog]": dialog,
       "[data-reader-message-open]": openButton,
       "[data-reader-message-close]": closeButton,
-      "[data-reader-selection-note]": selectionButton
+      "[data-reader-selection-actions]": selectionActions,
+      "[data-reader-selection-note]": selectionButton,
+      "[data-reader-selection-copy]": selectionCopy,
+      "[data-reader-selection-status]": selectionStatus
     })[selector] || null;
   },
   addEventListener(name, listener) { documentListeners[name] = listener; }
 };
 
 let submittedPayload = null;
+let copiedUrl = null;
+const windowListeners = {};
 const windowObject = {
   innerHeight: 800,
-  location: { pathname: "/article-en.html", search: "" },
+  location: {
+    href: "https://example.test/article-en.html",
+    pathname: "/article-en.html",
+    search: "",
+    hash: ""
+  },
   getSelection() { return selection; },
-  setTimeout(callback, delay) { if (delay === 0) callback(); }
+  addEventListener(name, listener) { windowListeners[name] = listener; },
+  clearTimeout() {},
+  setTimeout(callback, delay) { if (delay === 0) callback(); return 1; }
+};
+
+const navigatorObject = {
+  sendBeacon() { return true; },
+  clipboard: {
+    async writeText(value) { copiedUrl = value; }
+  }
 };
 
 class TestFormData {
@@ -117,8 +161,9 @@ async function run() {
   vm.runInNewContext(source, {
     document,
     window: windowObject,
-    navigator: { sendBeacon() { return true; } },
+    navigator: navigatorObject,
     crypto: { randomUUID() { return "view-id"; } },
+    URL,
     URLSearchParams,
     Blob,
     FormData: TestFormData,
@@ -130,8 +175,24 @@ async function run() {
   });
 
   documentListeners.selectionchange();
-  assert.equal(selectionButton.hidden, false);
+  assert.equal(selectionActions.hidden, false);
+  assert.equal(block.id, "passage-1");
+  await selectionCopy.listeners.click();
+  assert.equal(copiedUrl, "https://example.test/article-en.html#passage-1");
+  assert.equal(selectionCopy.textContent, "Copied");
+  assert.equal(selectionStatus.textContent, "Copied");
+
+  navigatorObject.clipboard = null;
+  selectionCopy.textContent = "Copy paragraph link";
+  await selectionCopy.listeners.click();
+  assert.equal(fallbackCopiedUrl, "https://example.test/article-en.html#passage-1");
+
+  windowObject.location.hash = "#passage-1";
+  windowListeners.hashchange();
+  assert.equal(block.scrolled.block, "center");
+
   selectionButton.listeners.click();
+  assert.equal(selectionActions.hidden, true);
   assert.equal(dialog.open, true);
   assert.equal(contextPanel.hidden, false);
   assert.equal(contextQuote.textContent, "A deliberately selected sentence.");

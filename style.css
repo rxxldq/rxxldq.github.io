@@ -557,26 +557,37 @@ html[lang="zh-CN"] .article-body {
 .reader-message-actions button:disabled { cursor: wait; opacity: 0.55; }
 .reader-message-status { color: var(--quiet); font-size: 0.68rem; line-height: 1.5; }
 .reader-message-trap { position: absolute !important; left: -9999px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
-.reader-selection-note {
+.reader-selection-actions {
   position: fixed;
   left: 50%;
   bottom: calc(1rem + env(safe-area-inset-bottom));
   z-index: 14;
-  min-height: 2.5rem;
-  padding: 0.55rem 0.9rem;
+  display: flex;
+  max-width: calc(100vw - 2rem);
+  overflow: hidden;
   border: 1px solid var(--ink);
   border-radius: 999px;
   background: rgba(251, 250, 247, 0.97);
   box-shadow: 0 0.55rem 1.8rem rgba(20, 20, 18, 0.14);
+  transform: translateX(-50%);
+}
+.reader-selection-actions[hidden] { display: none; }
+.reader-selection-actions button {
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  background: transparent;
   color: var(--ink);
   font: inherit;
   font-size: 0.68rem;
   line-height: 1.35;
+  white-space: nowrap;
   cursor: pointer;
-  transform: translateX(-50%);
 }
-.reader-selection-note:hover,
-.reader-selection-note:focus-visible { background: var(--ink); color: var(--paper); outline: none; }
+.reader-selection-actions button + button { border-left: 1px solid var(--rule); }
+.reader-selection-actions button:hover,
+.reader-selection-actions button:focus-visible { background: var(--ink); color: var(--paper); outline: none; }
+.article-body [id^="passage-"]:target { scroll-margin-top: 5rem; box-shadow: -0.35rem 0 rgba(20, 20, 18, 0.08); }
 .article-navigation {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
