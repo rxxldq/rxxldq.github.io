@@ -116,11 +116,15 @@ def main() -> int:
         if not en_path.exists():
             continue
         pairs += 1
-        _, zh_body = parse_page(zh_path)
-        _, en_body = parse_page(en_path)
+        zh_meta, zh_body = parse_page(zh_path)
+        en_meta, en_body = parse_page(en_path)
         zh_count = paragraph_count(zh_body)
         en_count = paragraph_count(en_body)
-        if zh_count != en_count:
+        independent_alignment = (
+            zh_meta.get("paragraph_alignment") == "independent"
+            or en_meta.get("paragraph_alignment") == "independent"
+        )
+        if zh_count != en_count and not independent_alignment:
             errors.append(
                 f"{zh_path.stem[:-3]}: paragraph count differs: Chinese {zh_count}, English {en_count}"
             )

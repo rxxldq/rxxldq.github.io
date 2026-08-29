@@ -6,387 +6,202 @@ year: 2020
 permalink: /direct-rain-en.html
 alternate: /direct-rain.html
 alternate_lang: zh-CN
-ai_translation: true
-translation_revised: 2026-08-27
+paragraph_alignment: independent
 ---
 ## 1 · The Unmoving Forest
 
-A hum, the chassis humming, the tyres grinding dry against the ground. Pits everywhere, ruts pressed out by multi-tonne trucks from the nearby mines. But the Chinese had already withdrawn. I asked why.
+There was a humming sound, the chassis humming, the tires grinding against the ground. The ground was full of potholes, ruts dug by multi-ton trucks from the nearby mines. But the Chinese had already left. I asked why, and they said—the situation was unstable, society in turmoil. I asked why they left, because if you can buy guns you can continue to employ me.
 
-They said—the situation was unstable, society in turmoil.
+To my west lies Congo Brazzaville, where I gaze at the sunset daily. The ground is cracked, water scarce in the suburbs, the earth brittle and brittle with drought. Africa is the outskirts of civilization, I know that, I wonder when I can finally leave.
 
-I asked why withdraw? You can buy guns. You can keep employing me.
+The suburban earth is cracked by drought. The African land is splitting, merging, splitting, splitting. Next to me is Brazzaville, the "Republic of the Congo." And I am in Kinshasa, the capital of the "Democratic Republic of the Congo." Two identical people, two people who once shook hands.
 
-To the west is Brazzaville, Congo. Every day I look up at the sunset. The ground has split. There is little water on the outskirts; drought has cracked the earth. Africa is the outskirts of the civilised world. Of course I know that. I only wonder when I will get out.
+We used to love each other and talk on the phone. The phone call comes in. Sasha Bernard, she calls, she doesn't call often. I don’t want to answer anymore.
 
-The earth outside the city, cracked by drought. The African continent: divided, joined, divided, divided. Brazzaville, Republic of the Congo. I am in the Democratic Republic of the Congo, in Kinshasa—two peoples alike, peoples who once shook hands.
+My last correspondence with the Chinese: Give me a gun, just one is enough. I can aim well, ten bullets are enough, three points and a straight line, you know I know it.
 
-We used to love each other, to call each other. A call is coming in. Sasha Bernard. She is calling. She does not call often. Right now, I do not want to answer.
+Spot check! Remember: Keep your eyes, sight, and target in a straight line. This straight line is for correcting the bullet's trajectory. Pay attention to wind direction and speed and always be aware of the wind's effect on the bullet's movement.
 
-The last thing I said to the Chinese was: give me a gun. One will do.
+Only the Chinese can afford spiral bolts. If the bolts on a gun are worn out or incomplete, the bullets will fly around, all lost, and the gun will either need to be re-bolted or scrapped. If they gave me the gun, they would need replace the bolts.
 
-I can aim. Ten rounds will do. Eye, sight and target in a line—I know. Inspection! Report: eye, sight and target form a straight line; the alignment is there to correct the bullet’s trajectory. Watch the wind’s direction and speed. Always account for the wind’s effect on the bullet. And the stronger the sun, the stronger the false light.
+There, twenty meters away, there, the gangster, soot blending into his skin. There I could see him with the whites of my eyes. Twenty meters away, nothing really, just enough.
 
-The Chinese can afford rifling. Once the grooves inside a gun barrel wear smooth or break, the bullets will fly wild. Then the barrel must be rifled again, or the gun scrapped.
+What if there's a witch, Twenty meters away? Run! Even rhinos don't dare approach a witch. Thirty meters away?
 
-If they gave me a gun, they would cut new rifling.
+Forget it, Boss Chen. A hundred meters?
 
-Twenty metres away, there, a bandit, coal dust fused with skin. Against it I could see the white of his eye. Twenty metres. Enough.
+That's no problem if the witch is a hundred meters away. She wouldn’t have time to open the strange and deadly soul-snatching powder. A hundred meters away, she is the last coordinate of three points in a straight line.
 
-“What if there’s a witch? Twenty metres away!”
+(I can combine the two kinds of knowledge. I am an excellent gatekeeper. The witch's black blood sprays and condenses in the air. When it encounters coal dust and floating soil, it condenses into particles and does not splash onto the door.)
 
-“Run. Even rhinos won’t go near a witch.”
+The phone keeps ringing.
 
-“Thirty metres?”
+Boss. Hey! Boss Chen! Please speak louder. It’s very noisy and I can't hear you.
 
-“Forget it, Boss Chen.”
+Enzo! Can't you silence your phone?
 
-“A hundred metres?”
+She called. Forgive me, boss. I didn't want to miss it.
 
-“No problem. At a hundred metres the witch won’t have time to open that strange, lethal soul-snatching powder. A hundred metres: eye, sight, target.”
+My phone has the best speakers and can play the loudest music. When I play it at home, she hears the lyrics: When you are sad, sing this song!
 
-I can bring both kinds of knowledge together. I am an excellent gatekeeper. The witch’s black blood sprays out and sets in the air; it meets coal dust and floating earth, clots into grains, never splashes the gate.
+The music is the loudest on the whole street.
 
-The phone is too loud.
+She knocked on the door with her father, she is mixed race and her father is white.
 
-The boss is here.
+When you're naked, what parts of your body do you cover? That was his first question. My heart is burning, beautiful girl, where are you looking? came from somewhere, I couldn’t hear it clearly, my pocket, the phone continued to play in my pocket. What’s your name? a pair of two blue eyes asked me at the same time. I counted their long eyelashes. When I reached fifty-six, when the lashes became too sparse, too foreign, I said My name is Enzo, and I’m twenty-one. Finally, I spent forty-seven hours counting from one to a hundred thousand. Old Bernard, overcame, married his daughter to me.
 
-“Hey! Boss Chen, speak up. My phone’s too loud. I can’t hear you.”
+I answered and first before anything he asked me When you’re naked what parts of your body do you cover? and I couldn’t hear it clearly the phone continued to play in my pocket and What’s your name? and a pair of blue eyes and I counted their long eye lashed and reached fifty-six and I’m twenty-one and Old Bernard married his daughter to me and I spent forty-seven hours counting from one to a hundred thousand my name is Enzo and she was Sarah.
 
-“Enzo! Can’t you put your phone on silent?”
+French is really strange. The numbers from one to sixty are normal, but after sixty, it's "ten plus seven, ten plus eight, ten plus nine". After sixty, it's "sixty plus ten, sixty plus ten plus seven..." Trailing off, unsure. You don’t want to rot in this hot place forever, do you? always said blue eyes. Go to France, why go to France? The Congo also speaks French, no problem. Sixty blacks do the work of sixty, so what’s this about ten more? Sixty plus ten, sixty plus ten blacks can only do the work of, forty? Ten absentees take away ten more, and there are still ten slacking off.
 
-She is calling. Forgive me, boss. I do not want to miss it.
+The phone keeps ringing. I don't want to answer it. She told me not to leave, to stay here. What can Africans become? The continent has no shortage of cheap liberals. Cheap suits are best, and they don't hurt when they get ripped. The only extracurricular reading material I had in school as a kid, Jules Verne’s Journey to the Centre of the Earth, worn out because it’s been passed around so many times.
 
-My phone has the best speakers on the whole street. It plays the loudest music. I play it at home and she can hear the words: “When you are sad, sing this song out loud!”
+Old Bernard wanted me to go out and explore the world, but young Bernard didn't want me to leave. Jules Verne said that beneath this vast earth lies an upside-down world. From the other side of the deep pits in the mines, the upside-down pits look like tall trees. With so many pits, there must be a forest beneath the ground, and deeper still, there must be more, springwater we can't find, trickling somehow between the two.
 
-My music is the loudest on the whole street.
+It flows slowly, slowly beneath South Kivu, sometimes falling like a still rain. The witch hunts have already resulted in the burning of eight witches, but the Chinese don't seem particularly interested. Every morning they stand in the hall for their meetings, like a motionless forest. What are they doing?
 
-She came knocking with her father. She is mixed-race; her father is white.
-
-“When you’re completely naked, which part of yourself do you cover?”
-
-That was his first question.
-
-“My heart is burning, beautiful girl, where are you gazing from?”
-
-I did not catch it. The phone kept singing in my pocket.
-
-“What’s your name?” Two pairs of blue eyes asked me at once.
-
-I counted their long lashes. Only when I reached fifty-six—they were spread so far apart—did I speak: “My name is Enzo. I’m twenty-one.”
-
-In the end I spent forty-seven hours counting from one to a hundred thousand. Old Bernard married his daughter to me. French is strange. From one to sixteen the numbers are normal enough. After that it becomes “ten plus seven, ten plus eight, ten plus nine”; after sixty, “sixty plus ten, sixty plus ten plus seven…”
-
-“You don’t want to rot in this hot place forever, do you?” Blue Eyes was always asking.
-
-Go to France—why go to France? The Congo speaks French too. No trouble. Sixty Black people do the work of sixty people. Add ten, then what? Sixty plus ten—seventy Black people can do only the work of forty. Ten stay away and take another ten with them, while ten more are slacking off.
-
-The phone is still ringing. I do not want to answer. She wants me not to go, to stay here. What can an African become? This continent has no shortage of cheap liberals. Cheap suits are best; it does not hurt when they tear. The only book outside the syllabus at my childhood school was Jules Verne’s *Journey to the Centre of the Earth*, a copy passed around until it fell apart.
-
-Old Bernard wanted me to go out into the world. Young Bernard did not want me to leave.
-
-Verne said beneath this stretch of earth lies a world turned upside down. Seen from the other side, every deep mining pit is a tall tree. So many pits—there must be a forest underground; and deeper still, groundwater we cannot find must fill the depths.
-
-Flowing slowly, flowing slowly beneath South Kivu, sometimes falling like unmoving rain. The witch hunts have already burnt eight witches to death. The Chinese do not seem very interested. Each morning they stand on time in the hall for their meeting, like an unmoving forest. What are they doing?
-
-All you Chens and Lis, take me away from here. Anywhere will do.
+Boss Chen, Boss Li, please take me away from here, anywhere is fine.
 
 ## 2 · The Waveless Isle
 
-I never quite learnt Chinese. It has been years and I still know little. A few simple sentences in Chinese, a few in English—enough to get through life. Or, as a colleague put it, foreigners do not need to speak in China.
+I don't speak Chinese very well. I've been here for a few years, but I don't know much. A few simple Chinese and English sentences are enough to get by. Or as a colleague said, that in China foreigners don't need to speak.
 
-“Hey, foreigner. Hello.”
+"Hey, foreigner, 你好." "Ah, 你好."
 
-“Ah, hello.”
+“你好吗?” “好”
 
-“How are you?”
+“你来自哪里?”
 
-“Fine.”
+"Africa, I speak Chinese." They laughed.
 
-“Where you from?”
+“Foreigners are just funny.” "What's that mean?"
 
-“Africa. I speak Chinese.”
+He gestured and shrugged and told me: "有趣的, humor." "I know that."
 
-They laughed.
+(He grabbed my hand and looked at it carefully, rubbing it. The more he rubbed it, the whiter it became.
 
-“Foreigners are funny.”
+"You are white, where do white people come from in Africa?" "I'm not white, I'm Arab."
 
-“What does that mean?”
+“White skin means white people.” "Okay, okay.")
 
-Gesturing and shrugging, they told me: “Funny. Humorous.”
+Wearing a chef’s hat, I only have to say one thing – when I’m questioned about a problem, I come forward and say one thing: “How can I help you, sir?”
 
-“I know.”
+That's how I got a job. In a Western restaurant, I didn't have to do anything except act white.
 
-They seized my hand and examined it, rubbing it. The more they rubbed, the whiter it became.
+There is a large glass in the kitchen, and I always look to the other side of the sea, not far away, and there there are no waves. The glass here is not nearly as big as the one in our store. You’re quite childish, came the reply.
 
-“You’re white. Where do white people come from in Africa?”
+She had short black hair, just like me. Chinese people aren't petite. It wasn't until I came to China that I realized they're much richer than we are.
 
-“I’m not white. I’m Arab.”
+Everything in the books is outdated. Oriental women are different from us.
 
-“White skin means you’re white.”
+I was fascinated by her. She was indifferent and calm. "I'll have a martini," calm.
 
-“Fine, fine, fine.”
+Do you think I've talked too much? Let me tell you something fun, something I think you’ll like. We're in Xiamen, right? The island across the sea is called 鼓浪屿. When I first arrived in China, I didn't understand Chinese. 鼓浪屿, my colleague translated it on his phone. Kulangsu, I remember it. Ku-lang-su, I remember it clearly. Every day I see it and see myself going there.
 
-That was how I found a job. At a Western restaurant. I did not have to do anything. My task was to play a white man.
+“Yes, 鼓浪屿 Island.”
 
-I wore a chef’s hat and had only one line—whenever anyone questioned whether something was wrong, I stepped forward and said: “How may I help you, sir?”
+I kept thinking about 'Kulangsu'. One day, when I finally had some free time, so I called a friend, also a foreigner, who often played as a black person in the park. I said we were going to play over the river in the place called 'Kulangsu'. We took a taxi and asked several drivers what it was. The drivers all said it was that, nothing. Nothing?
 
-There was a great pane of glass in the kitchen. I was always looking towards the other side of the sea, not far away, with no waves. “The glass here isn’t as big as the one in our restaurant.”
+I later found out that "Kulangsu" is the Hokkien pronunciation, and the driver only spoke Mandarin.
 
-“You’re rather childish.”
+When we got there they said it was 150 yuan. I was shocked. It’s so expensive, my friend said. "I don't understand. I don't understand Chinese. What does it mean?" But the man knew how to use translation software, unworried. Still, "then what? I asked.
 
-She had short black hair, like me. Chinese people are not petite. Only after I came to China did I learn how much richer they were than us; everything in the books was out of date. Oriental women? Not like us.
+“Then it was my turn. I pointed to my mouth and whimpered and ahh-ed for a long time. I pretended to be mute.”
 
-I became absorbed in looking at her. She was distant, composed.
+"Then what?"
 
-“I’ll have a martini.” She was very composed.
+"In the end, I was given 50 less." "So where are you from?"
 
-“Do you think I’ve talked too much? Let me tell you something funny first. The island across the water is called Gulangyu. When I first arrived in China, I didn’t understand Chinese. Gulangyu—my colleague put it into the translator on his phone: Kulangsu. I remembered that. Ku-lang-su. I remembered it clearly. I saw it every day and always wanted to go.”
+"Casablanca, Morocco, North Africa." "Where?"
 
-“Mm. Gulangyu.”
+“Casablanca, you’ve heard the song.”
 
-“Kulangsu. I repeated it to myself every day, always wanting to go. At last I had a day off and called a friend, another foreigner, who played a Black man in the park. I said let’s go over there, to a place called Kulangsu. We got a taxi and asked several drivers. What’s that? Never heard of it. Every driver said the same.
+"I've heard the song before, and there really is such a place?" "Of course."
 
-“Only later did I learn that in Chinese it starts with *gu*, and that you can only get there by boat. When we arrived, someone said 150 yuan. I froze. So expensive.”
+Time passes. "What's your name?"
 
-My friend said: “Don’t understand. Don’t understand Chinese. What does it mean?”
+"Murad."
 
-The man was not troubled. He knew how to use translation software.
+She sighed. The bar lights flickered yellow, and then red, onto the table and onto her face. Stuttered like, as if they were slower than they should’ve been. The slow yellow light shone on her face, and her lips appeared darker than her lipstick. It was indeed a small mouth, like thinking of becoming open, as if she were about to say something.
 
-“And then?”
+(I love you. We've known each other for so long, I will love you like a Band-Aid, I will be your Band-Aid.)
 
-“Then it was my turn. I pointed at my mouth and went mm-mm, ah-ah for ages. Pretended to be mute.”
+"In Morocco there’s a wife and kids.”
 
-“And then?”
+The best Band-Aid stays on you covertly, silently. It makes you forget it’s there just up to that point when you’re in the shower, lights off or only half on, cleaning yourself, reaching back and touching something touching you back. Then you’ll know, remember.
 
-“In the end we paid fifty less.”
+Where did you get that from? TikTok? I asked, Where in China are you from?
 
-“So where are you from?”
+Local, from back there, whatever. My family has gone to New Zealand. Come with me.
 
-“Morocco. North Africa. Casablanca.”
+Umm, time passes.
 
-“Where?”
+I ordered a glass of tomato juice, a last drink before landing. Why did you agree to get on the plane? She’s right next to me, lips bright red.
 
-“Casablanca. You’ve heard the song.”
+Get some sleep. We'll be there in half an hour. It's hot in Auckland.
 
-“I’ve heard the song. Is there really a place called that?”
+"Name?" We were taken into a small dark room by customs, and after a bit a proper immigration officer came. I coped with broken English.
 
-“Of course.”
+Murad. Mohammed?
 
-“What’s your name?”
+No, Murad. Murad.
 
-“Murad.”
+I'm sorry sir. What's your last name? Mohammed. I handed over my passport.
 
-She sighed. The bar lights turned yellow, then red, points of light on the table and on her face. Under the yellow her lipstick dulled, her mouth darkened. It really was a small mouth, seeming about to say something.
+Moroccan citizen. Why no visa, sir?
 
-“Clever. I love you. I’ll love you like a sticking plaster. I’ll be your sticking plaster.”
+I want to apply for asylum, a refugee.
 
-“I have a wife and children in Morocco.”
+Your partner is Chinese, from Fujian. This is not easy to handle, sir. We have very strict immigration control for Fujianese. You know, too many people are undocumented.
 
-“You know, the best sticking plaster lies quietly against your skin. It makes you forget it is there, until you take a shower and feel something hanging from you. Only then do you remember you put one on.”
+I’m applying for asylum. What's the reason?"
 
-“Where did you learn that? Too much TikTok?”
+I suffer severe discrimination and persecution.
 
-In the end I agreed. I still did not know her name or where she came from. I asked: “Where in China are you from?”
+Can you tell me more about that?" asked the immigration officer. They all said I was white.
 
-“Here. My family have all gone to New Zealand. Come with me.”
+What's the problem with that, sir?
 
-“Mm.”
+It's a long story. I hate white people. During World War II, my great-grandfather opened a barbecue restaurant in Casablanca. An Englishman had just walked in and sat down when a Russian walked in. The Englishman called my great-grandfather in to take his order. He wrapped his hand in his coat, and my great-grandfather felt a chill. A gun was pressed against his side. He whispered, "Keep an eye on him, old man." The Russian called in his order, and then a German came in. A gun was sticking out of his trouser leg. The German entered the restroom, and the British and Russians immediately stood up and followed him. Next to the restroom was a barbecue pit, and somehow, three more people were there too. Great-grandfather lit a fire, a very large one, and no one used that place as a surveillance site anymore. Grandfather returned home, and great-grandfather would always tell him to eat more white meat and less red meat, as it had high cholesterol. So your grandfather ate those three spies? Of course not, sir. They're like passerby in the night, like fish in the sea. After the war, a fire broke out in my great-grandfather's shop for some unknown reason. A hole appeared in the ceiling of the wooden house, and smoke spiralled upward from it. The particles were black and white, mixed with ashes. The North African wind came from the Sahara Desert, spreading the smoke and dust flat, covering the sky. The smoke in the hole was like a tornado. Waterspouts continuously fed the sea of smoke. The wind was sometimes strong, sometimes weak, and sometimes there were huge waves on the sea. My grandfather always told me that people can't fight against huge waves. When someone came to put out the fire, they asked, "What happened?" My grandfather always said that eating too much chicken would make you dumb. My great-grandfather coughed twice at the firefighters, opened his mouth, pointed at his throat, but only a "huhuhu" sound came out.
 
-I ordered a tomato juice, the last drink before landing. How had I agreed to get on a plane? She sat beside me, lips bright red.
+"Okay, and your partner?"
 
-“Get some sleep. We’ll be there in half an hour. Auckland is quite warm.”
+She pointed to her throat, opened her mouth a few times, and made a humming sound.
 
-“Mm.”
-
-“Name?” Customs took us into a small dark room. An immigration officer came in.
-
-I managed with my halting English.
-
-“Murad.”
-
-“Surname Mohammed?”
-
-“Hey, that’s racist. Not every Arab is called Mohammed.”
-
-“I’m sorry, sir. What is your surname?”
-
-“Mohammed.” I handed over my passport.
-
-“Moroccan citizen. Why don’t you have a visa, sir?”
-
-“I want to claim asylum. Refugee.”
-
-“Your partner is Chinese. Fujian. That makes things difficult, sir. We maintain very strict immigration controls on people from Fujian. You know, too many overstay and become undocumented.”
-
-“I’m claiming asylum.”
-
-“On what grounds?”
-
-“I have suffered serious discrimination and persecution.”
-
-“Could you tell me more?”
-
-“Everyone says I’m white.”
-
-“What’s wrong with that, sir?”
-
-“It’s a long story. I hate white people. During the Second World War, my great-grandfather ran a grill in Casablanca. A British man walked in. White. He had only just sat down when a Russian came in.
-
-“The British man called my great-grandfather over to order. He wrapped his hand in his coat. My great-grandfather felt something cold, a gun pressed against his waist. In a low voice he said: Keep an eye on him, old man.
-
-“The Russian also called my great-grandfather over to order. Then a German came in.
-
-“A gun stuck out of his trouser leg.
-
-“The German went into the toilet. The British man and the Russian stood up at once and followed him. Beside the toilet was the barbecue pit. Somehow three people ended up inside it.
-
-“My great-grandfather lit a fire. Nobody ever used the place for surveillance again. My grandfather came home. Great-grandfather told him to eat more white meat and less red meat—too much cholesterol.”
-
-“So your grandfather ate the three spies?”
-
-“Of course not, sir. They were travellers in the dark, fish in the sea. After the war, somehow my great-grandfather’s shop caught fire. A hole opened in the ceiling of the timber shack. Smoke spiralled up through it, particles black and white, ash mingled in. The North African wind came out of the Sahara, spread the smoke and dust flat across the sky. The smoke in the hole was like a tornado. A waterspout, endlessly feeding the sea of smoke. The wind rose and fell; sometimes great waves crossed the surface. My grandfather often told me this: no one can resist a great wave.
-
-“People came to fight the fire. They asked what had happened. My grandfather often said too much chicken could make a person mute. My great-grandfather coughed twice at the people who came, opened his mouth, pointed to his throat, and made only an uh, uh sound.”
-
-“Very well. That answer is sufficient. And your partner?”
-
-She pointed to her throat, opened her mouth a few times, and made sounds—mm, ah. “I’m sorry to hear that, madam. You may now enter the country.”
+I'm very sorry about all this, ma'am. You may enter now.
 
 ## 3 · Sea Gate
 
-Entering a Chinese home: red couplets pasted around the door; plants and miniature landscapes tended without a flaw; fresh beads of water letting the light through. It was Murad’s first time inside a Chinese home. The place was like a hermit’s cave. He held her hand tight. In the afternoon sunlight, the skin was transparent.
+Walking into a Chinese home red couplets posted on the door plants and pots meticulously tended with fresh water droplets shining through. It was Murad's first time entering a Chinese home, and it felt like a hermit's cave. She held his hand tightly, and her skin was transparent in the afternoon sun. She left and when she came back she took him home.
 
-Back. She had brought him home.
+Why did you bring a foreigner back? Does he have a green card?
 
-“Why did you bring a *gweilo* home? Does he have a green card?”<button class="note-ref" type="button" data-note="Gweilo is a Cantonese term for a white or Western foreigner; depending on context, it can sound colloquial or derogatory.">※</button>
+Murad was eager to prove himself. People say Morocco is like God's overturned palette, a riot of colour. You'll see every colour once you enter the city. Chinese homes are similarly colourful, but they don't have green cards. The Chinese have mountains in their homes, and from them water flows quietly, a faint gurgling sound. Murad was disturbed by the drowsy sound eating dumplings and a few bowls of noodles in a daze. The flowing water was like the roar of an airplane, a low roar, a dumb roar, a crippled roar, the roar of losing oneself in the crowd, the roar of a broken hand, the roar of a tow-boat, the roar of the void, the gentle roar of the leaves outside the house, just now blowing through and through, the faint hum you hear on a plane. And once you get used to it, you lose it. The house is by the sea, and you can see it as soon as you go out. Take him for a walk and look at the sea. She doesn't talk much, and she didn't say much on the plane.
 
-Murad was eager to prove he understood Chinese. People say Morocco is God’s overturned palette: every colour appears the moment you enter a city. A Chinese home was not so different—colourful, only without a green card.
+(This time he flew the plane himself. I have a relative mining in Africa. He's African, too, so why not go there and make some money before coming back?)
 
-There was a mountain inside the Chinese home, water quietly running down it, a faint trickling sound. The sound disturbed him into sleepiness; half dreaming, he ate dumplings and several meals of noodles. The running water was like the roar of an aeroplane, that faint hum heard on board. Once you grew used to it, you could no longer hear it.
+The sun was too strong at the beach, and Murad couldn't stand it any longer. She kept silent. She turned and looked behind her. Her father stood at the door, it painted red and he wearing a green sweater. After hearing those words (what were they?), he never again passed through the door facing the sea. When Murad first laid eyes on the tall, thin black man, he felt as if he had emerged from the ground. Everything about him blended in with his surroundings. His moon pale palms were covered in dust, as black as the outside world. This made him wonder, aren't all black people's palms white?
 
-The house stood beside the sea. Step out and the sea was there. She took him walking outside, looking at the sea. She did not say much. She had scarcely spoken on the plane either.
+The two stood near the pits, ankles buried in the sand.
 
-This time he took the plane alone.
+French? I can speak French. Okay, brother, the Chinese are gone. And if the mines aren't operating, I have nothing to do. So what are you still doing here? Waiting, I want to leave, anywhere is fine. I want to make money here. When my Chinese girlfriend comes to see me, she will help me get a job.
 
-“I have relatives mining in Africa. He’s African anyway. Let him go make some money, then come back.”
+She has relatives working in the mines. Do you have a passport? Yes. Let's make a deal. What? Lend me your passport and I'll go to Morocco. You can stay at my house. When your girlfriend comes, she can stay here too.
 
-The sun by the sea was fierce. Murad could not stay there, yet she said nothing. He turned to look behind him. Her father stood in the doorway: lacquer-red wooden door, green jumper. After hearing those words, he never again passed through the door that faced the sea.
+But the photos are different. Just black it out. My name is Murad Muhammad now. You’re Enzo. Enzo, Murad Muhammad.
 
-At first sight of the tall, thin Black man, Murad thought he must have emerged from underground. Everything about him merged with the surroundings. His pale palms were covered in dust, black as everything outside. Murad wondered: weren’t Black people’s palms supposed to be white?
+Unfortunate news has come. How can I get rid of my longing for you, my dear?
 
-“French?”
+Hey, man, open the door, it's me! Oh, I tried a million ways, but I still couldn't forget you. So fast? Murad opened the door and saw the black boy standing at the door, showing his white teeth and still covered in dust.
 
-“I speak French.”
+Why are you back after only two days? Oh, our past, it keeps repeating in my dreams! Murad turned off the music. Enzo waved his hands helplessly, I didn't get through the door, my gun was confiscated, and I was sent back.
 
-“All right, brother. But the Chinese have all withdrawn. The mine’s shut. I have nothing to do.”
+Why did you bring a gun into the country? This gun was issued to a Chinese person, so it must be well protected. I've been learning this for months. Spot check! Report: Yes, the eyes, yes, sight, yes, target in a straight line.  Murad interrupted him, Give me back my passport. What passport? Is that true? Enzo patted Murad and said to him, It's okay, brother. Just wait for your Chinese lover. They can do anything. There are pits here, many pits. We can find the underground world. And the two of them stayed there, quietly waiting for the Chinese to return. Sometimes they played cheerful songs at home, songs the whole street could hear. Sometimes, when they played sad songs, only the two of them could hear it. And so it’s been half a month.
 
-“Then what are you doing here?”
+Why haven't the Chinese come back yet? Let's make a phone call. Boss, when will you be back? Oh, Enzo, not for now. There are too many witches in Congo lately, and too many witch hunts. Let's wait until things stabilize. Change someone. Dear, why don't you come to Congo to see me? Congo, I'm in Congo. Where are you? Why didn't you come to see me? The call ended. I called again. Hello, hey, where are you? I'm in Congo, Congo, don't you understand? But I didn't see you. The Republic of Congo has been here for a long time. Hey, hey Enzo, which Congo are we in? The Democratic Republic of the Congo! Not the Republic of the Congo! The phone hung up.
 
-“Waiting. I want to leave. Anywhere will do. You?”
+Feeling down, eh. Try sending a message.
 
-“I want to make money here. I’m waiting for my Chinese girlfriend to come and find me. She’ll introduce me to work. She has relatives at the mine.”
+Murad: You're just going to leave me like this? You said it was like a Band-Aid. Dear: The Band-Aid was washed away in the shower and you probably didn't notice it. Brother, it looks like she'll never come back. What do I do now? That's not right, Mura, think about it carefully, think about what's wrong. Ah? Hey brother, how could a Chinese man like you if he's so rich? You must be bewitched. Witches all have white skin, think about it, right? I think so. Really? Right, think about it carefully, right? Indeed, she is quite fair, and her lips are bright red. Murad took a drag on his cigarette and exhaled heavily. "It seems so. Yes, my wallet is empty and my passport is gone. Hey, there's really no way back here. Is it smoke, dust, or the witch's magic powder that covers this continent? When will it disperse? I don't know. There's the sea all around us. Brother, we can't get out of this damn place.
 
-“Do you have a passport?”
-
-“Yes.”
-
-“Then let’s make a deal.”
-
-“What?”
-
-“Lend me your passport. I’ll go to Morocco. You can live in my house. When your girlfriend comes, she can live here too.”
-
-“But the photograph is different.”
-
-“Colour it black. I’m Murad Mohammed now. You’re Enzo.”
-
-Murad moved in. His phone speakers were nowhere near as good as Enzo’s. When he played music, only he could hear it.
-
-“Unhappy news has come. My love, how can I free myself from longing?”
-
-“Hey, brother, open up. It’s me!”
-
-“Oh, I tried ten million ways and still could not forget you.”
-
-“So soon?” Murad opened the door and found the young Black guy planted there, a mouthful of white teeth showing, just as much dust on him as before.
-
-“How are you back after only two days?”
-
-“Oh, our past keeps repeating in my dreams!” Murad turned off the music.
-
-Enzo waved a helpless hand. “Didn’t make it through the gate. They confiscated my gun and deported me back here.”
-
-“Why did you take a gun into the country?”
-
-“The Chinese issued me this gun. I have to protect her properly. I trained for months. Inspection! Report: eye, sight and target in a straight line…”
-
-Murad cut him off. “Enough. Give me back my passport.”
-
-“What passport? Was there such a thing?”
-
-Enzo patted Murad and said: “It’s all right, brother. Stay here and wait for your Chinese lover. They can make anything work. There are pits here, so many pits. We can look for the underground world.”
-
-The two men stayed and quietly waited for the Chinese to come; any group of them would do. Sometimes cheerful songs played in the house,
-
-loud enough for the whole street to hear. Sometimes sad songs played, audible only to the two of them. Half a month already. Why had the Chinese still not come? Let’s make a call.
-
-“Boss, when are you coming back?”
-
-“Oh, oh, Enzo. Not yet. There are too many witches in your Congo lately, and too many witch hunts. Wait until things settle down.”
-
-Try someone else.
-
-“My love, why haven’t you come to the Congo to find me?”
-
-“The Congo? I’m already in the Congo.”
-
-“Where are you? Why haven’t you come to me?”
-
-The call ended. Call again.
-
-“Hello? Hey, where are you?”
-
-“I’m in the Congo. Con—go. Don’t you understand?”
-
-“But I haven’t seen you.”
-
-“Republic of the Congo. I’ve been here for ages.”
-
-“Hey. Hey, Enzo. Which Congo are we in?”
-
-“The Democratic Republic of the Congo! Not the Republic of the Congo!”
-
-The call ended.
-
-Heads hanging. Ah. Try a message.
-
-Murad: You’re leaving me just like this? You said you’d be like a sticking plaster.
-
-My love: A sticking plaster gets washed away in the shower. Most likely you never noticed.
-
-“Brother, it seems she’ll never come back.”
-
-“What am I supposed to do?”
-
-“No, Mura. Think carefully. Something isn’t right.”
-
-“Ah?”
-
-“Hey, brother. The Chinese are so rich—why would one of them choose you? A witch bewitched you. Witches all have white skin. Think. Isn’t that right?”
-
-“Seems so.”
-
-“Doesn’t it? Right? Think carefully. Right?”
-
-“It really is. She was certainly white enough, with bright-red lips.”
-
-Murad drew on his cigarette and exhaled heavily. “Seems so. Yes. Wallet empty. Passport gone.”
-
-“Ah, this truly is a place you enter but never leave.”
-
-“What shrouds this continent—smoke, dust, or a witch’s bewildering powder?”
-
-“When will it clear? I don’t know. Sea on every side, brother. None of us can get out of this damned place.”
-
-Here, perhaps, spring goes and summer comes, summer goes and autumn; autumn goes and winter comes, winter goes and spring. Night falls, moon rises, moon falls, night; dusk brightens, sun rises, day dims, dusk.
+Here, spring turns to summer, summer turns to autumn, autumn turns to winter, winter turns to spring. Night falls, moon rises, moon sets, night falls, sun rises, sun rises, sun falls.

@@ -10,7 +10,7 @@ alternate_lang: en
 listed: true
 english_title: Direct Rain
 english_url: /direct-rain-en.html
-english_ai_translation: true
+english_ai_translation: false
 ---
 ## 1 · 不动林
 
