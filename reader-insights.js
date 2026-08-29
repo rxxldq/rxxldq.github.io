@@ -79,9 +79,102 @@
 
   const form = document.querySelector("[data-reader-message-form]");
   if (!form) return;
+  const dialog = document.querySelector("[data-reader-message-dialog]");
+  const openButton = document.querySelector("[data-reader-message-open]");
+  const closeButton = document.querySelector("[data-reader-message-close]");
+  const selectionButton = document.querySelector("[data-reader-selection-note]");
+  const contextPanel = form.querySelector("[data-reader-message-context]");
+  const contextQuote = form.querySelector("[data-reader-message-quote]");
+  const quoteInput = form.querySelector('input[name="quote"]');
+  const paragraphInput = form.querySelector('input[name="paragraph_index"]');
+  const clearContextButton = form.querySelector("[data-reader-message-context-clear]");
   const status = form.querySelector("[data-reader-message-status]");
   const submit = form.querySelector('button[type="submit"]');
   const english = lang === "en";
+  let pendingContext = null;
+
+  function clearContext() {
+    contextPanel.hidden = true;
+    contextQuote.textContent = "";
+    quoteInput.value = "";
+    paragraphInput.value = "";
+  }
+
+  function applyContext(context) {
+    if (!context || !context.quote) {
+      clearContext();
+      return;
+    }
+    contextPanel.hidden = false;
+    contextQuote.textContent = context.quote;
+    quoteInput.value = context.quote;
+    paragraphInput.value = context.paragraphIndex ? String(context.paragraphIndex) : "";
+  }
+
+  function openDialog(context) {
+    applyContext(context);
+    status.textContent = "";
+    if (typeof dialog.showModal === "function") dialog.showModal();
+    else dialog.setAttribute("open", "");
+    const messageField = form.querySelector('textarea[name="message"]');
+    if (messageField) messageField.focus();
+  }
+
+  function closeDialog() {
+    if (typeof dialog.close === "function") dialog.close();
+    else dialog.removeAttribute("open");
+  }
+
+  function selectionContext() {
+    if (!article || typeof window.getSelection !== "function") return null;
+    const selection = window.getSelection();
+    if (!selection || selection.isCollapsed || selection.rangeCount === 0) return null;
+    const range = selection.getRangeAt(0);
+    const commonNode = range.commonAncestorContainer;
+    const commonElement = commonNode.nodeType === 1 ? commonNode : commonNode.parentElement;
+    if (!commonElement || !article.contains(commonElement)) return null;
+    const quote = String(selection).replace(/\s+/g, " ").trim().slice(0, 800);
+    if (quote.length < 2) return null;
+    const startNode = range.startContainer.nodeType === 1
+      ? range.startContainer
+      : range.startContainer.parentElement;
+    const block = startNode && startNode.closest
+      ? startNode.closest("p, h2, h3, blockquote, li")
+      : null;
+    const blocks = Array.from(article.querySelectorAll("p, h2, h3, blockquote, li"));
+    const blockPosition = block && article.contains(block) ? blocks.indexOf(block) : -1;
+    return { quote, paragraphIndex: blockPosition >= 0 ? blockPosition + 1 : null };
+  }
+
+  function refreshSelectionAction() {
+    const context = selectionContext();
+    if (!context) {
+      selectionButton.hidden = true;
+      pendingContext = null;
+      return;
+    }
+    pendingContext = context;
+    selectionButton.hidden = false;
+  }
+
+  if (openButton && dialog) {
+    openButton.addEventListener("click", function () { openDialog(null); });
+    closeButton.addEventListener("click", closeDialog);
+    dialog.addEventListener("click", function (event) {
+      if (event.target === dialog) closeDialog();
+    });
+  }
+  if (selectionButton && article && dialog) {
+    document.addEventListener("selectionchange", function () {
+      window.setTimeout(refreshSelectionAction, 0);
+    });
+    selectionButton.addEventListener("click", function () {
+      const context = pendingContext;
+      selectionButton.hidden = true;
+      openDialog(context);
+    });
+  }
+  clearContextButton.addEventListener("click", clearContext);
 
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
@@ -103,11 +196,14 @@
           message,
           name: String(data.get("name") || "").trim(),
           email: String(data.get("email") || "").trim(),
-          website: String(data.get("website") || "")
+          website: String(data.get("website") || ""),
+          quote: String(data.get("quote") || "").trim(),
+          paragraphIndex: String(data.get("paragraph_index") || "").trim()
         })
       });
       if (!response.ok) throw new Error("send failed");
       form.reset();
+      clearContext();
       status.textContent = english ? "Sent. Thank you." : "已发送，谢谢。";
     } catch (_) {
       status.textContent = english ? "Could not send. Please try again later." : "暂时未能发送，请稍后再试。";

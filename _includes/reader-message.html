@@ -1,9 +1,21 @@
 {% if site.insights_endpoint != empty %}
-<details class="reader-message" data-reader-message>
-  <summary>{% if page.lang == 'en' %}Leave a private note{% else %}给作者留言{% endif %}</summary>
-  <div class="reader-message-panel">
+<section class="reader-message" data-reader-message>
+  <button class="reader-message-open" type="button" data-reader-message-open>{% if page.lang == 'en' %}Leave a private note{% else %}给作者留言{% endif %}</button>
+  <dialog class="reader-message-dialog" data-reader-message-dialog aria-labelledby="reader-message-title">
+    <div class="reader-message-panel">
+      <button class="reader-message-close" type="button" data-reader-message-close aria-label="{% if page.lang == 'en' %}Close{% else %}关闭{% endif %}">×</button>
+      <h2 id="reader-message-title">{% if page.lang == 'en' %}A private note to the author{% else %}给作者的私密留言{% endif %}</h2>
     <p class="reader-message-privacy">{% if page.lang == 'en' %}Only the author can read this.{% else %}仅作者可见。{% endif %}</p>
     <form data-reader-message-form novalidate>
+      <div class="reader-message-context" data-reader-message-context hidden>
+        <div class="reader-message-context-heading">
+          <span>{% if page.lang == 'en' %}Quoted passage{% else %}引用原文{% endif %}</span>
+          <button type="button" data-reader-message-context-clear>{% if page.lang == 'en' %}Remove{% else %}移除{% endif %}</button>
+        </div>
+        <blockquote data-reader-message-quote></blockquote>
+        <input type="hidden" name="quote">
+        <input type="hidden" name="paragraph_index">
+      </div>
       <label>
         <span>{% if page.lang == 'en' %}Message{% else %}留言{% endif %}</span>
         <textarea name="message" rows="5" maxlength="3000" required></textarea>
@@ -27,6 +39,8 @@
         <span class="reader-message-status" data-reader-message-status role="status" aria-live="polite"></span>
       </div>
     </form>
-  </div>
-</details>
+    </div>
+  </dialog>
+</section>
+<button class="reader-selection-note" type="button" data-reader-selection-note hidden>{% if page.lang == 'en' %}Comment on this passage{% else %}就这段留言{% endif %}</button>
 {% endif %}

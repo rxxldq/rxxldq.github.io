@@ -193,9 +193,11 @@ def main() -> int:
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
         ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort"),
         ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),
-        ROOT / "reader-insights.js": ('send("view")', 'send("complete")', "/api/message", "completionMarker"),
-        ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "/admin/export.csv", "/admin/backup.json", "CF-Connecting-IP", "STATS_PERIODS"),
+        ROOT / "reader-insights.js": ('send("view")', 'send("complete")', "/api/message", "completionMarker", "selectionContext", "paragraphIndex"),
+        ROOT / "_includes" / "reader-message.html": ("data-reader-message-dialog", "data-reader-selection-note", 'name="quote"', 'name="paragraph_index"'),
+        ROOT / "backend" / "src" / "worker.js": ("/api/track", "/api/message", "/admin", "/admin/export.csv", "/admin/backup.json", "CF-Connecting-IP", "STATS_PERIODS", "quote_text", "paragraph_index"),
         ROOT / "backend" / "migrations" / "0001_initial.sql": ("reading_events", "messages", "UNIQUE(view_id, event_type)"),
+        ROOT / "backend" / "migrations" / "0002_message_context.sql": ("quote_text", "paragraph_index"),
     }
     for path, needles in required_text.items():
         if not path.exists():

@@ -446,23 +446,57 @@ html[lang="zh-CN"] .article-body {
   padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
 }
-.reader-message summary {
-  width: fit-content;
+.reader-message-open {
+  padding: 0;
+  border: 0;
+  background: none;
   color: var(--quiet);
+  font: inherit;
   font-size: 0.7rem;
   line-height: 1.5;
   cursor: pointer;
-  list-style: none;
   text-underline-offset: 0.2em;
 }
-.reader-message summary::-webkit-details-marker { display: none; }
-.reader-message summary::after { content: " +"; }
-.reader-message[open] summary::after { content: " −"; }
-.reader-message summary:hover,
-.reader-message summary:focus-visible { color: var(--ink); text-decoration: underline; outline: none; }
-.reader-message-panel { margin-top: 1.5rem; }
+.reader-message-open::after { content: " +"; }
+.reader-message-open:hover,
+.reader-message-open:focus-visible { color: var(--ink); text-decoration: underline; outline: none; }
+.reader-message-dialog {
+  width: min(36rem, calc(100vw - 2rem));
+  max-height: min(88vh, 48rem);
+  padding: 0;
+  overflow: auto;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 1.2rem 4rem rgba(20, 20, 18, 0.18);
+}
+.reader-message-dialog::backdrop { background: rgba(20, 20, 18, 0.32); }
+.reader-message-panel { position: relative; padding: clamp(1.5rem, 5vw, 2.75rem); }
+.reader-message-panel h2 { margin: 0 2.5rem 0.45rem 0; font-size: 0.88rem; font-weight: 400; line-height: 1.45; }
+.reader-message-close {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--quiet);
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.reader-message-close:hover,
+.reader-message-close:focus-visible { border-color: var(--ink); color: var(--ink); outline: none; }
 .reader-message-privacy { margin: 0 0 1.25rem; color: var(--quiet); font-size: 0.68rem; line-height: 1.6; }
 .reader-message label > span { display: block; margin-bottom: 0.45rem; color: var(--quiet); font-size: 0.68rem; line-height: 1.5; }
+.reader-message-context { margin: 0 0 1.25rem; padding: 0.85rem 1rem; border-left: 2px solid var(--rule); background: rgba(0, 0, 0, 0.018); }
+.reader-message-context-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.55rem; color: var(--quiet); font-size: 0.62rem; line-height: 1.5; }
+.reader-message-context-heading button { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: 0.18em; cursor: pointer; }
+.reader-message-context blockquote { max-height: 8rem; margin: 0; overflow: auto; color: var(--ink); font-size: 0.74rem; line-height: 1.7; }
 .reader-message textarea,
 .reader-message input {
   box-sizing: border-box;
@@ -496,6 +530,26 @@ html[lang="zh-CN"] .article-body {
 .reader-message-actions button:disabled { cursor: wait; opacity: 0.55; }
 .reader-message-status { color: var(--quiet); font-size: 0.68rem; line-height: 1.5; }
 .reader-message-trap { position: absolute !important; left: -9999px !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+.reader-selection-note {
+  position: fixed;
+  left: 50%;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  z-index: 14;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: rgba(251, 250, 247, 0.97);
+  box-shadow: 0 0.55rem 1.8rem rgba(20, 20, 18, 0.14);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+.reader-selection-note:hover,
+.reader-selection-note:focus-visible { background: var(--ink); color: var(--paper); outline: none; }
 .article-navigation {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);

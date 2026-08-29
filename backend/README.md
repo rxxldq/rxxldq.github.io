@@ -13,12 +13,15 @@ reader messages in Cloudflare D1. The public site remains on GitHub Pages.
 - Raw IP addresses are never stored. A salted hash is retained only to limit
   messages to five per hour per sender.
 - Counts and messages appear only at the password-protected `/admin` route.
+- A reader can optionally attach a selected passage and its paragraph number to
+  a private message. That context is shown only in the protected dashboard.
 - The private dashboard can filter statistics to 7 days, 30 days, or all time,
   and export article-level figures as CSV. That CSV never contains messages or
   email addresses.
 - The password-protected `Private backup` download contains raw reading events
-  and private messages so they can be kept offline. It excludes the sender hash
-  used for rate limiting and never contains a raw IP address.
+  and private messages, including any quoted passage, so they can be kept
+  offline. It excludes the sender hash used for rate limiting and never
+  contains a raw IP address.
 
 ## Deployment
 
