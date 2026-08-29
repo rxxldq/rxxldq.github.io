@@ -82,6 +82,13 @@
     </div>
     {% endif %}
     {% if page.location_map %}{% include location-map.html %}{% endif %}
+    <div class="reading-resume" data-reading-resume hidden>
+      <button class="reading-resume-open" type="button" data-reading-resume-open>
+        {% if page.lang == 'en' %}Resume reading{% else %}继续上次阅读{% endif %}
+        <span data-reading-resume-progress></span>
+      </button>
+      <button class="reading-resume-dismiss" type="button" data-reading-resume-dismiss>{% if page.lang == 'en' %}Dismiss{% else %}忽略{% endif %}</button>
+    </div>
     <article class="article-body">
       {{ content }}
       <span class="reading-completion-marker" data-reading-completion-marker aria-hidden="true"></span>

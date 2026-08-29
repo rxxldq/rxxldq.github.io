@@ -98,6 +98,108 @@ function verifyLanguage(language, proofread = false, entries = null, currentInde
   if (proofread && language === "en" && !/\?proofread=1$/.test(assigned)) throw new Error("en: random lost proofreading mode");
 }
 
+function verifyResumeReading() {
+  const sourcePath = "/long-article.html";
+  const storageKey = `rxxldq:reading:v1:${sourcePath}`;
+  const stored = new Map([[storageKey, JSON.stringify({ ratio: 0.42, updatedAt: Date.now() })]]);
+  const listeners = {};
+  const progress = { style: {} };
+  const resumeProgress = { textContent: "" };
+  const resumeOpen = link();
+  const resumeDismiss = link();
+  const resume = {
+    hidden: true,
+    querySelector(selector) {
+      return ({
+        "[data-reading-resume-open]": resumeOpen,
+        "[data-reading-resume-dismiss]": resumeDismiss,
+        "[data-reading-resume-progress]": resumeProgress,
+      })[selector] || null;
+    },
+  };
+  const document = {
+    readyState: "complete",
+    documentElement: { scrollHeight: 2000 },
+    querySelector(selector) {
+      if (selector === ".reading-progress span") return progress;
+      if (selector === "[data-reading-resume]") return resume;
+      return null;
+    },
+  };
+  let scrollTarget = null;
+  const window = {
+    innerHeight: 500,
+    scrollY: 0,
+    location: { origin: "https://example.test", pathname: sourcePath, search: "" },
+    localStorage: {
+      getItem(key) { return stored.get(key) || null; },
+      setItem(key, value) { stored.set(key, value); },
+      removeItem(key) { stored.delete(key); },
+    },
+    addEventListener(name, listener) { listeners[name] = listener; },
+    clearTimeout() {},
+    setTimeout(listener) { listener(); return 1; },
+    scrollTo(options) { scrollTarget = options; this.scrollY = options.top; },
+  };
+
+  vm.runInNewContext(source, { document, window, URL, URLSearchParams, Date, JSON, Math, Number });
+
+  if (resume.hidden) throw new Error("resume: saved position was not offered");
+  if (resumeProgress.textContent !== " · 42%") throw new Error("resume: progress label is wrong");
+  resumeOpen.listeners.click();
+  if (resume.hidden !== true) throw new Error("resume: prompt stayed visible after continuing");
+  if (!scrollTarget || scrollTarget.top !== 630 || scrollTarget.behavior !== "auto") {
+    throw new Error("resume: restored the wrong reading position");
+  }
+
+  resume.hidden = false;
+  resumeDismiss.listeners.click();
+  if (stored.has(storageKey)) throw new Error("resume: dismiss did not remove the saved position");
+}
+
+function verifyResumePrivacyFallbacks() {
+  for (const mode of ["blocked-storage", "notrack", "proofread"]) {
+    const resume = {
+      hidden: true,
+      querySelector() { return link(); },
+    };
+    const document = {
+      readyState: "complete",
+      documentElement: { scrollHeight: 2000 },
+      querySelector(selector) {
+        if (selector === ".reading-progress span") return { style: {} };
+        if (selector === "[data-reading-resume]") return resume;
+        return null;
+      },
+    };
+    const window = {
+      innerHeight: 500,
+      scrollY: 0,
+      location: {
+        origin: "https://example.test",
+        pathname: "/long-article.html",
+        search: mode === "notrack" ? "?notrack=1" : mode === "proofread" ? "?proofread=1" : "",
+      },
+      addEventListener() {},
+      clearTimeout() {},
+      setTimeout() { return 1; },
+    };
+    Object.defineProperty(window, "localStorage", {
+      get() {
+        if (mode === "blocked-storage") throw new Error("storage unavailable");
+        return {
+          getItem() { return JSON.stringify({ ratio: 0.42, updatedAt: Date.now() }); },
+          setItem() { throw new Error(`${mode}: resume storage should stay disabled`); },
+          removeItem() { throw new Error(`${mode}: resume storage should stay disabled`); },
+        };
+      },
+    });
+
+    vm.runInNewContext(source, { document, window, URL, URLSearchParams, Date, JSON, Math, Number });
+    if (!resume.hidden) throw new Error(`${mode}: resume prompt should remain hidden`);
+  }
+}
+
 function parseFrontMatter(filePath) {
   const text = fs.readFileSync(filePath, "utf8");
   const match = text.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
@@ -146,6 +248,8 @@ function actualEntries() {
 verifyLanguage("zh");
 verifyLanguage("en");
 verifyLanguage("en", true);
+verifyResumeReading();
+verifyResumePrivacyFallbacks();
 const realEntries = actualEntries().sort((left, right) => (right.year - left.year) || (left.order - right.order));
 for (const language of ["zh", "en"]) {
   const available = realEntries.filter((entry) => entry[language === "en" ? "enUrl" : "zhUrl"]);
