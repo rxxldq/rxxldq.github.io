@@ -100,8 +100,27 @@
   let pendingContext = null;
   let copyLabelTimer = 0;
 
+  const passageAnchors = new Set();
   passageBlocks.forEach(function (block, index) {
-    if (!block.id) block.id = `passage-${index + 1}`;
+    if (block.id) {
+      passageAnchors.add(block.id);
+      return;
+    }
+    const text = String(block.textContent || "").replace(/\s+/g, " ").trim();
+    let hash = 2166136261;
+    for (let offset = 0; offset < text.length; offset += 1) {
+      hash ^= text.charCodeAt(offset);
+      hash = Math.imul(hash, 16777619);
+    }
+    const base = text ? `passage-${(hash >>> 0).toString(36)}` : `passage-${index + 1}`;
+    let anchor = base;
+    let duplicate = 2;
+    while (passageAnchors.has(anchor) || document.getElementById(anchor)) {
+      anchor = `${base}-${duplicate}`;
+      duplicate += 1;
+    }
+    block.id = anchor;
+    passageAnchors.add(anchor);
   });
 
   function revealLinkedPassage() {

@@ -15,6 +15,7 @@ function target(properties = {}) {
 const block = {
   nodeType: 1,
   id: "",
+  textContent: "A deliberately selected sentence.",
   scrolled: null,
   scrollIntoView(options) { this.scrolled = options; },
   closest() { return this; }
@@ -176,18 +177,18 @@ async function run() {
 
   documentListeners.selectionchange();
   assert.equal(selectionActions.hidden, false);
-  assert.equal(block.id, "passage-1");
+  assert.match(block.id, /^passage-[a-z0-9]+$/);
   await selectionCopy.listeners.click();
-  assert.equal(copiedUrl, "https://example.test/article-en.html#passage-1");
+  assert.equal(copiedUrl, `https://example.test/article-en.html#${block.id}`);
   assert.equal(selectionCopy.textContent, "Copied");
   assert.equal(selectionStatus.textContent, "Copied");
 
   navigatorObject.clipboard = null;
   selectionCopy.textContent = "Copy paragraph link";
   await selectionCopy.listeners.click();
-  assert.equal(fallbackCopiedUrl, "https://example.test/article-en.html#passage-1");
+  assert.equal(fallbackCopiedUrl, `https://example.test/article-en.html#${block.id}`);
 
-  windowObject.location.hash = "#passage-1";
+  windowObject.location.hash = `#${block.id}`;
   windowListeners.hashchange();
   assert.equal(block.scrolled.block, "center");
 
