@@ -1,3 +1,17 @@
+---
+layout: article
+title: 秘书
+lang: zh-CN
+year: 2026
+listed: true
+order: 30
+permalink: /novel-001.html
+alternate: /novel-001-en.html
+alternate_lang: en
+english_title: The Secretary
+english_url: /novel-001-en.html
+english_ai_translation: true
+---
 大家都希望一会能坐办公室。那就不能把西裤弄湿，裤子一湿，电脑椅也会湿透。机关的清洁工也不太想淋湿，然而湿和不湿没什么区别，基本没区别，暂时她至少还有淋雨的自由。
 
 K记得处长说过，当时，每次看见她湿漉漉的走进机关，干部们会动恻隐之心，让她歇一会。给她倒杯开水，跟她说，现在这也没啥事。还要问她儿子上几年级，父母的癌好些没，就问几句。
@@ -137,3 +151,4 @@ K无法再忍受了，他没动。
 他想起县城的婚礼，苍蝇围绕着五彩的拉皮，地上全是烟头，那些糙汉子都有方形的面庞，抽着烟。清洁工的儿子也顶着一张方形的脸，像他妈妈。
 
 K没回答这个问题。清洁工的儿子用最大的力气掐住他的脖子，有力的手像娃娃机的爪子一样。K不能呼吸，像一条被抓出来的小鱼。
+

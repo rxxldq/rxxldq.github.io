@@ -1,3 +1,17 @@
+---
+layout: article
+title: 下周升温
+lang: zh-CN
+year: 2025
+listed: true
+order: 40
+permalink: /novel-002.html
+alternate: /novel-002-en.html
+alternate_lang: en
+english_title: Warmer Next Week
+english_url: /novel-002-en.html
+english_ai_translation: true
+---
 最近很热，坏天气，今天四十五度，下周要升温，最高五十度。Jc不是个好学生，高温不能阻止坏孩子们去后山。高中生抽烟不只是装酷，也不是为了让鬼佬们高看他一眼。
 
 他们几个穿戴整齐，感谢学校培养这些小绅士，穿着皮鞋、西裤、红色校徽领带、白衬衫、黑皮带、灰色西装外套。衬衫必须塞进裤子，即使下周还要升温，西服也得穿一整套。
@@ -123,3 +137,4 @@ Jc反驳道，“我是你爹。”
 Jc一脚把烟都踢下坡。学生不该抽烟。
 
 但Jc已经习惯了，下次回国，还会偷烟。
+

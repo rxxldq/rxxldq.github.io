@@ -1,3 +1,15 @@
+---
+layout: article
+title: 中产阶级的孩子们三篇
+lang: zh-CN
+permalink: /middle-class-children.html
+alternate: /middle-class-children-en.html
+alternate_lang: en
+kind: poetry
+english_title: "The Children of the Middle Class: A Poetry Triptych"
+english_url: /middle-class-children-en.html
+paragraph_alignment: independent
+---
 <h2 class="part">I</h2>
     <p>我惊诧于</p>
     <p>中产阶级孩子们</p>
@@ -212,3 +224,4 @@
     <p>还是你们更了解自己？</p>
     <p>我知道这是什么感觉，</p>
     <p>因为我们都是这一代无知的中产阶级的孩子。</p>
+

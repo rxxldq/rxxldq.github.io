@@ -1,3 +1,13 @@
+---
+layout: article
+title: The Secretary
+lang: en
+permalink: /novel-001-en.html
+alternate: /novel-001.html
+alternate_lang: zh-CN
+ai_translation: true
+translation_revised: 2026-08-27
+---
 Everyone hoped to be sitting in an office in a little while. That meant keeping their trousers dry: wet trousers would soak the computer chairs too. The cleaner at the bureau did not particularly want to get drenched either, though wet or dry made little difference. Almost no difference. For the moment, at least, she still had the freedom to be rained on.
 
 K remembered the division chief saying that, back then, whenever the officials saw her come into the bureau dripping wet, they would feel a pang of sympathy and let her rest. They would pour her a cup of hot water and tell her there was not much to do just then. They would ask what year her son was in at school, whether her parents' cancer had improved. Just a few questions.
@@ -137,3 +147,4 @@ K could not bear it any longer. He did not move.
 He remembered the wedding in the county town: flies circling colourful platters of cold mung-bean noodles, cigarette butts covering the ground, rough men with square faces smoking. The cleaner's son had a square face too, like his mother.
 
 K did not answer. The cleaner's son clamped both hands around his throat with all his strength, powerful hands like the claw of a claw machine. K could not breathe, like a little fish lifted out of the water.
+

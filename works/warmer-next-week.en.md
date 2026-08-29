@@ -1,3 +1,13 @@
+---
+layout: article
+title: Warmer Next Week
+lang: en
+permalink: /novel-002-en.html
+alternate: /novel-002.html
+alternate_lang: zh-CN
+ai_translation: true
+translation_revised: 2026-08-27
+---
 Lately it had been hot. Bad weather. Forty-five degrees today; next week it was going to get warmer, with a high of fifty. Jc was not a good student. High temperatures could not stop bad kids from going to the hill behind the school. High-school students did not smoke just to look cool, nor to make the white kids think better of them.
 
 The boys were properly dressed—thanks to the school for raising such little gentlemen—in leather shoes, trousers, red ties bearing the school crest, white shirts, black belts, and grey suit jackets. Shirts had to be tucked in. Even with the temperature rising again next week, the whole suit had to be worn.
@@ -123,3 +133,4 @@ H suggested rescuing what remained of the half-burnt cigarettes and carrying on 
 Jc kicked all the cigarettes down the slope. Students should not smoke.
 
 But Jc was used to it now. The next time he went back to China, he would steal cigarettes again.
+
