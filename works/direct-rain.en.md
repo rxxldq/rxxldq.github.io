@@ -7,6 +7,7 @@ permalink: /direct-rain-en.html
 alternate: /direct-rain.html
 alternate_lang: zh-CN
 paragraph_alignment: independent
+translator: Hugo Leuchars
 ---
 ## 1 · The Unmoving Forest
 
