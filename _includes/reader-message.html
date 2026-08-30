@@ -42,9 +42,11 @@
     </div>
   </dialog>
 </section>
+{% endif %}
 <div class="reader-selection-actions" data-reader-selection-actions hidden>
+  {% if site.insights_endpoint != empty %}
   <button type="button" data-reader-selection-note>{% if page.lang == 'en' %}Comment on this passage{% else %}就这段留言{% endif %}</button>
+  {% endif %}
   <button type="button" data-reader-selection-copy>{% if page.lang == 'en' %}Copy paragraph link{% else %}复制本段链接{% endif %}</button>
   <span class="visually-hidden" data-reader-selection-status role="status" aria-live="polite"></span>
 </div>
-{% endif %}

@@ -473,6 +473,7 @@ html[lang="zh-CN"] .article-body {
   padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
 }
+.reader-message[hidden] { display: none; }
 .reader-message-open {
   padding: 0;
   border: 0;
@@ -572,6 +573,7 @@ html[lang="zh-CN"] .article-body {
   transform: translateX(-50%);
 }
 .reader-selection-actions[hidden] { display: none; }
+.reader-selection-actions button[hidden] { display: none; }
 .reader-selection-actions button {
   min-height: 2.5rem;
   padding: 0.55rem 0.9rem;
@@ -585,6 +587,7 @@ html[lang="zh-CN"] .article-body {
   cursor: pointer;
 }
 .reader-selection-actions button + button { border-left: 1px solid var(--rule); }
+.reader-selection-actions button[hidden] + button { border-left: 0; }
 .reader-selection-actions button:hover,
 .reader-selection-actions button:focus-visible { background: var(--ink); color: var(--paper); outline: none; }
 .article-body [id^="passage-"]:target { scroll-margin-top: 5rem; box-shadow: -0.35rem 0 rgba(20, 20, 18, 0.08); }
