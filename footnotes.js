@@ -25,6 +25,10 @@
 
   let active = null;
 
+  function returnFocus(ref) {
+    if (ref) ref.focus({ preventScroll: true });
+  }
+
   function closeNote() {
     if (active) active.setAttribute('aria-expanded', 'false');
     active = null;
@@ -67,6 +71,7 @@
       popoverClose.setAttribute('aria-label', isEnglish ? 'Close context note' : '关闭语境注释');
       popover.hidden = false;
       positionNote(ref);
+      popoverClose.focus({ preventScroll: true });
     });
   });
 
@@ -74,14 +79,14 @@
   popoverClose.addEventListener('click', () => {
     const ref = active;
     closeNote();
-    if (ref) ref.focus();
+    returnFocus(ref);
   });
   document.addEventListener('click', closeNote);
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape') {
       const ref = active;
       closeNote();
-      if (ref) ref.focus();
+      returnFocus(ref);
     }
   });
   window.addEventListener('resize', () => active && positionNote(active));

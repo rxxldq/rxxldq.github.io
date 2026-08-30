@@ -756,13 +756,13 @@ html[lang="zh-CN"] .article-body {
   .note-popover {
     top: auto !important;
     right: 1rem;
-    bottom: 1rem;
+    bottom: calc(1rem + env(safe-area-inset-bottom));
     left: 1rem !important;
     width: auto;
   }
   .note-ref {
-    min-width: 1.35rem;
-    height: 1.35rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
   }
   .translation-statement-banner {
     right: 1rem;

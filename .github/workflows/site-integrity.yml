@@ -25,6 +25,12 @@ jobs:
         run: python scripts/test_check_rendered_site.py
       - name: Test same-language article navigation
         run: node scripts/test_reading_tools.js
+      - name: Test stable passage links
+        run: node scripts/test_passage_links.js
+      - name: Test private reader messages
+        run: node scripts/test_reader_messages.js
+      - name: Test context-note accessibility
+        run: node scripts/test_footnotes.js
       - name: Test private dashboard downloads
         run: node --test backend/test/*.test.mjs
       - name: Build the site with GitHub Pages
