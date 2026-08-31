@@ -10,3 +10,6 @@ exclude:
   - README.md
   - scripts
   - backend
+  - output
+  - tmp
+  - 导出写作档案.cmd

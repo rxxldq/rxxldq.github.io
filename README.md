@@ -2,6 +2,13 @@
 
 这是一个由 GitHub Pages 与 Jekyll 发布的静态写作网站。文章内容、目录数据与页面外观相互分离，因此修改原文或译文时不需要碰 HTML 布局。
 
+## 一键备份与出版导出
+
+- 在 Windows 中双击根目录的 `导出写作档案.cmd`。它会在 `output/` 生成且只生成五个文件：完整源码备份 ZIP、中文 PDF/EPUB、英文 PDF/EPUB。也可以在根目录运行 `python scripts/export_archive.py`。
+- ZIP 只收录 Git 已追踪的源码，并附带 `EXPORT-MANIFEST.json`（生成时间、提交版本、文件校验和与出版文件校验和）；不会打包 `.git`、缓存、`output/` 或未追踪的本地文件。
+- 在 GitHub 仓库的 **Actions** 中选择 **Archive export**，点击 **Run workflow**；完成后从该次运行的 Artifacts 下载 `rxxldq-writing-archive`，其中同样含五个文件。
+- 导出只读取现有作品与作者简介，不会改写网站文章、译文、脚注、网址或页面设计。网页弹出式注释会在 PDF/EPUB 中改为每篇文章末尾的编号注释。
+
 ## 修改现有文章
 
 - 普通文章位于 `works/`，中文与英文分别保存为 `.zh.md` 和 `.en.md`。需要在根目录明确保留固定网址的文章，根目录只放一个调用公共布局的薄入口，正文唯一副本放在 `_includes/works/`；诗歌可用 `.html` 内容文件保留逐行标签与留白，但仍不重复页面外壳。
