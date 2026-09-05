@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 
 
-PUBLIC_ORIGIN = "https://rxxldq.github.io"
+PUBLIC_ORIGIN = "https://rxxldq.club"
 UNRESOLVED_LIQUID = ("{{", "{%")
 
 

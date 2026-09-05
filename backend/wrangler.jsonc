@@ -11,7 +11,7 @@
     "head_sampling_rate": 1
   },
   "vars": {
-    "ALLOWED_ORIGINS": "https://rxxldq.github.io,http://127.0.0.1:4000,http://localhost:4000",
+    "ALLOWED_ORIGINS": "https://rxxldq.club,https://www.rxxldq.club,https://rxxldq.github.io,http://127.0.0.1:4000,http://localhost:4000",
     "ADMIN_USERNAME": "rxxldq"
   },
   "secrets": {

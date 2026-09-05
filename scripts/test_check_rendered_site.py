@@ -9,17 +9,17 @@ from check_rendered_site import check_rendered_site
 HOME = """<!doctype html>
 <html lang="zh-CN"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home</title><link rel="canonical" href="https://rxxldq.github.io/">
+<title>Home</title><link rel="canonical" href="https://rxxldq.club/">
 </head><body><a href="/article.html#text">Article</a><img src="/image.png" alt=""></body></html>
 """
 ARTICLE = """<!doctype html>
 <html lang="en"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Article</title><link rel="canonical" href="https://rxxldq.github.io/article.html">
+<title>Article</title><link rel="canonical" href="https://rxxldq.club/article.html">
 </head><body><main id="text">Text</main><a href="/">Home</a></body></html>
 """
-FEED = """<?xml version="1.0"?><rss><channel><link>https://rxxldq.github.io/</link></channel></rss>"""
-SITEMAP = """<?xml version="1.0"?><urlset><url><loc>https://rxxldq.github.io/article.html</loc></url></urlset>"""
+FEED = """<?xml version="1.0"?><rss><channel><link>https://rxxldq.club/</link></channel></rss>"""
+SITEMAP = """<?xml version="1.0"?><urlset><url><loc>https://rxxldq.club/article.html</loc></url></urlset>"""
 
 
 def write_fixture(root: Path) -> None:

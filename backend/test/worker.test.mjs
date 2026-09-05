@@ -111,7 +111,7 @@ test("private backup downloads a portable archive without sender hashes", async 
 test("private passage context is validated and stored with the message", async () => {
   const inserted = [];
   const env = {
-    ALLOWED_ORIGINS: "https://rxxldq.github.io",
+    ALLOWED_ORIGINS: "https://rxxldq.club,https://rxxldq.github.io",
     RATE_SALT: "test-rate-salt",
     DB: {
       prepare(sql) {
@@ -130,7 +130,7 @@ test("private passage context is validated and stored with the message", async (
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Origin": "https://rxxldq.github.io",
+      "Origin": "https://rxxldq.club",
       "CF-Connecting-IP": "192.0.2.10"
     },
     body: JSON.stringify({
