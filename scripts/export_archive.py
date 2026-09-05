@@ -178,8 +178,13 @@ def about_work(language: str) -> Work:
     page_front, _ = parse_front_matter(ROOT / page_name)
     blocks = markdown_blocks(read_text(ABOUT / name))
     author_name = str(page_front.get("author_name", "")).strip()
+    instagram_handle = str(page_front.get("instagram_handle", "")).strip()
+    identity_blocks = []
     if author_name:
-        blocks.insert(0, ("paragraph", author_name))
+        identity_blocks.append(("paragraph", author_name))
+    if instagram_handle:
+        identity_blocks.append(("paragraph", f"Instagram: {instagram_handle}"))
+    blocks[0:0] = identity_blocks
     return Work(
         slug="about-author",
         title="关于作者" if language == "zh" else "About the Author",
