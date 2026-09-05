@@ -174,13 +174,19 @@ def ordered_slugs() -> list[str]:
 
 def about_work(language: str) -> Work:
     name = "about-author.zh.md" if language == "zh" else "about-author.en.md"
+    page_name = "hall.html" if language == "zh" else "hall-en.html"
+    page_front, _ = parse_front_matter(ROOT / page_name)
+    blocks = markdown_blocks(read_text(ABOUT / name))
+    author_name = str(page_front.get("author_name", "")).strip()
+    if author_name:
+        blocks.insert(0, ("paragraph", author_name))
     return Work(
         slug="about-author",
         title="关于作者" if language == "zh" else "About the Author",
         language=language,
         source_url=None,
         source_label=None,
-        blocks=markdown_blocks(read_text(ABOUT / name)),
+        blocks=blocks,
         notes=[],
     )
 

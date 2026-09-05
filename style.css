@@ -652,7 +652,9 @@ html[lang="zh-CN"] .article-body {
 }
 .proofread-column h2,
 .proofread-column h3 { margin: 0; font-size: 0.82rem; font-weight: 400; line-height: 1.65; }
+.about-author-name { margin: -2.25rem 0 0.45rem; color: var(--ink); font-size: 0.82rem; font-weight: 400; line-height: 1.6; }
 .about-subtitle { margin: -2.25rem 0 2.75rem; color: var(--quiet); font-size: 0.78rem; }
+.about-subtitle-after-name { margin-top: 0; }
 .article-hero { width: min(100%, 21rem); margin: -0.5rem auto 3.75rem; }
 .article-hero img { display: block; width: 100%; height: auto; filter: grayscale(1) contrast(1.02); mix-blend-mode: multiply; }
 .about-quotation { margin-top: 4.5rem; padding-top: 1.75rem; border-top: 1px solid var(--rule); }

@@ -73,7 +73,8 @@
     {% endif %}
     {% if page.kind == 'poetry' %}<p class="edition-label">{% if page.lang == 'en' %}Poetry{% else %}诗{% endif %}</p>{% endif %}
     <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}{% if page.location_map %} <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">&#x2316;</button>{% endif %}</p>{% endif %}
+    {% if page.author_name %}<p class="about-author-name">{{ page.author_name }}</p>{% endif %}
+    {% if page.subtitle %}<p class="about-subtitle{% if page.author_name %} about-subtitle-after-name{% endif %}">{{ page.subtitle }}{% if page.location_map %} <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">&#x2316;</button>{% endif %}</p>{% endif %}
     {% if page.hero_image %}<figure class="article-hero"><img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: '' | escape }}" width="1280" height="1280" decoding="async"></figure>{% endif %}
     {% if page.translator or page.english_text_by_author or page.ai_translation or page.source_url %}
     <div class="edition-meta">
