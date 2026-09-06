@@ -119,6 +119,8 @@ a:focus-visible { text-decoration-color: currentColor; }
   margin-top: 1.15rem;
 }
 
+.home-theme-field { display: none; }
+
 .year {
   padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
@@ -736,26 +738,30 @@ html[lang="zh-CN"] .article-body {
 @media (max-width: 36rem) {
   html { font-size: 17px; }
   .home-page::before {
-    background-position:
-      -15rem -15rem, -13.9rem -13.7rem, -12.8rem -12.4rem,
-      -11.7rem -11.1rem, -10.6rem -9.8rem, -9.5rem -8.5rem,
-      -8.4rem -7.2rem, -7.3rem -5.9rem,
-      calc(100% + 7.4rem) 23%, calc(100% + 6.5rem) 25%, calc(100% + 5.6rem) 27%,
-      calc(100% + 4.7rem) 29%,
-      -8rem calc(100% + 7rem), -6.9rem calc(100% + 5.7rem), -5.8rem calc(100% + 4.4rem),
-      calc(100% + 8rem) calc(100% + 8rem), calc(100% + 6.8rem) calc(100% + 6.5rem), calc(100% + 5.6rem) calc(100% + 5rem);
-    background-size:
-      22rem auto, 22rem auto, 22rem auto,
-      22rem auto, 22rem auto, 22rem auto,
-      22rem auto, 22rem auto,
-      10rem auto, 10rem auto, 10rem auto,
-      10rem auto,
-      13rem auto, 13rem auto, 13rem auto,
-      14rem auto, 14rem auto, 14rem auto;
-    opacity: 0.032;
+    background-image: none;
   }
-  .site { padding-top: 10vh; }
-  .site-header { margin-bottom: 4rem; }
+  .site {
+    width: min(100% - 2rem, 38rem);
+    padding-top: max(11vh, 4.5rem);
+  }
+  .site-header { margin-bottom: 0; }
+  .site-header h1 { max-width: 15ch; line-height: 1.08; }
+  .subtitle { margin-top: 1.15rem; }
+  .home-theme-field {
+    display: block;
+    position: relative;
+    height: 66vh;
+    height: clamp(24rem, 66svh, 35rem);
+    margin: 1rem 0 1.75rem;
+  }
+  .home-theme-field::before {
+    content: "";
+    position: absolute;
+    inset: 4% -0.35rem 0;
+    background: url("images/map.png") center 48% / min(84vw, 22rem) auto no-repeat;
+    filter: blur(0.35px);
+    opacity: 0.085;
+  }
   .wrap { width: min(100% - 2.5rem, 38rem); }
   .note-popover {
     top: auto !important;

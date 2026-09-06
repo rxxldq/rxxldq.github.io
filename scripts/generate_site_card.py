@@ -59,7 +59,7 @@ canvas.alpha_composite(art, (WIDTH - art.width + 146, 86))
 
 draw = ImageDraw.Draw(canvas)
 address_name = "RXXLDQ"
-address_suffix = ".github.io"
+address_suffix = ".club"
 french = "L’imagination au pouvoir !"
 chinese = "让想象力夺权"
 

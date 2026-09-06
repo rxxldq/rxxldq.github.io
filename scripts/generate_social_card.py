@@ -127,7 +127,7 @@ def draw_card(slug: str, chinese_title: str, english_title: str, output: Path) -
         english_y += 39
 
     site_font = ImageFont.truetype(GEORGIA, 19)
-    draw.text((left, HEIGHT - 86), "RXXLDQ.GITHUB.IO", font=site_font, fill=QUIET)
+    draw.text((left, HEIGHT - 86), "RXXLDQ.CLUB", font=site_font, fill=QUIET)
     draw.text((WIDTH - 88, HEIGHT - 86), "L’imagination au pouvoir !", font=site_font, fill=QUIET, anchor="ra")
 
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -145,7 +145,7 @@ def draw_home_card(output: Path) -> None:
     subtitle_font = ImageFont.truetype(CHINESE, 31)
     draw.text((left + 2, 196 + title_font.size + 25), "让想象力夺权", font=subtitle_font, fill=QUIET)
     site_font = ImageFont.truetype(GEORGIA, 19)
-    draw.text((left, HEIGHT - 86), "RXXLDQ.GITHUB.IO", font=site_font, fill=QUIET)
+    draw.text((left, HEIGHT - 86), "RXXLDQ.CLUB", font=site_font, fill=QUIET)
     output.parent.mkdir(parents=True, exist_ok=True)
     canvas.convert("RGB").save(output, "PNG", optimize=True)
 
