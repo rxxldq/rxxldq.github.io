@@ -35,7 +35,6 @@ layout: null
     <header class="site-header">
       <h1 lang="fr">L’imagination au pouvoir&nbsp;!</h1>
       <p class="subtitle">让想象力夺权</p>
-      <button class="translation-statement-trigger translation-statement-home-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.button }}</button>
     </header>
 
     <div class="home-theme-field">
@@ -69,7 +68,6 @@ layout: null
     </section>
     <footer class="site-footer"><a class="site-footer-link-pair" href="{{ '/hall.html' | relative_url }}"><span lang="en">About the Author</span><span class="site-footer-label-zh" lang="zh-CN">关于作者</span></a> <button class="site-footer-button" type="button" data-subscription-open aria-haspopup="dialog" aria-controls="subscription-dialog"><span lang="en">Subscribe</span><span class="site-footer-label-zh" lang="zh-CN">订阅</span></button> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
   </main>
-  {% include translation-statement.html %}
   {% include subscription-form.html %}
 </body>
 </html>
