@@ -149,7 +149,6 @@ a:focus-visible { text-decoration-color: currentColor; }
 }
 
 .english-title a { text-decoration: none; }
-.ai-mark { margin-left: 0.2rem; color: var(--quiet); font-size: 0.62rem; }
 
 .translation-link {
   display: inline-block;
@@ -754,13 +753,22 @@ html[lang="zh-CN"] .article-body {
     height: clamp(24rem, 66svh, 35rem);
     margin: 1rem 0 1.75rem;
   }
+  .home-intro {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: var(--quiet);
+    font-size: 0.7rem;
+    line-height: 1.65;
+    letter-spacing: 0.08em;
+  }
   .home-theme-field::before {
     content: "";
     position: absolute;
-    inset: 4% -0.35rem 0;
-    background: url("images/map.png") center 48% / min(84vw, 22rem) auto no-repeat;
-    filter: blur(0.35px);
-    opacity: 0.085;
+    inset: 8% -0.35rem 0;
+    background: url("images/map.png") center 48% / min(82vw, 21rem) auto no-repeat;
+    filter: contrast(1.12);
+    opacity: 0.14;
   }
   .wrap { width: min(100% - 2.5rem, 38rem); }
   .note-popover {

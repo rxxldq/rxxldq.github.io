@@ -38,7 +38,9 @@ layout: null
       <button class="translation-statement-trigger translation-statement-home-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.button }}</button>
     </header>
 
-    <div class="home-theme-field" aria-hidden="true"></div>
+    <div class="home-theme-field">
+      <p class="home-intro">个人小说、诗歌，原文自中文。</p>
+    </div>
 
     <section class="special-edition" aria-label="诗歌作品">
       <div class="title-pair">
@@ -58,7 +60,7 @@ layout: null
           {% for work in works %}
           <li class="title-pair">
             <a class="work-title" href="{{ work.url | relative_url }}">{{ work.title }}</a>
-            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}{% if work.english_ai_translation %}<span class="ai-mark"> · AI translation</span>{% endif %}</div>
+            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}</div>
           </li>
           {% endfor %}
         </ol>
