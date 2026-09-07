@@ -156,13 +156,20 @@ a:focus-visible { text-decoration-color: currentColor; }
 .translation-link span { opacity: 0.72; }
 
 .special-edition {
-  margin: 0 0 3.75rem;
+  margin: 0 0 1.25rem;
   padding: 1.25rem 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--rule);
 }
 .special-edition .english-title { margin-top: 0.25rem; }
 .special-edition .english-title a { display: inline-block; min-height: 24px; line-height: 24px; }
+
+.archive-translation-note { margin: 0 0 2.5rem; }
+.archive-translation-note .translation-statement-trigger {
+  color: var(--quiet);
+  font-size: 0.68rem;
+  line-height: 1.5;
+}
 
 .visually-hidden {
   position: absolute;
@@ -755,6 +762,11 @@ html[lang="zh-CN"] .article-body {
     font-size: 0.7rem;
     line-height: 1.65;
     letter-spacing: 0.08em;
+  }
+  .home-intro-en {
+    margin-top: 0.22rem;
+    font-size: 0.64rem;
+    letter-spacing: 0.025em;
   }
   .home-theme-field::before {
     content: "";
