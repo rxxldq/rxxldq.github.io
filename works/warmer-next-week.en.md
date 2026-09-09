@@ -7,13 +7,13 @@ permalink: /novel-002-en.html
 alternate: /novel-002.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-27
+translation_revised: 2026-09-09
 ---
 Lately it had been hot. Bad weather. Forty-five degrees today; next week it was going to get warmer, with a high of fifty. Jc was not a good student. High temperatures could not stop bad kids from going to the hill behind the school. High-school students did not smoke just to look cool, nor to make the white kids think better of them.
 
 The boys were properly dressed—thanks to the school for raising such little gentlemen—in leather shoes, trousers, red ties bearing the school crest, white shirts, black belts, and grey suit jackets. Shirts had to be tucked in. Even with the temperature rising again next week, the whole suit had to be worn.
 
-They had to cross the entire campus to smoke. The Chinese international students all loved smoking. School finished at three-thirty; Jc and the others would take the bus to a nearby shopping centre and smoke their second cigarette behind the bus stop. White kids passing by stared at them as if they were dwarfs, as if it were their hair the boys had set on fire.
+They had to cross the entire campus to smoke. Those few Chinese international students all loved smoking. School finished at three-thirty; Jc and the others would take the school bus to a nearby shopping centre and smoke their second cigarette behind the bus stop. White kids passing by stared at them as if they were dwarfs, as if it were their hair the boys had set on fire.
 
 A cigarette did not take long to finish. Yet they wished it would never run out. Old age and coronary heart disease were still far away; they wanted to leave everything to later. Jc thought his future was the same, like a cigarette that could never be finished.
 
@@ -25,7 +25,7 @@ When Jc was little, his father smoked. He was always following his father to pla
 
 Jc remembered the wooden boxes. He liked opening the cold glass door and stealing from the cabinet. Very few people could get hold of a whole carton. Every filter was different. Every cigarette held a secret. Sometimes Jc was proud that he smoked.
 
-Now the only gaudy, bizarre thing left was the fifty-degree weather, and even that was nothing special. Several Chinese boys gathered by the stairs: people who lived outside the field of vision but who, sooner or later, would hold the right to speak. Their English was bad. They had not been put through pressure-cooker schooling. Wherever they went, they went unnoticed. Of course that was what they wanted—only they did not want to be stared at as if they were dwarfs. They thought many people back home were terrifying, though they did not know why. They had never met such terrifying people, yet they were always feeling righteously guilty on their behalf. It was not those people's fault. The ones who ought to repent were the children at elite private schools: online since childhood, living with host families, home in China for two months, stealing a few cartons from their fathers before leaving—rebellious, yet unable to leave home.
+Now the only gaudy, bizarre thing left was the fifty-degree weather, and even that was nothing special. Several Chinese boys gathered by the stairs: people who lived out of sight but who, sooner or later, would control what got said. Their English was bad. They had not been put through pressure-cooker schooling. Wherever they went, they went unnoticed. Of course that was what they wanted—only they did not want to be stared at as if they were dwarfs. They thought many people back home were terrifying, though they did not know why. They had never met such terrifying people, yet they were always feeling righteously guilty on their behalf. It was not those people's fault. The ones who ought to repent were the children at elite private schools: visiting overseas websites since childhood, living with host families, home in China for two months, stealing a few cartons from their fathers before leaving—rebellious, yet unable to leave home.
 
 A few of Jc's friends were there. “Your dad's here,” he said.
 
@@ -39,9 +39,9 @@ Jc remembered their fathers, several weightless men in suits and leather shoes d
 
 They had not been smoking long and were still a little afraid, convinced the smell would settle in their hair, under their fingernails, in their clothes. They always imagined that one day they would be the people smoking in films, yet they wanted none of smoking's consequences. Consequences belonged to the endless future. Spend long enough in bright places, wearing leather shoes and formal clothes every day, and you grow sick of anything that shines—especially the glare caught in the creases of leather shoes. The sun chased them out of the corridor. The Sydney sun kept chasing until eight o'clock, when at last it reluctantly gave up. Noon to eight in the evening seemed longer than a century. Night would never come; even when it did, almost at once it was another day.
 
-They said it would get warmer next week: forty-eight, forty-five, maybe fifty. The owners of the cigarettes in their pockets—their fathers—had grown old. Long ago they had lost the ability to judge anything by desire, while a student's desire alone could supply the answer. It was hot now, and still they were going to the back hill to smoke. It's chill if it's a little hot. The air in Jc's hometown was damp. Sea cucumbers, tea, tossed carelessly into the garage; in the damp air back home, the exquisite wooden packaging went impotent and limp. Rehydrated sea cucumbers swelled larger and larger, larger than an adolescent cock, but the adults never glanced at them. They all said money was what they hated most.
+They said it would get warmer next week: forty-eight, forty-five, maybe fifty. The owners of the cigarettes in their pockets—their fathers—had grown old. Long ago they had lost the ability to judge anything by desire, while a student's desire alone could supply the answer. It was hot now, and still they were going to the back hill to smoke. A bit of heat was all right. The air in Jc's hometown was damp. Sea cucumbers, tea, left casually in the garage; in the damp air back home, the exquisite wooden packaging went impotent and limp. Sea cucumbers left to soak swelled larger and larger, larger than an adolescent cock, but the adults never glanced at them. They all said money was what they hated most.
 
-“How much farther?”
+“How long do we have to walk?”
 
 “No idea.”
 
@@ -95,7 +95,7 @@ They sweated as they smoked, happy, their voices hoarse. The cigarette seemed im
 
 “Then when can you finish it?”
 
-They all said, “Soon.” Jc felt the sky itself was about to heat up. Next week it would get warmer, climbing past forty-five.
+They all said, “Soon.” Jc felt it was about to get hot. Next week it would get warmer, climbing past forty-five.
 
 “Teacher's coming,” H said suddenly, to scare them.
 
@@ -123,7 +123,7 @@ H said, “Ha ha.”
 
 Everyone said, “Fuck,” and laughed again.
 
-In the end, watching an entire pack catch fire, watching the wind silently smoke half of it, would Jc think of the glass cabinet? When people learned that their money had been taken and turned into box after wooden box of cigarettes, which were then stolen by children studying overseas and secretly smoked on the back hill—while plenty of people out there could not even bear to buy Baisha cigarettes—how did that make them feel? Jc wished cigarettes would never run out, so he would never have to think about these questions, never have to meet those frightening people. But that was not how reality worked.
+In the end, watching an entire pack catch fire, watching the wind silently smoke half of it, would Jc think of the glass cabinet? When people learned that their money had been stolen and spent on wooden box after wooden box of cigarettes, which were then stolen by children studying overseas and secretly smoked on the back hill—while plenty of people out there could not even bring themselves to spend money on Baisha cigarettes—how did that make them feel? Jc wished cigarettes would never run out, so he would never have to think about these questions, never have to meet those frightening people. But that was not how reality worked.
 
 “I'm your dad,” K said.
 

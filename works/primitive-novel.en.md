@@ -1,27 +1,27 @@
 ---
 layout: article
 title: Characters in a Primitive Novel
-description: 'In the pitch-black cave, a filthy knot of people huddles around the Priest. He is simmering a cauldron of brew.'
+description: 'In the pitch-black cave, a filthy knot of people surrounds the Priest. He is simmering a brew in a cauldron.'
 lang: en
 year: 0
 permalink: /primitive-novel-en.html
 alternate: /primitive-novel.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-27
+translation_revised: 2026-09-09
 ---
 
 ## 1
 
-In the pitch-black cave, a filthy knot of people huddles around the Priest. He is simmering a cauldron of brew. His hair is the longest, and the filthiest. Inside the stone cave are three men, one woman and the old Priest. They all look alike: the same clotted, dirty hair, none of it braided.
+In the pitch-black cave, a filthy knot of people surrounds the Priest. He is simmering a brew in a cauldron. His hair is the longest, and the filthiest. Inside the stone cave are three men, one woman and the old Priest. They all look alike: the same matted, dirty hair, none of it braided.
 
 How are they to be told apart? One is the strongest; he must be the lead hunter. None has enough clothing to cover the body. The men wear leaves, the woman an animal hide.
 
 Priest: (stirring the brew clockwise in the cauldron) All right, it’s done. Come on, everyone. Come over and drink.
 
-Man 2: Hm? Does it really work? I’ve been here for ages, standing around all this time, and you ignored me. (hurls a rock into the valley with all his strength) This is driving me insane. What did you call me here for?
+Man 2: Hm? Does it really work? I’ve been here for ages, standing around all this time, and you ignored me. (hurls a rock into the valley with all his strength) I’m sick of this. What did you call me here for?
 
-They drink the brew from skull bowls, and their eyes seem to brighten a little. Certain things—not enough to be called knowledge—pour into the simple, pitiful brains of primitive people, brains not yet developed. Before, they understood nothing. Now it is much the same.
+They drink the brew from skull bowls, and their eyes seem to brighten a little. Certain things, things that cannot be called knowledge, pour into their brains, the simple, pitiful, undeveloped brains of primitive people. Before, they understood nothing. Now it is much the same.
 
 Strong Man: These people are all so strange. Who are they? Priest: What do you see?
 
@@ -51,7 +51,7 @@ Strong Man: My brain is now loaded with cinema, poetry, literature and art.
 
 Man 3: (takes another great swallow. His body feels lighter, but his mind is foggy, crowded with thoughts that do not belong to him) I remember now. Primitive people don’t have cameras.
 
-Strong Man: Oh. Then shoot my dick. Stop talking about those shitty films of yours.
+Strong Man: Oh, right. Then what the fuck are we filming? Stop talking about those shitty films of yours.
 
 ## 2
 
@@ -79,7 +79,7 @@ Man 3: Small round face, upturned eyes. Her eyes are diamond-shaped; their corne
 
 Strong Man: I hunt like the grown-ups do. Priest, watch. Watch her, old bastard! Stop recording everything!
 
-Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to breed as much as possible. Her hair falls across her face like this, and now the sunlight turns it into the wafer-thin rice-paper coating around a candied hawthorn. Makes you want to bite it.
+Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to have lots of children. Her hair falls across her face like this, and now the sunlight turns it into the layer of rice paper wrapped around candied hawthorns on a stick. I really want to take a bite.
 
 Strong Man: None of that casting-couch shit. This is the set of an avant-garde experimental film. What, are you going to pick consorts like those old cunts?
 
@@ -99,7 +99,7 @@ Man 2: (he does not understand what everyone intends to do. He picks up the ston
 
 Man 3: Off, all of it. This is only a process. Are they really doing it or pretending? You’ll have to ask whether he has the nerve.
 
-An animal hide covers the pair from the waist down. The Woman sits slumped on the earth, feeling the bewildered Strong Man make symbolic thrusts with his hips. Everyone watches. The Priest is still watching too.
+An animal hide lies across their waists. The Woman sits slumped on the earth, feeling the bewildered Strong Man make token thrusts with his hips. Everyone watches. The Priest is still watching too.
 
 The Priest’s eyes are trained on him, as though they can see through the hide.
 
@@ -137,11 +137,11 @@ Priest: (he finally speaks) I record. I am half god, half man, half beast. A cam
 
 1:12 Everything was very good. It was decided to shoot some avant-garde experimental cinema.
 
-Man 3: (apparently persuaded, his body relaxing) Put down the axe! You know, the twenty-first century is a B-movie. The kind we make. Whenever you hear someone say he loves the world of the twenty-first century, it is a sign that he expects to be rewarded for it. Men and women are both disgusting. Love of life is the last refuge of a scoundrel.
+Man 3: (apparently persuaded, his body relaxing) Put down the axe! You know, the twenty-first century is a B-movie. The kind we make. Whenever you hear someone say they love the world of the twenty-first century, it is a sign that they expect to be rewarded for it. Men and women are both disgusting. Love of life is the last refuge of a scoundrel.
 
 The bewildered Strong Man lowers his head. He knows that he is about to become the representative of the damned, hateful, irresponsible, decadent twenty-first-century man: strutting inside the patriarchal order on borrowed authority, feasting on the dividends of his era, passing through a thousand flowers without letting a single petal cling to him.
 
-Can this represent the pitiful women of the twenty-first century? Or is it condemning the men of the twenty-first century? The Woman slumped on the ground, the Strong Man, the relieved Man 2, and Man 3 gripping his weapon with every muscle tense—the Priest has brewed the medicine again and gives each of them a bowl.
+Can this represent the pitiful women of the twenty-first century? Or is it condemning the men of the twenty-first century? The Woman slumped on the ground, the Strong Man, the relieved Man 2, and Man 3 holding his weapon, tense-faced—the Priest has brewed the medicine again and gives it to each of them to drink.
 
 ## 3
 
@@ -199,7 +199,7 @@ Woman: (rolling across the ground, not caring that her robe trails through the m
 
 Woman: (looking at the innocent man lying on the ground, bleeding to death) I’m not acting anymore!
 
-The Woman clutches her hair and touches his hand: still warm yet cold, soft but slowly stiffening, a red hand swollen with blood, blood flowing out like paint from a filled rubber glove.
+The Woman clutches her hair and touches his hand: still warm yet cold, soft but slowly stiffening, a red hand swollen with blood, blood flowing out, like a rubber glove filled with paint.
 
 Woman: (standing up and snatching the Priest’s computer) I’m deleting your After Effects, Premiere Pro, whatever else—CAD too. You’re not filming anything ever again.
 
@@ -251,7 +251,7 @@ Us—the make-up artist created us, humankind, our faces. He strokes our faces, 
 
 The eyes, most sinful of all. The make-up artist never meant to give us two eyes. He only drew close and breathed a gust of wind into our ears, and we learned to sigh and complain.
 
-His earrings fell by accident onto the dripping, unfinished mould. There were two. They landed in the middle of our faces. We saw. We could see that this was the worst possible ending.
+His earrings fell by accident onto the dripping, unfinished mould. There were two. They landed in the middle of our faces. We saw. Being able to see was the worst possible ending.
 
 With eyes came local ulceration and pus from damaged piercing wounds. Earrings stink when they have been worn too long. Everything we see is disgusting.
 

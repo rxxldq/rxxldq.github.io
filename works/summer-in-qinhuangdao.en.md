@@ -8,7 +8,7 @@ permalink: /summer-in-qinhuangdao-en.html
 alternate: /summer-in-qinhuangdao.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-21
+translation_revised: 2026-09-08
 ---
 
 Park toilets and the shabby little buildings beside them do not attract much attention: gatehouses, reception rooms, some administration office. By the time you see them, you are already standing at the door. When I woke this morning, I knew at once that something had changed. It had rained last night.
@@ -17,7 +17,7 @@ The rectangular space is usually divided into three. In the middle is a large mi
 
 The cleaner is no longer young. You look drunk when You come through the door. A few hours earlier, the cleaner had already tried a damp rag, alcohol spray, and an alkaline cleaning agent, to little effect. Most people cannot make out what the graffitied word means. It begins with A. I do not know either. The glass is as smooth as it is every morning. The word lies across it, neither merged into the mirror nor merely floating on the surface. Everyone who sees this mirror wants to spray a little graffiti.
 
-When the cleaner was young, toilets did not yet have authorized staff positions. She used to work at the subdistrict office. At fifty, she had finally scraped together some minor title, some responsibility attached to her name.
+When the cleaner was young, toilet cleaning did not yet have official posts. She used to work at the subdistrict office. At fifty, she had finally managed to land some minor post, some responsibility attached to her name.
 
 A few days ago the temperature was much like today's. That was when I discovered You were drunk. As haggard as the cleaner, You swayed into this toilet, shaking Your head. At the edge of Your vision appeared now a square hut with a pointed roof, now a few small red characters. The plastic door curtain set the whole scene swaying, though no amount of wavering could keep out a single fly. Tiny insects brought the wind, which blew you into the toilet. Looking up, you frightened yourself with your own face.
 
@@ -25,7 +25,7 @@ It was some time after waking before I understood what was different today: the 
 
 Rain and noise and the people looking for you do not usually come with fade-ins or fade-outs. Once they are gone, they are gone; they may not return until next year. Why does someone always come looking for you at just this time? In summer, I do not even know whether the things that happen in summer are real, whether people exist. Outside, the sun is blazing, yet there is no sense of temperature, as if the sun were only an enormous LED bulb. Every sound is mixed into the hum of the motor, like a song that has already been mixed. And memory—how did it suddenly become summer?
 
-The night before last, I fell asleep reading James Joyce. The window was open, and heavy rain suddenly began. I dreamt that four Irish leprechauns, their hats embroidered with shamrocks, carried me somewhere while rain fell outside. I drifted with the sound of rain through the nineteenth century. How enchanting that mysterious Dublin of a hundred years ago seemed in the dream. I like watching people of the modern era proudly display how progressive they are: the Irish struggle for national independence and the streetlamp beside them. They already had electricity in those days. On the road, public carriages gave off the continuous hum of rain striking the ground.
+The night before, I fell asleep reading James Joyce. The window was open, and heavy rain suddenly began. I dreamt that four Irish leprechauns, their hats embroidered with shamrocks, carried me somewhere while rain fell outside. I drifted with the sound of rain through the nineteenth century. How enchanting that mysterious Dublin of a hundred years ago seemed in the dream. I like watching people of the modern era proudly display how progressive they are: the Irish struggle for national independence and the streetlamp beside them. They already had electricity in those days. On the road, public horse-drawn carriages gave off the continuous hum of rain striking the ground.
 
 I thought the rain would last all night. The weather itself was not hot, so there was no need for rain to bring coolness. Hollows in the uneven ground would quickly fill with water and become puddles, mosquito larvae multiplying, passing cats stopping now and then for a lick.
 
@@ -37,7 +37,7 @@ The sound of rain persisted outside. Darkness and rainy nights no longer contain
 
 Rain began last night, and I can feel that now I am everywhere, not far from anyone. The night before the rain, You were drunk. Perhaps You are someone who does not drink. Perhaps I am unwilling to admit You were drunk. But I have to give You a reasonable motive so that Your reason can choose irrationality. You are the lowest grade of idealist. I am unwilling to admit that You—the kind of lowest-grade idealist one can become simply by abandoning reason—chose me. I have always been trying to avoid moving toward the non-low-grade.
 
-Time, space, characters, place, voice, mode, and BPM: the more I think, the more tired I become. Must I always invent reasonable motives and connections between cause and consequence? Drunk people are always looking for toilets. You were drunk last night too. It is raining now. Summer is not refreshing. I am sitting in an uncomfortable modern commodity chair, reading Joyce, unable to find a comfortable way to be. The window is half open. The season itself is not hot. The rain goes on without pause; once it begins, it takes the form of a march and never stops, making me feel like cargo waiting to be moved.
+Time, space, characters, place, tone, musical mode, and BPM: the more I think, the more tired I become. Must I always invent reasonable motives and connections between cause and consequence? Drunk people are always looking for toilets. You were drunk last night too. It is raining now. Summer is not refreshing. I am sitting in an uncomfortable modern commodity chair, reading Joyce, uncomfortable however I sit. The window is half open. The season itself is not hot. The rain goes on without pause; once it begins, it takes the form of a march and never stops, making me feel like cargo waiting to be moved.
 
 This rain: I do not face it like some great peasant, longing and longing for it, hoping to survive the drought. The rain did not bring summer. Summer keeps on appearing.
 
@@ -59,6 +59,6 @@ Code of Conduct
 
 Behavioral Guidelines
 
-You and I are equally dull symbols. Music clamors, mosquitoes bite. I can see the insects' slender legs, like fragile works of contemporary art, alight on my body.
+You and I are equally dull symbols. Music clamors, mosquitoes bite. I can see the insects' slender legs resting on my body like fragile works of modern art.
 
-On this weightless night, some things slipped away along the backspace key. I suddenly understood that I could come to know this world again. I am a puddle. I am the air. I was once a bladder. Unable to find a toilet, I have already exploded, drawing the reader's attention up to a sky the color of washed coal.
+On this weightless night, some things slipped away through the backspace key. I suddenly understood that I could come to know this world again. I am a puddle. I am the air. I was once a bladder. Unable to find a toilet, I have already exploded, drawing the reader's attention up to a sky the color of washed coal.

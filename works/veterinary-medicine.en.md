@@ -8,7 +8,7 @@ permalink: /veterinary-medicine-en.html
 alternate: /veterinary-medicine.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-26
+translation_revised: 2026-09-08
 source_url: https://lib.ru/BUNIN/r_tri_rubla.txt
 source_label: 'Ivan Bunin, “Three Rubles”'
 source_lang: ru
@@ -18,7 +18,7 @@ source_lang: ru
 
 At the time, everyone was smoking in the room. K smoked too, but he could not stand secondhand smoke. The partner who sometimes came to keep him company suddenly turned to face him and said, “K, my friends and I are going away for a while.”
 
-Before K could show his temper, dredge up every wound and miserable memory, and say a few things, weed roots would always grow from the cracks in the concrete. He could never shake them off.
+Before K could lose his temper, dredge up every wound and miserable memory, and say a few things—weed roots always grew from the cracks in the concrete. He could never shake them off.
 
 The day before, amid the smoke, K had been reading an anthology of Russian prose. It contained a story he loved: a street sweeper sifted gold dust from piles of rubbish and fashioned it into a golden rose for his beloved.
 
@@ -26,7 +26,7 @@ The day before, amid the smoke, K had been reading an anthology of Russian prose
 
 “Thanks. This is xxxx, the trousers are xxxx. xxxx was given to me by xxx…”
 
-That was how the feeling of having known each other forever was created.
+That was how instant familiarity was created.
 
 “Oh, you know xxxx too. Oh, right, yes, I like xxxx as well.”
 
@@ -84,7 +84,7 @@ When she woke, K was leaning against the headboard, kissing her shoulder over an
 
 She stood up. “I don’t like the new era,” she said.
 
-K hurried to make promises and launched into a speech full of grand plans. He said it was normal for the average person to have around twenty different sexual partners over a lifetime; he said Wang Xiaobo, whose lips were as purple as his, had been dead for so many years, so she should not be so conservative; he said the revolution must never stop; he said Guy Debord seemed to believe that a person’s thinking ought to operate like a government, loyal first to itself and then to everything else; he said, if you cannot revolutionise your own thoughts, how can you live? K could not remember whether Debord had said this or someone writing about Debord had. She picked her clothes up from the floor. He went on to say that not working was a right we should have had all along, and unemployment was a gift from heaven. He promised her that they would “enter the city’s night alongside those rebels doomed to come to no good, putting the free association of individuals into practice through the dérive.”
+K hurried to make promises and launched into a speech full of grand plans. He said it was normal for the average person to have around twenty different sexual partners over a lifetime; he said Wang Xiaobo, whose lips were as purple as his, had been dead for so many years, so she should not be so conservative; he said the revolution must never stop; he said Guy Debord seemed to believe that a person’s thinking ought to operate like a government, loyal first to itself and then to everything else; he said, if you cannot revolutionise your own thoughts, how can you live? K could not remember whether Debord had said this or someone writing about Debord had. She picked her clothes up from the floor. He went on to say that not working was a right we should have had all along, and unemployment was a gift from heaven. He promised her that they would “enter the city’s night alongside those rebels doomed to a bad end, putting the free association of individuals into practice through the dérive.”
 
 She asked, “So what about the veterinary medicine?”
 

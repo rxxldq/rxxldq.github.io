@@ -8,12 +8,12 @@ permalink: /grandpa-dai-en.html
 alternate: /grandpa-dai.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-27
+translation_revised: 2026-09-08
 ---
 
 We are not peasants.
 
-Old peasants still gathered now and then. In autumn, driving donkey carts piled high, they came squeezing through the scattered leaves and made straight for the gate tower. If they arrived late, their vegetables would fetch no good price. The sun revolved. Their gazes bent downward, afraid to look up. They had lived forty or fifty years without once seeing the plaque under the flying eaves, its four characters—FIRST PASS UNDER HEAVEN—read from right to left.
+Old peasants still gathered now and then. In autumn, driving donkey carts piled high, they came squeezing through the scattered leaves and made straight for the gate tower. If they arrived late, their vegetables would fetch no good price. The sun revolved. Their gazes bent downward, afraid to look up. They had lived forty or fifty years without once seeing the plaque under the flying eaves, its four characters—“关一第下天” (“First Pass Under Heaven,” read from right to left).
 
 You could not say the room was freezing, but your fingers were always ice. Hold them between your legs for a while and they turned icy and numb. Most of the mountains were bald. There was no firewood. There was no food to set on the table; one slab of pork belly had to make three pots of soup. The fish stopped coming. Shoals played in the Pacific, skirted the Bohai Sea, and turned away to Osaka.
 
@@ -27,20 +27,20 @@ The horse kept lifting its hind feet, unable to find its balance on the stone ro
 
 I wondered: Grandpa Dai lived in the deep sea, so how could he learn what people were doing through the refraction of light? How could people guess what fish liked? Love for Grandpa Dai was carved into collective memory. People wanted him back.
 
-The residents changed themselves to please him. They grew their beards and hair out. Nothing changed. Then they shaved it all off.
+The residents changed themselves to please him. They grew their beards and hair out. Nothing changed. Then they shaved their heads.
 
 In any case, Grandpa Dai had not come to Shanhaiguan in more than ten years. Everyone missed him.
 
 His Story
 He looked straight ahead, then around the circle. The audience had the eyes of dogs, ravenous, waiting to be fed. Before he even opened his mouth, they grew impatient, yet could not bear to look away. Their mouths opened again and again, wanting to say something for him. Every one of them carried a bestial confusion, tearing him apart with their eyes, loving him deeply.
 
-He did not speak. Last time he had been taught a sentence: *Mes yeux sont les yeux des chinois.* Before cameras that steal the soul, before documentary directors who trade other people's suffering for emotion, before French missionaries who drifted from Saigon all the way to the Lancang River, then drove horse carts to the Red River ferry, one could say this: my eyes are the eyes of the Chinese.
+He did not speak. Last time he had been taught a sentence: *Mes yeux sont les yeux des chinois.* Before cameras that steal the soul, before documentary directors, they traded other people's suffering for the feeling of being moved. Before French missionaries who drifted from Saigon all the way to the Lancang River, then drove horse carts to the Red River ferry, one could say this: my eyes are the eyes of the Chinese.
 
 The eyes around him were like dogs' eyes, cherishing a spare rib so dearly they wanted to dig a hole and hide it. They wanted to pull him apart. They were also afraid the things inside his head would disappear and his mouth would never open again.
 
-He performed kuaiban, a form of storytelling paced by bamboo clappers. The clappers cracked. His fingers turned with his wrist, drawing a beautiful figure eight. They plainly had only three joints, yet seemed to link themselves into the Big Dipper, making everyone feel close to him.
+He performed kuaiban, a form of storytelling paced by bamboo clappers. The clappers cracked. His fingers turned with his wrist, drawing a beautiful figure eight. Each plainly had only three segments, yet they seemed to link themselves into the Big Dipper, making everyone feel close to him.
 
-The audience's mouths hung slightly open. They squinted and grimaced, twisting their features into unnatural shapes, staring at those fingers. They watched a finger slide from beneath his jacket onto the tabletop, lightly tap the storyteller's block twice, then hook it tenderly before lifting it.
+The audience's mouths hung slightly open. They squinted and grimaced, twisting their features into unnatural shapes, staring at those fingers. They watched the fingers slide from beneath his jacket onto the tabletop and lightly tap the storyteller's block twice, not picking it up yet, just curling tenderly around it.
 
 If only they could snap those fingers, bend them backward. He would turn into a raptor, click click. Someone wanted to press the claw into the city wall and leave the 5A tourist attraction a souvenir, molding it in sticky rice, lime, and egg white.
 
@@ -76,7 +76,7 @@ My grandfather and grandmother were the only newlyweds not married under Grandpa
 The Executioner's Story
 His Excellency Li, your hand was truly ruthless. The men were beheaded before the fleet even left Shanhaiguan.
 
-At noon they were all fishermen, with little money at home. The man carrying the blade had received nothing for his trouble, so naturally he was not enthusiastic about sharpening it. It was as dull as an oar. That day the great sheet of iron fell on a pitiful neck. The man lay there while the executioner worked as easily as a woman beating laundry beside a river.
+It was noon. They were all fishermen, with little money at home. The man carrying the blade had received nothing for his trouble, so naturally he was not enthusiastic about sharpening it. It was as dull as an oar. That day the great sheet of iron fell on a pitiful neck. The man lay there while the executioner worked as easily as a woman beating laundry beside a river.
 
 The great sheet of iron fell, pressing the breath down, one muffled blow after another. Later, when he became a storyteller, he also slammed the storyteller's block. The fisherman was tough. By the end his whole body had turned black. He had become a Black man.
 
@@ -86,9 +86,9 @@ I need to add clearer bodily sensations or echoes of concrete scenic detail; add
 
 But even porn is fake. The title says amateur home video and the people in it turn out to be professional actors. Sexual impulse is fake too. Once I finish the subtitles, who will care who Grandpa Dai was?
 
-Too many years had passed since Grandpa Dai last came. Writers had nothing left to write, directors nothing left to film. All they could do was burrow into old wisdom and dig, until life became like a film, some kind of social experiment. Then the little Japanese devils made trouble for several years. Them—I can hardly bear to say it—they killed until the beach at Shanhaiguan was heaped full.
+Too many years had passed since Grandpa Dai last came. Writers had nothing left to write, directors nothing left to film. All they could do was burrow into old wisdom and dig. Life became like a film, some kind of social experiment. Then the little Japanese devils made trouble for several years. Them—I can hardly bear to say it—they killed until the beach at Shanhaiguan was heaped full.
 
-Only His Excellency Li had faced Grandpa Dai. Three motor ships cruised back and forth off Shanhaiguan. Grandpa Dai liked them, savoring the charms of the Industrial Revolution. Only His Excellency Li dared meet Grandpa Dai's eyes. Perhaps what he meant was: bro, I've got this whole stretch of land covered. Stay out of it. The Beiyang Fleet's money had all been diverted to build gardens. The shells in the storehouses were roe deer from Jilin frozen into blocks, and wool from Inner Mongolia soaked through with mud.
+Only His Excellency Li had faced Grandpa Dai. Three motor ships cruised back and forth off Shanhaiguan. Grandpa Dai liked them, savoring the charms of the Industrial Revolution. Only His Excellency Li dared meet Grandpa Dai's eyes. Perhaps what he meant was: brother, I've got this whole stretch of land covered. Stay out of it. The Beiyang Fleet's money had all been diverted to build gardens. The shells in the storehouses were roe deer from Jilin frozen into blocks, and wool from Inner Mongolia soaked through with mud.
 
 Ordinarily we had nothing to do but work desperately, wait for him to come tell us the story of Grandpa Dai, save money, tip him, just to win him a smile. I truly hoped he would speak.
 
@@ -96,7 +96,7 @@ The wind poured in. He stuck his hand down his trousers. We all saw it.
 
 His Excellency Li had been pleased that day. The head did not fall. The man involved feared it was not enough of a deterrent. He feared Grandpa Dai would come back and His Excellency Li would certainly drag up the old affair and blame him. All he could do was become a storyteller, frighten children, and tell them how much evil Grandpa Dai had done.
 
-We grew up. We spent our whole lives listening. Every trace of blood drained from our hands. We stared at his hand. Our mouths clenched around our teeth. The skin of his hand was tough. The more he told, the more we loved him. Grandpa Dai, we want you back. You may brutally grind our natures smooth, as long as your terror can make us feel safe.
+We grew up. We spent our whole lives listening. All the colour had drained from the hands. We stared at his hands. Our mouths clenched around our teeth. The skin of his hands was tough. The more he told, the more we loved him. Grandpa Dai, we want you back. You may brutally grind our natures smooth, as long as your terror can make us feel safe.
 
 He did not want Grandpa Dai to return. He endured in silence until the day of my wedding, when we lay on the ground imitating Grandpa Dai drifting in the current, and then he struck our heads with steel. Fingers the white of albumen, every knuckle distinct.
 

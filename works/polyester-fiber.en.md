@@ -8,7 +8,7 @@ permalink: /polyester-fiber-en.html
 alternate: /polyester-fiber.html
 alternate_lang: zh-CN
 ai_translation: true
-translation_revised: 2026-08-28
+translation_revised: 2026-09-08
 ---
 
 One night I was reading when my friend C called me out of nowhere. He had been dead for ages.
@@ -23,19 +23,19 @@ I remember you weren't afraid to die.
 
 Of course he wasn't. He wasn't afraid before he died. Afterward might be different.
 
-My friend C was as interesting as everyone else. He ate, slept, spent money, had fun, and then took enough pills to die. I have many people like that around me, but none of them call. Only C still remembered me after he died.
+My friend C was as interesting as everyone else. He ate, slept, spent money, had fun, and then died from taking pills. I have many people like that around me, but none of them call. Only C still remembered me after he died.
 
 I felt a little awkward, getting a sudden call from him.
 
 So we caught up.
 
-I told him your guitar is still sitting on its stand. Your clothes are hanging there, some expensive, some cheap, some one-offs. Lots of people want the one-offs. I wanted them too. But your mother said she was going to burn them, and I couldn't very well have the nerve to ask. I wouldn't even know how to offer to buy them, or say I wanted something to remember you by.
+I told him your guitar is still sitting on its stand. Your clothes are hanging there, some expensive, some cheap, some one-offs. Lots of people want the one-offs. I wanted them too. But your mother said she was going to burn them, and I couldn't bring myself to ask her for them. I wouldn't even know how to offer to buy them, or say I wanted something to remember you by.
 
 Your mother said how unlucky it would be to wear a dead man's clothes. You had joined the ranks of the dead.
 
 Your mother wanted to burn your old clothes. I remember F was there that day too.
 
-At the sound of F, he sighed.
+At the mention of F, he sighed.
 
 What? Miss her? Missing her won't help. You're already dead. You made F use up three generations' worth of grief.
 
@@ -63,7 +63,7 @@ Your mother kept her head down, not daring to look at the piercings in F's face 
 
 Your mother said, “C was a good child. When he was little… so well behaved. He just fell in with a bad crowd.”
 
-F asked when the funeral would be. Your mother said they would see. Then F left. She did not even touch the little mandarins on the coffee table. That basket of fruit shrivelled up long ago. None of you had time to care.
+F asked when the funeral would be. Your mother said they would see. Then F left. She did not even touch the little mandarins on the coffee table. That basket of mandarins had shrivelled up long ago. None of you had time to care.
 
 And then what? C asked.
 
@@ -79,7 +79,7 @@ Before he died, he saw plenty of girls too. He could not accept being in a coupl
 
 C said he envied the men and women he saw on the street: the ones in glasses, the ones with clean pale faces, the ones who covered their pimples with blue star stickers, the ones whose features simply sat there on their faces. The women, and the men beside them, stupid enough to make a perfect match.
 
-Bro, look what they're wearing: fashionable jeans bought online, mass-produced in a factory, one thin skin of fabric with no workmanship, uniformly machine-washed, even the rips and patches all in the same places, cut open with a worker's knife instead of worn through naturally. The pale, washed-out blue trousers were like sheets of paper draped over their bodies, thin as an Okamoto condom. Jeans like those would never take on the patterns and distinctive wear marks of their owners' movements, never mind whiskers or honeycombs. Just a sheet of paper hung on a person. As they walked, the trouser legs slid backward and forward, unaware of how pitifully ordinary they were.
+Bro, look what they're wearing: fashionable jeans bought online, mass-produced in a factory, one thin layer of fabric with no craftsmanship, all given the same machine wash, even the rips and patches all in the same places, cut open with a worker's knife instead of worn through naturally. The pale, washed-out blue trousers were like sheets of paper draped over their bodies, thin as an Okamoto condom. Jeans like those would never develop the patterns and distinctive wear marks left by their owners' movements, never mind whiskers or honeycombs. Just a sheet of paper hung on a person. They walked with their trouser legs sliding back and forth, unaware of how pitifully ordinary they were.
 
 Then there were the people in overcoats. None of them wore real overcoats, only fluffy Korean-style ones, none of them made from virgin wool. They strutted like old-time examination champions being paraded through town. The things covered their bodies like pot lids. Lift one and it seemed filled with hydrogen, light enough to float away, under five jin—barely five and a half pounds.
 
@@ -101,7 +101,7 @@ True, he said, but I've been dead a long time now.
 
 You were absolutely a huge star, because no one cares about you. You can only see the people within your own field of vision. In fact they are nothing, and they do not care about you. In your world you are a star. You know all your friends, and all your friends know you.
 
-You and those friends of mine who imagine themselves stars all think you're cool. You like ruining yourselves for fun but cannot reconcile it with yourselves, and sometimes you put on a false face and tell other people not to do the same.
+You and those friends of mine who imagine themselves stars all think you're cool. You like ruining yourselves for fun but can't make peace with it, and sometimes you pretend to care and tell other people not to do the same.
 
 True, C said. After all, I'm dead.
 
@@ -141,10 +141,10 @@ At least polyester fiber had no strange smell. Before I died, when I was still w
 
 I was already dead, dead like a plastic bottle, disgusting as polyester fiber.
 
-F could not see the people she wanted to see or do the things she wanted to do. She could not refuse the cushion at hand. She could not refuse missing someone. Every day new people appeared on her social apps. She
+F could not see the people she wanted to see or do the things she wanted to do. She could not turn away from the cushion beside her. She could not turn away from longing. Every day new people appeared on her social apps. She
 put down her phone, and the world ended.
 
-She picked up her phone again to see whether anyone had replied to her comment. She picked up her phone, and the world still did not appear around her—only a few things nobody cared about.
+She checked her phone again to see whether anyone had replied to her comment. She checked her phone, and the world still did not appear around her—only a few things that did not matter.
 
 I stood beside her. F could not see me. I looked at the polyester fiber. F held it tighter.
 
@@ -166,7 +166,7 @@ I had been doing perfectly well lately, until all this business with C left me u
 
 Everyone has a few dead friends.
 
-Once you get a little older, the paths of your lives have long since diverged. Some people think having a friend die is an exceptionally singular event in their lives.
+Once you get a little older, your paths through life have long since diverged. Some people think having a friend die is something utterly exceptional in their lives.
 
 All they<button class="note-ref" type="button" data-note="The Chinese switches here to 它们, the nonhuman written form of ‘they’.">※</button> have done is acquire a dead friend, along with things one does for a dead friend—things they have never done themselves, only heard about. Singing for him on a mountaintop, drinking in front of his headstone. These are the most interesting things they are capable of. While doing them, they think about their friend: ah, he's dead already, so what does it hurt for us to do this?
 
