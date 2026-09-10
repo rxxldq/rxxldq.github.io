@@ -613,6 +613,16 @@ html[lang="zh-CN"] .article-body {
 .article-navigation-random { color: var(--quiet); font-size: 0.68rem; line-height: 1.45; }
 .article-navigation-title { overflow-wrap: anywhere; font-size: 0.76rem; line-height: 1.45; }
 .article-navigation-random { padding-top: 0.05rem; white-space: nowrap; }
+.article-author-link {
+  margin-top: 1.75rem;
+  color: var(--quiet);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.article-author-link a { color: inherit; text-underline-offset: 0.18em; }
+.article-author-link a:hover,
+.article-author-link a:focus-visible { color: var(--ink); outline: none; }
 .proofread-mode .wrap { width: min(calc(100% - 4rem), 72rem); max-width: none; }
 .proofread-mode .translation-statement-banner { display: none; }
 .proofread-toolbar {

@@ -194,6 +194,8 @@ def main() -> int:
             "reader-insights.js",
             "include reader-message.html",
             "data-reading-completion-marker",
+            "article-author-link",
+            "page.about_page",
         ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
