@@ -83,7 +83,7 @@ The cleaner slapped her son. The little boy did not cry.
 
 K did not want to serve the bureau, nor did he want to stop here, least of all before the claw machines or in the mall. Like a pitiful fish, he was asleep.
 
-Looking at the claw machines, K always wanted to say something to the cleaner. Your child is your entire hope. You never had an education. You look at these fish and feel nothing, but it hurts your child a little. Look how timid he is.
+Looking at the claw machines, K always wanted to say something to the cleaner. Your child is your only hope. You never had an education. You look at these fish and feel nothing, but it hurts your child a little. Look how timid he is.
 
 In K's memory, the bureau had held few people when he was a child. The whole place was his world; it seemed he could play on any computer he liked. But now he did not want to go. He was an adult and this time he was supposed to meet them. The things in the tank had stopped moving, and still they said this place was alive.
 

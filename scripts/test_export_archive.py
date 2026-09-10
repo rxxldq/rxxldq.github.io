@@ -84,7 +84,15 @@ class ArchiveExportTests(unittest.TestCase):
                 self.assertNotIn("{{", combined)
                 self.assertNotIn("{%", combined)
                 if language == "en":
-                    self.assertEqual(combined.count('<li id="note-'), 14)
+                    source_paths = list((ROOT / "works").glob("*.en.md")) + list(
+                        (ROOT / "_includes" / "works").glob("*.en.md")
+                    )
+                    expected_notes = sum(
+                        source.read_text(encoding="utf-8").count('class="note-ref"')
+                        for source in source_paths
+                    )
+                    self.assertGreater(expected_notes, 0)
+                    self.assertEqual(combined.count('<li id="note-'), expected_notes)
                     self.assertIn("Ivan Bunin", combined)
 
     def test_backup_has_every_tracked_source_and_manifest(self) -> None:

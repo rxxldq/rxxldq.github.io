@@ -1,4 +1,4 @@
-Sometimes I try to describe a feeling—countless skeletons; writers with hollow chests, clutching nothing but their own manuscripts, already weathered to ash. They dare not count on being remembered.
+Sometimes I try to describe a feeling—countless skeletons; writers with hollow chests, wrapped tight in nothing but their own manuscripts, already weathered to ash. They dare not count on being remembered.
 
 Thinking of this, I want to go home at once. I want to turn on my computer and carefully create a new folder—this time, not on the desktop. I will carefully give it an important name, something other than New Folder. I no longer trust distant cloud servers to keep my information. I no longer trust dumb computers. I know I will spill water on mine.
 
@@ -6,4 +6,4 @@ I set down their sentences and mine with care. Nothing special. Yes, I want to g
 
 In *Invisible Cities*, Italo Calvino tells us to “seek and learn to recognize who and what, in the midst of the inferno, are not inferno, then make them endure, give them space.” I try to knead together the signs carried by people I once met, shaping copies of them.
 
-I think of the long, garrulous, lyrical letters that recur in modernist novels. There is no longer room for such things in people's minds. I hope there might still be room for these.
+I think of the rambling, lyrical letters that recur in modernist novels. There is no longer room for such things in people's minds. I hope there might still be room for these.

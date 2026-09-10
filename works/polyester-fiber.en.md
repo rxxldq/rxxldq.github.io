@@ -43,7 +43,7 @@ No, C said.
 
 I remember F coming that day. Your parents were too embarrassed to throw her out.
 
-She knocked softly. She had not brought the usual two cartons of cigarettes, two bottles of liquor, or a fruit basket. The moment your parents opened the door, her piercings and eye makeup gave them a fright. The makeup was mostly there to hide the fact that she had nearly cried herself blind, though it did look quite gothic. She wore her most expensive clothes. Remember? A slightly dated, *quite flash* dress with a dragon pattern, purple tights, and a pair of New Rock boots. I am so sick of New Rock. Aesthetic fatigue.
+She knocked softly. She had not brought the usual two cartons of cigarettes, two bottles of liquor, or a fruit basket. The moment your parents opened the door, her piercings and eye makeup gave them a fright. The makeup was mostly there to hide the fact that she had nearly cried herself blind, though it did look quite gothic. She wore her most expensive clothes. Remember? A slightly dated, *qutie frash* dress with a dragon pattern, purple tights, and a pair of New Rock boots. I am so sick of New Rock. Aesthetic fatigue.
 
 C thought so too.
 
@@ -69,7 +69,7 @@ And then what? C asked.
 
 Your funeral was an ordinary funeral. Your mother said a child could not have a wake, and there was no band playing or singing. They moved you straight from the guesthouse to the hospital. Your mother called your maternal grandparents over to take one look.
 
-I can't bring myself to tell you how your grandparents reacted. Seeing them like that was like seeing a ghost. You are dead and calling me, which might also count as seeing a ghost, but I think about you all the time, C. You were my good brother. I just cannot bear to think about what they looked like then.
+I can't bring myself to tell you how your grandparents reacted. Seeing them like that was like seeing a ghost. You are dead and calling me, which might also count as seeing a ghost, but I think about you all the time, C. You're my brother. I just cannot bear to think about what they looked like then.
 
 What have you been doing lately, since you died? I asked him.
 

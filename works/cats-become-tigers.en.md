@@ -11,7 +11,7 @@ ai_translation: true
 translation_revised: 2026-09-09
 ---
 
-I used to be rather fond of tigers. When I was a child, liking tigers was nothing to be proud of. My other friends liked Tyrannosaurus rex, Velociraptors, bombers, Rayquaza, and Resident Evil. Tigers did not deserve to be liked. Tigers were pretty useless. So what if they had evolved claws?
+I used to like tigers quite a bit. When I was a child, liking tigers was nothing to be proud of. My other friends liked Tyrannosaurus rex, Velociraptors, bombers, Rayquaza, and Resident Evil. Tigers did not deserve to be liked. Tigers were pretty useless. So what if they had evolved claws?
 
 The tiger I liked was one I had once seen in a newspaper. That old paper from decades ago carried a piece of good news:
 In Qinhuangdao, cats can become tigers.
@@ -55,7 +55,7 @@ Maybe tobacco smells awful. I should smoke catnip.
 “Disgusting,” the tiger ought to say.
 
 
-But in reality, the tiger walked toward me and said: “I quite like tigers.”
+But in reality, the tiger walked toward me and said: “I like tigers quite a bit.”
 
 “Which film are you going to talk about?” I asked.
 
@@ -93,7 +93,7 @@ If the tiger said that, my story could end. At last I could be rid of them. I wo
 
 I do not really like you phony tigers. You dress up as human beings in my stories and say strange things, pretending you are some kind of symbol, when in fact you are nothing. But what can I do? I only want to become an excavator, a bomber, or a loader.
 
-I finished my screenplay. At last I persuaded the tiger to come to the set by pleading with him. I had made it perfectly clear: all you have to do is sit there and use your phone. You know, it's a tremendous satire of modern life, a tremendous satire of short-form video.
+I finished my screenplay. I finally got the tiger to come to the set by begging. I had made it perfectly clear: all you have to do is sit there and use your phone. You know, it's a tremendous satire of modern life, a tremendous satire of short-form video.
 
 “You're disgusting,” the tiger said. “You think you're clever, but you make me look stupid. I don't want to sit here playing with a phone the whole time.”
 

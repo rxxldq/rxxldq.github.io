@@ -21,13 +21,11 @@ You knock on the door, walk upstairs, and ask what kind of people live here.
 
 A few people upstairs and downstairs, and the story begins:
 
-Every day I think what other people think, imagine what other people imagine. Walking through a crowd, I pull my mind out of the screen. Most people on the street are looking at their phones too. Their eyes grow more and more accustomed to focusing on one small screen. Now and then they put the phone down to cross the road, look up, and remember they possess panoramic vision.
+Every day I think what other people think, imagine what other people imagine. Walking through a crowd, I pull my mind out of the screen. Most people on the street are looking at their phones too. Their eyes grow more and more accustomed to focusing on one small screen. Now and then they put the phone down to cross the road, look up, and remember they have panoramic vision.
 
 I always think the sky covers only a small patch. People keep emerging on the street; now and then I remember one or two. There are even more around me, walking and stopping. You see every kind of person in the city centre. On the street I always pretend to be in a hurry, wondering whether I have forgotten something. Yet looking at them leaves me frustrated. I do not know what they are thinking.
 
 I write a few sentences and discover that my grammar is becoming more and more Westernised. Sometimes I even think in English. It frightens me.
-
-The Sikhs on the street may think in Punjabi, thinking of their families in Punjab. I remember that *Punjab* comes from Persian: *panj* is five and *āb* is water, so Punjab ought to be translated as Five Rivers. The cognate Greek root *penta* also means five. Pentakill. I miss *League of Legends*, but it stopped being popular long ago. None of my friends will play it with me.
 
 The possibilities of what they might be thinking are often forgotten before I can guess them. The habit of thinking makes me tired, yet I cannot control it. Every time our eyes meet, I cannot help attaching myself to someone else. I want so badly to become every pair of eyes. Blurred or exhausted, each contains countless viewpoints and possibilities.
 
@@ -39,7 +37,7 @@ So many people perform for you, singing and dancing for you. On your phone, you 
 
 I do not want to meet anyone, yet I want to know what the people behind the camera think and how they live.
 
-There are rats on the street and cockroaches in the yard. Squat, fat slugs and earthworms are summoned by moisture all year round and cling to the tiles. An earthworm is thin as a daylily bud twisting on the wall. Turn on the shower and it rises and falls in resonance with the droplets hitting the floor. Its body shades from one colour to another, pointed at both ends and orange-yellow in the middle. I want to become an insect and understand the world through negligible senses. I want to know how many metres from food I must be before I notice it. I want to know the logical relation between the birth of the urge to hunt and the hunt itself.
+There are rats on the street and cockroaches in the yard. Squat, fat slugs and earthworms are summoned by moisture all year round and cling to the tiles. An earthworm is thin as a daylily bud twisting on the wall. Turn on the shower and it rises and falls in resonance with the droplets hitting the floor. Its body shades from one colour to another, pointed at both ends and orange-yellow in the middle. I want to become an insect and understand the world through meagre senses. I want to know how many metres from food I must be before I notice it. I want to know the logical relation between the birth of the urge to hunt and the hunt itself.
 
 I also want to know what the person upstairs thinks about every day.
 
@@ -88,7 +86,7 @@ Perhaps the master of porn can see this too: the man has returned to the room, b
 
 A knock at the door. Always making it so mysterious.
 
-He puts down his phone and lights a cigarette, taking several fierce drags so that it looks as if he lit it thirty seconds before she arrived. As if he were the strategist Zhuge Liang waiting for her inside. He looks like a man who is always smoking. The smoke hides his wrinkles and makes his face less ugly. When the other person enters, it is like K. entering the village for the first time.
+He puts down his phone and lights a cigarette, taking several fierce drags so that it looks as if he lit it thirty seconds before she arrived. As if he were the strategist Zhuge Liang<button class="note-ref" type="button" data-note="Zhuge Liang (Kongming) was a celebrated strategist of the Three Kingdoms period, remembered in Chinese stories for his legendary foresight.">※</button> waiting for her inside. He looks like a man who is always smoking. The smoke hides his wrinkles and makes his face less ugly. When the other person enters, it is like K. entering the village for the first time.
 
 At this point the master of porn closes the webpage. Or perhaps this is only when the master of porn begins watching. He must also accept a certain fact—someone is watching him, wearing an expression as serious as his own.
 

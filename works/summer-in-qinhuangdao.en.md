@@ -17,7 +17,7 @@ The rectangular space is usually divided into three. In the middle is a large mi
 
 The cleaner is no longer young. You look drunk when You come through the door. A few hours earlier, the cleaner had already tried a damp rag, alcohol spray, and an alkaline cleaning agent, to little effect. Most people cannot make out what the graffitied word means. It begins with A. I do not know either. The glass is as smooth as it is every morning. The word lies across it, neither merged into the mirror nor merely floating on the surface. Everyone who sees this mirror wants to spray a little graffiti.
 
-When the cleaner was young, toilet cleaning did not yet have official posts. She used to work at the subdistrict office. At fifty, she had finally managed to land some minor post, some responsibility attached to her name.
+When the cleaner was young, she did not yet have a permanent post cleaning the toilets. She used to work at the subdistrict office. At fifty, she had finally managed to land some minor post, some responsibility attached to her name.
 
 A few days ago the temperature was much like today's. That was when I discovered You were drunk. As haggard as the cleaner, You swayed into this toilet, shaking Your head. At the edge of Your vision appeared now a square hut with a pointed roof, now a few small red characters. The plastic door curtain set the whole scene swaying, though no amount of wavering could keep out a single fly. Tiny insects brought the wind, which blew you into the toilet. Looking up, you frightened yourself with your own face.
 
@@ -39,7 +39,7 @@ Rain began last night, and I can feel that now I am everywhere, not far from any
 
 Time, space, characters, place, tone, musical mode, and BPM: the more I think, the more tired I become. Must I always invent reasonable motives and connections between cause and consequence? Drunk people are always looking for toilets. You were drunk last night too. It is raining now. Summer is not refreshing. I am sitting in an uncomfortable modern commodity chair, reading Joyce, uncomfortable however I sit. The window is half open. The season itself is not hot. The rain goes on without pause; once it begins, it takes the form of a march and never stops, making me feel like cargo waiting to be moved.
 
-This rain: I do not face it like some great peasant, longing and longing for it, hoping to survive the drought. The rain did not bring summer. Summer keeps on appearing.
+This rain: I do not face it like some great farmer, longing and longing for it, hoping to survive the drought. The rain did not bring summer. Summer keeps on appearing.
 
 The toilet is hard to find. Words cover every corner and wall of the park, notices and propaganda everywhere, but hardly a sign pointing the way. The toilet is close. There is one northwest of the centre. You were drunk and found it in two steps. In the large mirror, seeing Yourself with a line of writing across Your face made the world spin. These plastic boards were fixed around the lobby:
 

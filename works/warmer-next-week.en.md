@@ -37,7 +37,7 @@ Jc remembered their fathers, several weightless men in suits and leather shoes d
 
 “As if you didn't go yesterday,” K said.
 
-They had not been smoking long and were still a little afraid, convinced the smell would settle in their hair, under their fingernails, in their clothes. They always imagined that one day they would be the people smoking in films, yet they wanted none of smoking's consequences. Consequences belonged to the endless future. Spend long enough in bright places, wearing leather shoes and formal clothes every day, and you grow sick of anything that shines—especially the glare caught in the creases of leather shoes. The sun chased them out of the corridor. The Sydney sun kept chasing until eight o'clock, when at last it reluctantly gave up. Noon to eight in the evening seemed longer than a century. Night would never come; even when it did, almost at once it was another day.
+They had not been smoking long and were still a little afraid, convinced the smell would settle in their hair, under their fingernails, in their clothes. They always imagined that one day they would be the people smoking in films, yet they wanted none of smoking's consequences. Consequences belonged to the endless future. Spend long enough in bright places, wearing leather shoes and formal clothes every day, and you grow sick of anything that shines—especially the glare caught in the creases of leather shoes. The sun came chasing after them from the corridor. The Sydney sun kept chasing until eight o'clock, when at last it reluctantly gave up. Noon to eight in the evening seemed longer than a century. Night would never come; even when it did, almost at once it was another day.
 
 They said it would get warmer next week: forty-eight, forty-five, maybe fifty. The owners of the cigarettes in their pockets—their fathers—had grown old. Long ago they had lost the ability to judge anything by desire, while a student's desire alone could supply the answer. It was hot now, and still they were going to the back hill to smoke. A bit of heat was all right. The air in Jc's hometown was damp. Sea cucumbers, tea, left casually in the garage; in the damp air back home, the exquisite wooden packaging went impotent and limp. Sea cucumbers left to soak swelled larger and larger, larger than an adolescent cock, but the adults never glanced at them. They all said money was what they hated most.
 
@@ -63,7 +63,7 @@ H said he had seen it in a QQ group chat two weeks earlier. Jc was hardly cuttin
 
 In two weeks the temperature would be better. They did not know what things would be like by then. Maybe everything would stay like this forever.
 
-Jc played a video. An old woman had gone out to buy groceries and, not paying attention, fallen into a septic tank. She summoned a reporter from a local consumer-affairs programme and raged into the camera: “For fuck's sake!”
+Jc played a video. An old woman had gone out to buy groceries and, not paying attention, fallen into a septic tank. She summoned a reporter from a local consumer-affairs programme and raged into the camera: “Mofo!”
 
 He laughed.
 

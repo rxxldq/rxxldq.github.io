@@ -46,9 +46,9 @@ K liked the way she looked. Her make-up followed every prescribed step; forty pe
 
 Yes. After all, anyone can be anything, as long as they want to be it.
 
-“Oh, no, that’s not right,” K said again. “Do you know what a real hippie is? I know a real hippie. He actually came out of that era. I’m nowhere near worthy of being one.”
+“Oh, no, that’s not right,” K said again. “Do you know what a real hippie is? I know a real hippie. He actually came out of that era. I’m not fit to call myself one.”
 
-“Oh, right.” K backpedalled again. “Hippies have been passé for ages. It’s postmodern now. Hippies have been passé for ages, just like Henri Lefebvre, just like those New Left people. Right.”
+“Oh, right.” K backpedalled again. “Hippies went out of fashion ages ago. We’re in postmodern times now. Hippies went out of fashion ages ago, just like Henri Lefebvre, just like those New Left people. Right.”
 
 “Oh, right,” K said again. “Yesterday I read an article about Louis Althusser. That thing about ideological state apparatuses. The article said the superstructure isn’t simply pushed along by the economic base; ideology can in turn shape the subject—that was roughly the point. Anyway, any Marxism that explains everything through economics is vulgar. You know. They’re stupid.”
 

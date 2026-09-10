@@ -25,7 +25,7 @@ With every step, wooden-soled shoes destroy the future of walking. Wooden-soled 
 
 That was how he walked. His steps grew heavier and heavier, yet his body felt light.
 
-He chewed his gum hard, as though his head were light. Concentrating all his energy on the gum gave him the power to feel contempt. Thick-soled leather shoes were nothing to worry about. The more he chewed, the lighter his body felt; his heels rebounded from the ground without end. A chill ran through him and his skin rose in gooseflesh.
+He chewed his gum hard, as though his head were light. Concentrating all his energy on the gum gave him the power to feel contempt. Thick-soled leather shoes were nothing to worry about. The more he chewed, the lighter his body felt; his heels rebounded from the ground without end. A chill ran through him and he broke out in goosebumps.
 
 This was how he was. As he walked, he thought how expensive his leather shoes were. Expensive leather shoes were hard to walk in too. Rich people did not walk. They were never idle; they only created more trouble for themselves.
 
@@ -45,7 +45,7 @@ He had become highly skilled at secretly letting go. A grip lightly pinching a f
 
 He could be anyone. With their fingers interlocked, he was someone whose palms sweated easily. His fingers twisted left and right; his palm rubbed against the other palm with an itchy friction, hinting at impatience. But he would never use any aggressive means to end any relationship, including holding hands.
 
-He would choose the right moment and draw his hand out naturally, raise it before his face for a glance, then press it to his left cheek and pretend it was soaked in sweat. He would wipe his face with his sleeve, taking care not to catch his facial piercings. Then he would draw the hand in a single line from his waist; when it reached the pocket, he would slide it straight inside and leave it there. His hand fidgeted around in the pocket. His lighter scraped against his phone’s tempered-glass screen protector, leaving a few white marks.
+He would choose the right moment and draw his hand out naturally, raise it before his face for a glance, then press it to his left cheek and pretend it was soaked in sweat. He would wipe his face with his sleeve, taking care not to catch his facial piercings. Then, from his waist, he would run his hand down in a straight line; when it reached the pocket, he would slide it straight inside and leave it there. His hand fidgeted around in the pocket. His lighter scraped against his phone’s tempered-glass screen protector, leaving a few white marks.
 
 When he was being led by the hand—and here that means the particular kind in which the person doing the leading walks in front and uses a few fingers to grasp most of the back of the other person’s hand—he still had a way out. Usually he would yank his hand free. In that split second, before the other person’s resentment had fully risen, he would seize the hand again, release it, seize it several more times, pretending to be playing with them while deliberately using too much force. After a few grabs, he would slip his hand into his pocket as though to say, I’ve had enough of this game.
 
@@ -53,7 +53,7 @@ The trench-coat arrangement, with the other person linking arms, was indeed diff
 
 Second, Western films and culture had given the gesture such an air of studied poise, as though you were doing something.
 
-Third, the two of them looked rather pleasing.
+Third, the two of them looked pretty good.
 
 Fourth, they looked like a couple.
 

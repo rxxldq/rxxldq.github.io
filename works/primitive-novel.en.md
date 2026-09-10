@@ -79,13 +79,13 @@ Man 3: Small round face, upturned eyes. Her eyes are diamond-shaped; their corne
 
 Strong Man: I hunt like the grown-ups do. Priest, watch. Watch her, old bastard! Stop recording everything!
 
-Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to have lots of children. Her hair falls across her face like this, and now the sunlight turns it into the layer of rice paper wrapped around candied hawthorns on a stick. I really want to take a bite.
+Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui<button class="note-ref" type="button" data-note="Mawangdui is a Han-dynasty tomb site in Changsha.">※</button>—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to have lots of children. Her hair falls across her face like this, and now the sunlight turns it into the layer of rice paper wrapped around candied hawthorns on a stick. I really want to take a bite.
 
 Strong Man: None of that casting-couch shit. This is the set of an avant-garde experimental film. What, are you going to pick consorts like those old cunts?
 
 Man 3: We’re shooting an avant-garde film. And off set we’ll fuck more and breed more. Otherwise where would Mawangdui come from?
 
-Strong Man: (thinking furiously with his undeveloped brain about how to make his possession of the female legitimate) She and I are the pair, got it? A little social Darwinism. I’m the strongest.
+Strong Man: (thinking furiously with his undeveloped brain about how to make his possession of the female legitimate) I’m the one she’s with, got it? A little social Darwinism. I’m the strongest.
 
 The Priest only watches. His back can never straighten. His eyes bulge and show no whites. They are like black holes, fixed on the others. Look closely and the whites are green. Every day he bends over and stares into his medicine.
 
@@ -95,7 +95,7 @@ Woman: (her voice trembling, probably regretting ever being born) What are we do
 
 Strong Man: What are you wearing? Off. Take it all off. Hurry up and strip.
 
-Man 2: (he does not understand what everyone intends to do. He picks up the stone axe, ready to smash the back of the Strong Man’s skull at the moment he comes) Category III? B-movie? What does that mean?
+Man 2: (he does not understand what everyone intends to do. He picks up the stone axe, ready to smash the back of the Strong Man’s skull at the moment he comes) Category III<button class="note-ref" type="button" data-note="Category III is Hong Kong’s film classification for viewers aged 18 and above.">※</button>? B-movie? What does that mean?
 
 Man 3: Off, all of it. This is only a process. Are they really doing it or pretending? You’ll have to ask whether he has the nerve.
 
@@ -231,7 +231,7 @@ There is only a void. Nothing at all. Your gaze is pulled inside.”
 
 “Are there poets there?”
 
-“No, because there is nothing there to describe. But this world does.
+“No, because there is nothing there to describe. But in this world, there is.
 
 Because we provide only fantasy.”
 

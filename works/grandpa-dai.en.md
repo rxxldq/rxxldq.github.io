@@ -42,7 +42,7 @@ He performed kuaiban, a form of storytelling paced by bamboo clappers. The clapp
 
 The audience's mouths hung slightly open. They squinted and grimaced, twisting their features into unnatural shapes, staring at those fingers. They watched the fingers slide from beneath his jacket onto the tabletop and lightly tap the storyteller's block twice, not picking it up yet, just curling tenderly around it.
 
-If only they could snap those fingers, bend them backward. He would turn into a raptor, click click. Someone wanted to press the claw into the city wall and leave the 5A tourist attraction a souvenir, molding it in sticky rice, lime, and egg white.
+If only they could snap those fingers, bend them backward. He would turn into a raptor, click click. Someone wanted to press the claw into the city wall and leave the 5A tourist attraction<button class="note-ref" type="button" data-note="5A is China’s highest official rating for scenic tourist attractions.">※</button> a souvenir, molding it in sticky rice, lime, and egg white.
 
 If Grandpa Dai came back, people certainly would not let you leave. They would scrape off your scales and use them as the currency that held its value best. They would fry the flesh in rapeseed oil, never peanut oil, or it would taste rancid. Most important was the skeleton. They would tie a rope to the tail vertebra and throw it back into the sea for a few days, then, when grieving shoals embraced your corpse and wept, scoop them all up in one basket.
 

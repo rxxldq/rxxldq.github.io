@@ -77,9 +77,10 @@
     {% if page.instagram_handle and page.instagram_url %}<p class="about-instagram"><span lang="en">Instagram</span>: <a href="{{ page.instagram_url }}" target="_blank" rel="me noopener noreferrer">{{ page.instagram_handle }}</a></p>{% endif %}
     {% if page.subtitle %}<p class="about-subtitle{% if page.author_name %} about-subtitle-after-name{% endif %}">{{ page.subtitle }}{% if page.location_map %} <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">&#x2316;</button>{% endif %}</p>{% endif %}
     {% if page.hero_image %}<figure class="article-hero"><img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: '' | escape }}" width="1280" height="1280" decoding="async"></figure>{% endif %}
-    {% if page.translator or page.english_text_by_author or page.ai_translation or page.source_url %}
+    {% if page.translator or page.english_text_by_author or page.ai_translation or page.ai_assisted_revision or page.source_url %}
     <div class="edition-meta">
       {% if page.translator %}<p class="translation-credit">Translated by {{ page.translator | escape }}</p>{% elsif page.english_text_by_author %}<p class="translation-credit">English text provided by the author</p>{% elsif page.ai_translation %}<button class="translation-note translation-statement-inline-trigger" type="button" data-translation-statement-open aria-haspopup="dialog" aria-controls="translation-statement-dialog">{{ site.data.translation_statement.inline_en }}</button>{% endif %}
+      {% if page.ai_assisted_revision %}<p class="translation-credit">AI-assisted revision</p>{% endif %}
       {% if page.source_url %}<p class="source-link"><a href="{{ page.source_url }}"{% if page.source_lang %} hreflang="{{ page.source_lang }}"{% endif %} target="_blank" rel="noopener noreferrer">{{ page.source_label | default: page.source_url }} <span aria-hidden="true">↗</span></a></p>{% endif %}
     </div>
     {% endif %}
