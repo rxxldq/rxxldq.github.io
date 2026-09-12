@@ -145,6 +145,14 @@ a:focus-visible { text-decoration-color: currentColor; }
 
 .english-title a { text-decoration: none; }
 
+.translation-editing-status {
+  display: block;
+  margin-top: 0.18rem;
+  font-size: 0.66rem;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
 .translation-link {
   display: inline-block;
   margin-left: 0.7rem;

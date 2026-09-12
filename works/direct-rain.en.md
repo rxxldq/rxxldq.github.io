@@ -4,9 +4,8 @@ title: Direct Rain
 description: 'There was a humming sound, the chassis humming, the tires grinding against the ground. The ground was full of potholes, ruts dug by multi-ton trucks from the nearby mines.'
 lang: en
 year: 2020
+published: false
 permalink: /direct-rain-en.html
-alternate: /direct-rain.html
-alternate_lang: zh-CN
 paragraph_alignment: independent
 translator: Hugo Leuchars
 ai_assisted_revision: true

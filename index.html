@@ -64,7 +64,7 @@ layout: null
           {% for work in works %}
           <li class="title-pair">
             <a class="work-title" href="{{ work.url | relative_url }}">{{ work.title }}</a>
-            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}</div>
+            <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}{% if work.translation_status %}<span class="translation-editing-status">{{ work.translation_status }}</span>{% endif %}</div>
           </li>
           {% endfor %}
         </ol>

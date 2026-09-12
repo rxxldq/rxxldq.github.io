@@ -6,11 +6,9 @@ lang: zh-CN
 year: 2020
 order: 10
 permalink: /direct-rain.html
-alternate: /direct-rain-en.html
-alternate_lang: en
 listed: true
 english_title: Direct Rain
-english_url: /direct-rain-en.html
+translation_status: Translation editing in progress
 english_ai_translation: false
 ---
 ## 1 · 不动林
