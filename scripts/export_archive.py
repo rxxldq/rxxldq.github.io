@@ -197,7 +197,13 @@ def about_work(language: str) -> Work:
 
 
 def publication_works(language: str) -> list[Work]:
-    return [load_work(slug, language) for slug in ordered_slugs()] + [about_work(language)]
+    works = []
+    for slug in ordered_slugs():
+        front, _ = parse_front_matter(WORKS / f"{slug}.{language}.md")
+        if front.get("published") is False:
+            continue
+        works.append(load_work(slug, language))
+    return works + [about_work(language)]
 
 
 def xml_escape(value: str) -> str:

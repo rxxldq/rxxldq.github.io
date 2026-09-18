@@ -42,6 +42,29 @@ class ArchiveExportTests(unittest.TestCase):
         tracked = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.splitlines()
         self.assertFalse(any(name.startswith("output/") for name in tracked))
 
+    def test_publication_works_respect_language_publication_state(self) -> None:
+        expected_chinese = [
+            "middle-class-children",
+            "veterinary-medicine",
+            "pickpocket",
+            "cats-become-tigers",
+            "polyester-fiber",
+            "secretary",
+            "upstairs-downstairs",
+            "grandpa-dai",
+            "curator",
+            "warmer-next-week",
+            "looking-for-he-li",
+            "summer-in-qinhuangdao",
+            "direct-rain",
+            "primitive-novel",
+            "about-author",
+        ]
+        expected_english = [slug for slug in expected_chinese if slug != "direct-rain"]
+
+        self.assertEqual([work.slug for work in export_archive.publication_works("zh")], expected_chinese)
+        self.assertEqual([work.slug for work in export_archive.publication_works("en")], expected_english)
+
     def test_pdfs_open_and_have_text(self) -> None:
         expected_english = [work.title for work in export_archive.publication_works("en")]
         for language in ("zh", "en"):
@@ -73,9 +96,9 @@ class ArchiveExportTests(unittest.TestCase):
                 ET.fromstring(archive.read("META-INF/container.xml"))
                 ET.fromstring(archive.read("OEBPS/content.opf"))
                 nav = archive.read("OEBPS/nav.xhtml").decode("utf-8")
-                self.assertEqual(nav.count("chapter-"), 15)
+                self.assertEqual(nav.count("chapter-"), len(titles))
                 chapters = sorted(name for name in archive.namelist() if name.startswith("OEBPS/chapter-"))
-                self.assertEqual(len(chapters), 15)
+                self.assertEqual(len(chapters), len(titles))
                 combined = "\n".join(archive.read(name).decode("utf-8") for name in chapters)
                 for title in titles:
                     self.assertIn(title, combined)
@@ -84,6 +107,7 @@ class ArchiveExportTests(unittest.TestCase):
                 self.assertNotIn("{{", combined)
                 self.assertNotIn("{%", combined)
                 if language == "en":
+                    self.assertNotIn("Direct Rain</h1>", combined)
                     source_paths = list((ROOT / "works").glob("*.en.md")) + list(
                         (ROOT / "_includes" / "works").glob("*.en.md")
                     )
@@ -101,8 +125,10 @@ class ArchiveExportTests(unittest.TestCase):
         with zipfile.ZipFile(backup) as archive:
             names = set(archive.namelist())
             self.assertTrue(set(tracked).issubset(names))
+            self.assertIn("works/direct-rain.en.md", names)
             manifest = json.loads(archive.read("EXPORT-MANIFEST.json"))
             self.assertEqual([entry["path"] for entry in manifest["source_files"]], tracked)
+            self.assertIn("works/direct-rain.en.md", [entry["path"] for entry in manifest["source_files"]])
             self.assertEqual(manifest["article_counts"], {"zh": 14, "en": 14})
             self.assertEqual(len(manifest["publication_files"]), 4)
 
