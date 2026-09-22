@@ -10,9 +10,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfaf7">
+  <meta name="color-scheme" content="light">
   <meta name="description" content="{{ share_description | escape }}">
   <title>{{ page.title }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ '/images/map.png' | relative_url }}">
   <link rel="alternate" hreflang="{{ page.lang | default: 'zh-CN' }}" href="{{ page.url | absolute_url }}">
   {% if page.alternate %}<link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate | absolute_url }}">{% endif %}
   {% if page.lang == 'en' and page.alternate %}<link rel="alternate" hreflang="x-default" href="{{ page.alternate | absolute_url }}">{% else %}<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">{% endif %}

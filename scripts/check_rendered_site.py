@@ -20,6 +20,9 @@ class PageParser(HTMLParser):
         self.canonicals: list[str] = []
         self.has_html_lang = False
         self.has_viewport = False
+        self.has_theme_color = False
+        self.has_color_scheme = False
+        self.has_favicon = False
         self.has_noindex = False
         self.missing_image_alt = 0
         self.in_title = False
@@ -44,6 +47,10 @@ class PageParser(HTMLParser):
             content = values.get("content", "").lower()
             if name == "viewport" and "width=device-width" in content:
                 self.has_viewport = True
+            if name == "theme-color" and content.strip() == "#fbfaf7":
+                self.has_theme_color = True
+            if name == "color-scheme" and content.strip() == "light":
+                self.has_color_scheme = True
             if name == "robots" and "noindex" in content:
                 self.has_noindex = True
         elif tag == "link":
@@ -51,6 +58,8 @@ class PageParser(HTMLParser):
             href = values.get("href", "")
             if "canonical" in rel and href:
                 self.canonicals.append(href)
+            if "icon" in rel and href == "/images/map.png":
+                self.has_favicon = True
         elif tag == "img" and "alt" not in values:
             self.missing_image_alt += 1
 
@@ -131,6 +140,12 @@ def check_rendered_site(site_root: Path) -> list[str]:
             errors.append(f"{relative}: html element is missing a language")
         if not parser.has_viewport:
             errors.append(f"{relative}: responsive viewport metadata is missing")
+        if not parser.has_theme_color:
+            errors.append(f"{relative}: theme-color metadata is missing or incorrect")
+        if not parser.has_color_scheme:
+            errors.append(f"{relative}: color-scheme metadata is missing or incorrect")
+        if not parser.has_favicon:
+            errors.append(f"{relative}: favicon link is missing or incorrect")
         if not parser.title:
             errors.append(f"{relative}: document title is empty")
         if parser.duplicate_ids:

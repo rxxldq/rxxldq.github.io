@@ -170,6 +170,9 @@ def main() -> int:
 
     required_text = {
         ROOT / "index.html": (
+            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="color-scheme" content="light">',
+            'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "rel=\"canonical\"",
             "property=\"og:title\"",
             "property=\"og:image\"",
@@ -178,6 +181,9 @@ def main() -> int:
             "site-footer-label-zh",
         ),
         ROOT / "_layouts" / "article.html": (
+            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="color-scheme" content="light">',
+            'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "hreflang=\"x-default\"",
             "property=\"og:title\"",
             "property=\"og:image\"",
@@ -196,6 +202,11 @@ def main() -> int:
             "data-reading-completion-marker",
             "article-author-link",
             "page.about_page",
+        ),
+        ROOT / "404.html": (
+            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="color-scheme" content="light">',
+            '<link rel="icon" type="image/png" href="/images/map.png">',
         ),
         ROOT / "feed.xml": ("where: 'listed', true",),
         ROOT / "sitemap.xml": ("where: 'listed', true",),
