@@ -42,6 +42,11 @@ layout: null
       <p class="home-intro home-intro-en" lang="en">Fiction and poetry, originally written in Chinese.</p>
     </div>
 
+    <div class="home-resume" data-home-resume hidden>
+      <a href="{{ '/' | relative_url }}" data-home-resume-open>继续阅读 / Resume <span class="home-resume-title" data-home-resume-title></span><span class="home-resume-progress" data-home-resume-progress></span></a>
+      <button type="button" data-home-resume-dismiss>忽略 / Dismiss</button>
+    </div>
+
     <section class="special-edition" aria-label="诗歌作品">
       <div class="title-pair">
         <a class="work-title" href="{{ '/middle-class-children.html' | relative_url }}">中产阶级的孩子们三篇</a>
@@ -75,5 +80,6 @@ layout: null
   </main>
   {% include translation-statement.html %}
   {% include subscription-form.html %}
+  <script src="{{ '/reading-tools.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
