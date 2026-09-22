@@ -60,7 +60,7 @@ class ArchiveExportTests(unittest.TestCase):
             "primitive-novel",
             "about-author",
         ]
-        expected_english = [slug for slug in expected_chinese if slug != "direct-rain"]
+        expected_english = expected_chinese
 
         self.assertEqual([work.slug for work in export_archive.publication_works("zh")], expected_chinese)
         self.assertEqual([work.slug for work in export_archive.publication_works("en")], expected_english)
@@ -107,7 +107,7 @@ class ArchiveExportTests(unittest.TestCase):
                 self.assertNotIn("{{", combined)
                 self.assertNotIn("{%", combined)
                 if language == "en":
-                    self.assertNotIn("Direct Rain</h1>", combined)
+                    self.assertIn("Direct Rain</h1>", combined)
                     source_paths = list((ROOT / "works").glob("*.en.md")) + list(
                         (ROOT / "_includes" / "works").glob("*.en.md")
                     )
