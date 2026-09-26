@@ -175,7 +175,12 @@ a:focus-visible { text-decoration-color: currentColor; }
   line-height: 1.45;
 }
 
-.english-title a { text-decoration: none; }
+.english-title a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  text-decoration: none;
+}
 
 .translation-editing-status {
   display: block;
@@ -202,10 +207,12 @@ a:focus-visible { text-decoration-color: currentColor; }
   border-bottom: 1px solid var(--rule);
 }
 .special-edition .english-title { margin-top: 0.25rem; }
-.special-edition .english-title a { display: inline-block; min-height: 24px; line-height: 24px; }
 
 .archive-translation-note { margin: 0 0 2.5rem; }
 .archive-translation-note .translation-statement-trigger {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
   color: var(--quiet);
   font-size: 0.68rem;
   line-height: 1.5;
@@ -324,7 +331,12 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .site-footer a,
 .site-footer-button,
 .translation-statement-trigger { color: var(--quiet); }
-.site-footer a { text-decoration: none; }
+.site-footer a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  text-decoration: none;
+}
 .site-footer > * + * { margin-left: 1rem; }
 .site-footer-button {
   display: inline-flex;

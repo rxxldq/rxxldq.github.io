@@ -311,7 +311,11 @@ verifyProgressAndCompletion();
 verifyRealArchiveNavigation();
 
 const index = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+const styles = fs.readFileSync(path.join(__dirname, "..", "style.css"), "utf8");
 assert(index.indexOf("home-theme-field") < index.indexOf("data-home-resume") && index.indexOf("data-home-resume") < index.indexOf("special-edition"), "home resume stays after the theme field and before poetry");
 assert(index.includes("reading-tools.js"), "home loads the local reading tool");
 assert(index.includes("data-home-resume-progress"), "home includes the compact progress cue");
+assert.match(styles, /\.english-title a\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home English-title links keep a 24px minimum touch height without enlarging the type");
+assert.match(styles, /\.archive-translation-note \.translation-statement-trigger\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home translation-note trigger keeps a 24px minimum touch height");
+assert.match(styles, /\.site-footer a\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home footer links keep a 24px minimum touch height");
 console.log("Reading tools anchor resume, privacy, home entry, and language navigation tests passed.");
