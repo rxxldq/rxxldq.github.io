@@ -318,4 +318,8 @@ assert(index.includes("data-home-resume-progress"), "home includes the compact p
 assert.match(styles, /\.english-title a\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home English-title links keep a 24px minimum touch height without enlarging the type");
 assert.match(styles, /\.archive-translation-note \.translation-statement-trigger\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home translation-note trigger keeps a 24px minimum touch height");
 assert.match(styles, /\.site-footer a\s*\{[^}]*display:\s*inline-flex;[^}]*min-height:\s*24px;[^}]*align-items:\s*center;/s, "home footer links keep a 24px minimum touch height");
+for (const selector of ["language-switch a", "translation-statement-inline-trigger", "translation-statement-banner-link", "reading-resume button", "reader-message-open", "article-navigation-random", "article-author-link a", "back-home"]) {
+  const escapedSelector = selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  assert.match(styles, new RegExp(`\\.${escapedSelector}\\s*\\{[^}]*display:\\s*inline-flex;[^}]*min-height:\\s*24px;[^}]*align-items:\\s*center;`, "s"), `${selector} keeps a 24px minimum touch height`);
+}
 console.log("Reading tools anchor resume, privacy, home entry, and language navigation tests passed.");

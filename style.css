@@ -235,7 +235,12 @@ a:focus-visible { text-decoration-color: currentColor; }
 .wrap h1 { margin: 0 0 3rem; font-size: 1.65rem; font-weight: 400; line-height: 1.25; }
 main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .language-switch { margin: 0 0 2.25rem; color: var(--quiet); font-size: 0.72rem; word-spacing: 0.65rem; }
-.language-switch a { text-decoration: none; }
+.language-switch a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  text-decoration: none;
+}
 .language-switch [aria-current="page"] { color: var(--ink); }
 .edition-meta { display: grid; gap: 0.4rem; margin: -1.35rem 0 2.75rem; color: var(--quiet); font-size: 0.72rem; line-height: 1.6; }
 .translation-credit,
@@ -243,7 +248,9 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .translation-note { margin: 0; font-size: inherit; line-height: inherit; }
 .source-link a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
 .translation-statement-inline-trigger {
-  display: block;
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
   padding: 0;
   border: 0;
   background: none;
@@ -374,7 +381,20 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 }
 .translation-statement-banner[hidden] { display: none; }
 .translation-statement-banner p { margin: 0 0 0.35rem; font-size: 0.72rem; line-height: 1.55; }
-.translation-statement-banner-link { padding: 0; border: 0; background: none; color: var(--ink); font: inherit; font-size: 0.68rem; text-decoration: underline; text-underline-offset: 0.18em; cursor: pointer; }
+.translation-statement-banner-link {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.68rem;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
 .translation-statement-banner-close { position: absolute; top: 0.65rem; right: 0.65rem; width: 2.25rem; height: 2.25rem; padding: 0; border: 1px solid var(--rule); border-radius: 50%; background: var(--paper); color: var(--quiet); font: inherit; line-height: 1; cursor: pointer; }
 .translation-statement-banner-close:hover,
 .translation-statement-banner-close:focus-visible,
@@ -494,6 +514,9 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 }
 .reading-resume[hidden] { display: none; }
 .reading-resume button {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
   padding: 0;
   border: 0;
   background: none;
@@ -529,6 +552,9 @@ html[lang="zh-CN"] .article-body {
 }
 .reader-message[hidden] { display: none; }
 .reader-message-open {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
   padding: 0;
   border: 0;
   background: none;
@@ -664,7 +690,13 @@ html[lang="zh-CN"] .article-body {
 .article-navigation-direction,
 .article-navigation-random { color: var(--quiet); font-size: 0.68rem; line-height: 1.45; }
 .article-navigation-title { overflow-wrap: anywhere; font-size: 0.76rem; line-height: 1.45; }
-.article-navigation-random { padding-top: 0.05rem; white-space: nowrap; }
+.article-navigation-random {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  padding-top: 0.05rem;
+  white-space: nowrap;
+}
 .article-author-link {
   margin-top: 1.75rem;
   color: var(--quiet);
@@ -672,7 +704,13 @@ html[lang="zh-CN"] .article-body {
   line-height: 1.5;
   text-align: center;
 }
-.article-author-link a { color: inherit; text-underline-offset: 0.18em; }
+.article-author-link a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  color: inherit;
+  text-underline-offset: 0.18em;
+}
 .article-author-link a:hover,
 .article-author-link a:focus-visible { color: var(--ink); outline: none; }
 .proofread-mode .wrap { width: min(calc(100% - 4rem), 72rem); max-width: none; }
@@ -772,6 +810,9 @@ html[lang="zh-CN"] .article-body {
   position: fixed;
   top: 1.25rem;
   left: 1.25rem;
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
   color: var(--quiet);
   font-size: 0.75rem;
   text-decoration: none;
