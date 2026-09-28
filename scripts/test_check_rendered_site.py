@@ -13,7 +13,7 @@ HOME = """<!doctype html>
 <meta name="color-scheme" content="light">
 <title>Home</title><link rel="canonical" href="https://rxxldq.club/">
 <link rel="icon" type="image/png" href="/images/map.png">
-</head><body><a href="/article.html#text">Article</a><img src="/image.png" alt=""></body></html>
+</head><body><div id="work-article"><a href="/article.html#text">Article</a></div><img src="/image.png" alt=""></body></html>
 """
 ARTICLE = """<!doctype html>
 <html lang="en"><head>
@@ -22,7 +22,7 @@ ARTICLE = """<!doctype html>
 <meta name="color-scheme" content="light">
 <title>Article</title><link rel="canonical" href="https://rxxldq.club/article.html">
 <link rel="icon" type="image/png" href="/images/map.png">
-</head><body><main id="text">Text</main><a href="/">Home</a></body></html>
+</head><body><main id="text">Text</main><a class="back-home" href="/#work-article">Index</a></body></html>
 """
 NOT_FOUND = """<!doctype html>
 <html lang="zh-CN"><head>
@@ -67,6 +67,10 @@ def main() -> None:
                 errors = check_rendered_site(root)
                 assert any(f"{page_name}: {error_label}" in error for error in errors)
             (root / page_name).write_text(original, encoding="utf-8")
+
+        (root / "index.html").write_text(HOME.replace('id="work-article"', ''), encoding="utf-8")
+        errors = check_rendered_site(root)
+        assert any("article.html: missing fragment target in /#work-article" in error for error in errors)
 
         (root / "index.html").write_text(HOME.replace("/article.html#text", "/missing.html"), encoding="utf-8")
         errors = check_rendered_site(root)

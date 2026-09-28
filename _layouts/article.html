@@ -67,7 +67,8 @@
 </head>
 <body data-insights-endpoint="{{ site.insights_endpoint | escape }}" data-article-path="{{ page.url | escape }}" data-article-title="{{ page.title | escape }}" data-article-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}">
   <div class="reading-progress" aria-hidden="true"><span></span></div>
-  <a href="{{ '/' | relative_url }}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
+  {% assign directory_url = page.url %}{% if page.lang == 'en' and page.alternate %}{% assign directory_url = page.alternate %}{% endif %}
+  <a href="{{ '/' | relative_url }}{% unless page.about_page %}#work-{{ directory_url | remove: '/' | remove: '.html' }}{% endunless %}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
   <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}"{% if page.alternate %} data-alternate-url="{{ page.alternate | relative_url }}"{% endif %}>
     {% if page.alternate %}
     <nav class="language-switch" aria-label="{% if page.lang == 'en' %}Language{% else %}语言{% endif %}">

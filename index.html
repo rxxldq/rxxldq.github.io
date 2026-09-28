@@ -51,7 +51,7 @@ layout: null
     </div>
 
     <section class="special-edition" aria-label="诗歌作品">
-      <div class="title-pair">
+      <div class="title-pair" id="work-middle-class-children">
         <a class="work-title" href="{{ '/middle-class-children.html' | relative_url }}">中产阶级的孩子们三篇</a>
         <div class="english-title" lang="en"><a href="{{ '/middle-class-children-en.html' | relative_url }}">The Children of the Middle Class: A Poetry Triptych</a></div>
       </div>
@@ -70,7 +70,7 @@ layout: null
         <ol class="writing-list">
           {% assign works = year.items | sort: 'order' %}
           {% for work in works %}
-          <li class="title-pair">
+          <li class="title-pair" id="work-{{ work.url | remove: '/' | remove: '.html' }}">
             <a class="work-title" href="{{ work.url | relative_url }}">{{ work.title }}</a>
             <div class="english-title" lang="en">{% if work.english_url %}<a href="{{ work.english_url | relative_url }}">{{ work.english_title }}</a>{% else %}<span>{{ work.english_title }}</span>{% endif %}{% if work.translation_status %}<span class="translation-editing-status">{{ work.translation_status }}</span>{% endif %}</div>
           </li>

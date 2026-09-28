@@ -162,6 +162,7 @@ a:focus-visible { text-decoration-color: currentColor; }
 }
 
 .writing-list li + li { margin-top: 1rem; }
+.title-pair[id] { scroll-margin-top: 1.5rem; }
 .work-title { display: block; font-size: 1.08rem; line-height: 1.45; text-decoration: none; }
 .work-title:hover,
 .work-title:focus-visible,
