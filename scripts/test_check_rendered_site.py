@@ -9,7 +9,7 @@ from check_rendered_site import check_rendered_site
 HOME = """<!doctype html>
 <html lang="zh-CN"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fbfaf7">
+<meta name="theme-color" content="#f8f5ee">
 <meta name="color-scheme" content="light">
 <title>Home</title><link rel="canonical" href="https://rxxldq.club/">
 <link rel="icon" type="image/png" href="/images/map.png">
@@ -18,7 +18,7 @@ HOME = """<!doctype html>
 ARTICLE = """<!doctype html>
 <html lang="en"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fbfaf7">
+<meta name="theme-color" content="#f8f5ee">
 <meta name="color-scheme" content="light">
 <title>Article</title><link rel="canonical" href="https://rxxldq.club/article.html">
 <link rel="icon" type="image/png" href="/images/map.png">
@@ -27,7 +27,7 @@ ARTICLE = """<!doctype html>
 NOT_FOUND = """<!doctype html>
 <html lang="zh-CN"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#fbfaf7">
+<meta name="theme-color" content="#f8f5ee">
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex">
 <title>404</title>
@@ -56,7 +56,7 @@ def main() -> None:
         assert check_rendered_site(root) == []
 
         identity_markup = (
-            ("<meta name=\"theme-color\" content=\"#fbfaf7\">", "theme-color metadata"),
+            ("<meta name=\"theme-color\" content=\"#f8f5ee\">", "theme-color metadata"),
             ("<meta name=\"color-scheme\" content=\"light\">", "color-scheme metadata"),
             ("<link rel=\"icon\" type=\"image/png\" href=\"/images/map.png\">", "favicon link"),
         )

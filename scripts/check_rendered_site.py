@@ -47,7 +47,7 @@ class PageParser(HTMLParser):
             content = values.get("content", "").lower()
             if name == "viewport" and "width=device-width" in content:
                 self.has_viewport = True
-            if name == "theme-color" and content.strip() == "#fbfaf7":
+            if name == "theme-color" and content.strip() == "#f8f5ee":
                 self.has_theme_color = True
             if name == "color-scheme" and content.strip() == "light":
                 self.has_color_scheme = True

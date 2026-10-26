@@ -170,7 +170,7 @@ def main() -> int:
 
     required_text = {
         ROOT / "index.html": (
-            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="theme-color" content="#f8f5ee">',
             '<meta name="color-scheme" content="light">',
             'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "rel=\"canonical\"",
@@ -181,7 +181,7 @@ def main() -> int:
             "site-footer-label-zh",
         ),
         ROOT / "_layouts" / "article.html": (
-            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="theme-color" content="#f8f5ee">',
             '<meta name="color-scheme" content="light">',
             'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "hreflang=\"x-default\"",
@@ -204,7 +204,7 @@ def main() -> int:
             "page.about_page",
         ),
         ROOT / "404.html": (
-            '<meta name="theme-color" content="#fbfaf7">',
+            '<meta name="theme-color" content="#f8f5ee">',
             '<meta name="color-scheme" content="light">',
             '<link rel="icon" type="image/png" href="/images/map.png">',
         ),
