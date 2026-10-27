@@ -9,7 +9,7 @@ order: 20
 permalink: /polyester-fiber.html
 alternate: /polyester-fiber-en.html
 alternate_lang: en
-english_title: Polyester Fiber
+english_title: Polyester Fibre
 english_url: /polyester-fiber-en.html
 english_ai_translation: true
 ---

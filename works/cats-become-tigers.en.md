@@ -101,9 +101,9 @@ Then what do you want?
 
 “I miss my claws. I had claws even when I was still a cat. I think if I had claws, I probably wouldn't need to play with a phone, and I could slash you a couple of times besides.”
 
-If you do that, how am I supposed to satirize our modern life?
+If you do that, how am I supposed to satirise our modern life?
 
-“Maybe all we need is a few more people like you, protecting modern life while satirizing it.”
+“Maybe all we need is a few more people like you, protecting modern life while satirising it.”
 
 I thought the tiger made a great deal of sense, so I immediately took out my phone and spent half an hour arguing with conservative people online. The tiger filmed me. I felt pretty good about it. The sight of me furious and flustered was quite funny. This would make a decent film. Shame we still did not get the tiger on camera.
 

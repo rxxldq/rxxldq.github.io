@@ -1,0 +1,22 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title | xml_escape }} (English)</title>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <description>Fiction and poetry, originally written in Chinese.</description>
+    <language>en</language>
+    {% assign listed_pages = site.pages | where: 'listed', true %}
+    {% assign grouped = listed_pages | group_by: 'year' | sort: 'name' | reverse %}
+    {% for year in grouped %}{% assign works = year.items | sort: 'order' %}{% for work in works %}{% if work.english_url %}{% assign english_page = site.pages | where: 'url', work.english_url | first %}
+    <item>
+      <title>{{ work.english_title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</link>
+      <guid>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</guid>
+      <description>{{ english_page.description | xml_escape }}</description>
+    </item>
+    {% endif %}{% endfor %}{% endfor %}
+  </channel>
+</rss>

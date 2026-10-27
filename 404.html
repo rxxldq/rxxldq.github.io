@@ -7,12 +7,24 @@ permalink: /404.html
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f5ee">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
   <meta name="robots" content="noindex">
   <meta name="description" content="这里没有文章。">
   <title>404 — 页面未找到</title>
   <link rel="icon" type="image/png" href="/images/map.png">
+  <script>
+    (function () {
+      try {
+        var d = document.documentElement, t = localStorage.getItem("rxxldq:theme:v1");
+        if (localStorage.getItem("rxxldq:text-size:v1") === "large") d.classList.add("text-large");
+        if (t !== "light" && t !== "dark") return;
+        d.dataset.theme = t;
+        document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) { m.content = t === "dark" ? "#1c1915" : "#f8f5ee"; });
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="/style.css?v={{ site.time | date: '%s' }}">
 </head>
 <body class="error-body">

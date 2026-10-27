@@ -6,14 +6,16 @@ layout: null
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f5ee">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="{{ site.description }}">
   <meta name="follow.it-verification-code" content="4zRwcNuxdsRV9wedkTEN">
   <title>{{ site.title }}</title>
   <link rel="canonical" href="{{ '/' | absolute_url }}">
   <link rel="icon" type="image/png" href="{{ '/images/map.png' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} (English)" href="{{ '/feed-en.xml' | relative_url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.title | escape }}">
   <meta property="og:description" content="{{ site.description | escape }}">
@@ -31,10 +33,33 @@ layout: null
   <meta name="twitter:description" content="{{ site.description | escape }}">
   <meta name="twitter:image" content="{{ '/images/share-cover.png' | absolute_url }}">
   <meta name="twitter:image:alt" content="L’imagination au pouvoir ! — 让想象力夺权">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": {{ '/' | absolute_url | append: '#website' | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <script>
+    (function () {
+      try {
+        var d = document.documentElement, t = localStorage.getItem("rxxldq:theme:v1");
+        if (localStorage.getItem("rxxldq:text-size:v1") === "large") d.classList.add("text-large");
+        if (t !== "light" && t !== "dark") return;
+        d.dataset.theme = t;
+        document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) { m.content = t === "dark" ? "#1c1915" : "#f8f5ee"; });
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body class="home-page">
-  <main class="site">
+  <a class="skip-link" href="#main-content">跳到正文 / Skip to content</a>
+  <main class="site" id="main-content" tabindex="-1">
     <header class="site-header">
       <h1 lang="fr">L’imagination au pouvoir&nbsp;!</h1>
       <p class="subtitle">让想象力夺权</p>
@@ -46,7 +71,7 @@ layout: null
     </div>
 
     <div class="home-resume" data-home-resume hidden>
-      <a href="{{ '/' | relative_url }}" data-home-resume-open>继续阅读 / Resume <span class="home-resume-title" data-home-resume-title></span><span class="home-resume-progress" data-home-resume-progress></span></a>
+      <a href="{{ '/' | relative_url }}" data-home-resume-open>继续阅读 / Resume reading <span class="home-resume-title" data-home-resume-title></span><span class="home-resume-progress" data-home-resume-progress></span></a>
       <button type="button" data-home-resume-dismiss>忽略 / Dismiss</button>
     </div>
 
@@ -79,10 +104,11 @@ layout: null
       </section>
       {% endfor %}
     </section>
-    <footer class="site-footer"><a class="site-footer-link-pair" href="{{ '/hall.html' | relative_url }}"><span lang="en">About the Author</span><span class="site-footer-label-zh" lang="zh-CN">关于作者</span></a> <button class="site-footer-button" type="button" data-subscription-open aria-haspopup="dialog" aria-controls="subscription-dialog"><span lang="en">Subscribe</span><span class="site-footer-label-zh" lang="zh-CN">订阅</span></button> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a></footer>
+    <footer class="site-footer"><a class="site-footer-link-pair" href="{{ '/hall.html' | relative_url }}"><span lang="en">About the Author</span><span class="site-footer-label-zh" lang="zh-CN">关于作者</span></a> <a class="site-footer-link-pair" href="{{ '/privacy.html' | relative_url }}"><span lang="en">Privacy</span><span class="site-footer-label-zh" lang="zh-CN">隐私</span></a> <button class="site-footer-button" type="button" data-subscription-open aria-haspopup="dialog" aria-controls="subscription-dialog"><span lang="en">Subscribe</span><span class="site-footer-label-zh" lang="zh-CN">订阅</span></button> <a href="{{ '/feed.xml' | relative_url }}" lang="en">RSS</a> <a href="{{ '/feed-en.xml' | relative_url }}" lang="en">RSS (English)</a> <button class="site-footer-button theme-toggle" type="button" aria-pressed="false"><span lang="en">Dark</span><span class="site-footer-label-zh" lang="zh-CN">深色</span></button></footer>
   </main>
   {% include translation-statement.html %}
   {% include subscription-form.html %}
   <script src="{{ '/reading-tools.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/theme-settings.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>

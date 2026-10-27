@@ -102,7 +102,8 @@ def main() -> int:
             elif not re.fullmatch(r"\d{4}-\d{2}-\d{2}", revised):
                 errors.append(f"{path}: invalid translation_revised date: {revised}")
 
-        if meta.get("lang") == "en" and meta.get("alternate"):
+        # about_page files (author, privacy) are original English text, not translations of a work.
+        if meta.get("lang") == "en" and meta.get("alternate") and meta.get("about_page") != "true":
             origin_count = sum(
                 (
                     meta.get("ai_translation") == "true",
@@ -170,8 +171,10 @@ def main() -> int:
 
     required_text = {
         ROOT / "index.html": (
-            '<meta name="theme-color" content="#f8f5ee">',
-            '<meta name="color-scheme" content="light">',
+            '<meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">',
+            '<meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">',
+            '<meta name="color-scheme" content="light dark">',
+            'rxxldq:theme:v1',
             'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "rel=\"canonical\"",
             "property=\"og:title\"",
@@ -179,10 +182,19 @@ def main() -> int:
             "summary_large_image",
             "include subscription-form.html",
             "site-footer-label-zh",
+            "feed-en.xml",
+            "skip-link",
+            "main-content",
+            "application/ld+json",
+            "privacy.html",
+            "theme-toggle",
+            "theme-settings.js",
         ),
         ROOT / "_layouts" / "article.html": (
-            '<meta name="theme-color" content="#f8f5ee">',
-            '<meta name="color-scheme" content="light">',
+            '<meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">',
+            '<meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">',
+            '<meta name="color-scheme" content="light dark">',
+            'rxxldq:theme:v1',
             'rel="icon" type="image/png" href="{{ \'/images/map.png\' | relative_url }}"',
             "hreflang=\"x-default\"",
             "property=\"og:title\"",
@@ -202,14 +214,29 @@ def main() -> int:
             "data-reading-completion-marker",
             "article-author-link",
             "page.about_page",
+            "feed-en.xml",
+            "skip-link",
+            "main-content",
+            "reading-time",
+            "privacy.html",
+            "reading-settings",
+            "data-text-size",
+            "rxxldq:text-size:v1",
+            "theme-settings.js",
         ),
         ROOT / "404.html": (
-            '<meta name="theme-color" content="#f8f5ee">',
-            '<meta name="color-scheme" content="light">',
+            '<meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">',
+            '<meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">',
+            '<meta name="color-scheme" content="light dark">',
+            'rxxldq:theme:v1',
             '<link rel="icon" type="image/png" href="/images/map.png">',
         ),
-        ROOT / "feed.xml": ("where: 'listed', true",),
-        ROOT / "sitemap.xml": ("where: 'listed', true",),
+        ROOT / "style.css": ("prefers-color-scheme: dark", ':root[data-theme="dark"]', ".reading-settings", "--reading-scale"),
+        ROOT / "theme-settings.js": ("rxxldq:theme:v1", "rxxldq:text-size:v1", "prefers-color-scheme: dark", "text-large"),
+        ROOT / "feed.xml": ("where: 'listed', true", "<language>zh-CN</language>", "<description>{{ work.description"),
+        ROOT / "feed-en.xml": ("where: 'listed', true", "work.english_url", "<language>en</language>", "english_page.description"),
+        ROOT / "sitemap.xml": ("where: 'listed', true", "translation_revised", "/privacy.html", "/privacy-en.html"),
+        ROOT / "robots.txt": ("Sitemap: https://rxxldq.club/sitemap.xml",),
         ROOT / "_includes" / "subscription-form.html": ('name="email"', "site.data.subscription"),
         ROOT / "reading-tools.js": ("reading-progress", "data-reading-random", "entries.sort", "localStorage", "pagehide", "data-reading-resume"),
         ROOT / "proofread-mode.js": ('parameters.get("proofread")', "data-alternate-url", "proofread-pair"),

@@ -7,6 +7,7 @@ layout: null
     <title>{{ site.title | xml_escape }}</title>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <description>{{ site.description | xml_escape }}</description>
+    <language>zh-CN</language>
     {% assign listed_pages = site.pages | where: 'listed', true %}
     {% assign grouped = listed_pages | group_by: 'year' | sort: 'name' | reverse %}
     {% for year in grouped %}{% assign works = year.items | sort: 'order' %}{% for work in works %}
@@ -14,6 +15,7 @@ layout: null
       <title>{{ work.title | xml_escape }}</title>
       <link>{{ site.url }}{{ site.baseurl }}{{ work.url }}</link>
       <guid>{{ site.url }}{{ site.baseurl }}{{ work.url }}</guid>
+      <description>{{ work.description | xml_escape }}</description>
     </item>
     {% endfor %}{% endfor %}
   </channel>

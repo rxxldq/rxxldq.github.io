@@ -20,10 +20,17 @@ class PageParser(HTMLParser):
         self.canonicals: list[str] = []
         self.has_html_lang = False
         self.has_viewport = False
-        self.has_theme_color = False
+        self.theme_colors: set[str] = set()
         self.has_color_scheme = False
+        self.has_theme_script = False
+        self.in_script = False
+        self.has_article_body = False
+        self.has_reading_settings = False
+        self.has_theme_toggle = False
+        self.is_home = False
         self.has_favicon = False
         self.has_noindex = False
+        self.alternate_langs: set[str] = set()
         self.missing_image_alt = 0
         self.in_title = False
         self.title_parts: list[str] = []
@@ -31,6 +38,18 @@ class PageParser(HTMLParser):
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key.lower(): value or "" for key, value in attrs}
         tag = tag.lower()
+
+        classes = set(values.get("class", "").split())
+        if "article-body" in classes:
+            self.has_article_body = True
+        if "reading-settings" in classes:
+            self.has_reading_settings = True
+        if "theme-toggle" in classes:
+            self.has_theme_toggle = True
+        if tag == "body" and "home-page" in classes:
+            self.is_home = True
+        if tag == "script":
+            self.in_script = True
 
         element_id = values.get("id")
         if element_id:
@@ -47,9 +66,12 @@ class PageParser(HTMLParser):
             content = values.get("content", "").lower()
             if name == "viewport" and "width=device-width" in content:
                 self.has_viewport = True
-            if name == "theme-color" and content.strip() == "#f8f5ee":
-                self.has_theme_color = True
-            if name == "color-scheme" and content.strip() == "light":
+            media = values.get("media", "").lower().replace(" ", "")
+            if name == "theme-color" and content.strip() == "#f8f5ee" and media == "(prefers-color-scheme:light)":
+                self.theme_colors.add("light")
+            if name == "theme-color" and content.strip() == "#1c1915" and media == "(prefers-color-scheme:dark)":
+                self.theme_colors.add("dark")
+            if name == "color-scheme" and content.strip() == "light dark":
                 self.has_color_scheme = True
             if name == "robots" and "noindex" in content:
                 self.has_noindex = True
@@ -58,6 +80,8 @@ class PageParser(HTMLParser):
             href = values.get("href", "")
             if "canonical" in rel and href:
                 self.canonicals.append(href)
+            if "alternate" in rel and values.get("hreflang"):
+                self.alternate_langs.add(values["hreflang"].lower())
             if "icon" in rel and href == "/images/map.png":
                 self.has_favicon = True
         elif tag == "img" and "alt" not in values:
@@ -69,10 +93,14 @@ class PageParser(HTMLParser):
                 self.references.append((attribute, value))
 
     def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "script":
+            self.in_script = False
         if tag.lower() == "title":
             self.in_title = False
 
     def handle_data(self, data: str) -> None:
+        if self.in_script and "rxxldq:theme:v1" in data and "rxxldq:text-size:v1" in data:
+            self.has_theme_script = True
         if self.in_title:
             self.title_parts.append(data)
 
@@ -140,10 +168,16 @@ def check_rendered_site(site_root: Path) -> list[str]:
             errors.append(f"{relative}: html element is missing a language")
         if not parser.has_viewport:
             errors.append(f"{relative}: responsive viewport metadata is missing")
-        if not parser.has_theme_color:
+        if parser.theme_colors != {"light", "dark"}:
             errors.append(f"{relative}: theme-color metadata is missing or incorrect")
         if not parser.has_color_scheme:
             errors.append(f"{relative}: color-scheme metadata is missing or incorrect")
+        if not parser.has_theme_script:
+            errors.append(f"{relative}: theme anti-flash script is missing")
+        if parser.has_article_body and not parser.has_reading_settings:
+            errors.append(f"{relative}: reading settings controls are missing")
+        if parser.is_home and not parser.has_theme_toggle:
+            errors.append(f"{relative}: homepage theme toggle is missing")
         if not parser.has_favicon:
             errors.append(f"{relative}: favicon link is missing or incorrect")
         if not parser.title:
@@ -207,6 +241,56 @@ def check_rendered_site(site_root: Path) -> list[str]:
             if target is not None and not target.exists():
                 errors.append(f"{xml_name}: URL has no rendered page: {url}")
 
+    robots = site_root / "robots.txt"
+    if not robots.exists():
+        errors.append("rendered robots.txt is missing")
+    elif f"Sitemap: {PUBLIC_ORIGIN}/sitemap.xml" not in robots.read_text(encoding="utf-8"):
+        errors.append("robots.txt: sitemap line is missing")
+
+    errors.extend(check_english_feed(site_root, parsed_pages))
+    return errors
+
+
+def feed_items(xml_path: Path) -> list[str] | None:
+    try:
+        root = ET.parse(xml_path).getroot()
+    except (ET.ParseError, OSError):
+        return None
+    links = []
+    for item in root.iter("item"):
+        link = item.find("link")
+        links.append((link.text or "").strip() if link is not None else "")
+    return links
+
+
+def check_english_feed(site_root: Path, parsed_pages: dict[Path, PageParser]) -> list[str]:
+    errors: list[str] = []
+    english_path = site_root / "feed-en.xml"
+    if not english_path.exists():
+        return ["rendered feed-en.xml is missing"]
+    try:
+        english_root = ET.parse(english_path).getroot()
+    except ET.ParseError as error:
+        return [f"feed-en.xml: invalid XML: {error}"]
+    english_items = feed_items(english_path) or []
+    if (english_root.findtext("channel/language") or "").strip() != "en":
+        errors.append("feed-en.xml: channel language must be en")
+
+    expected = 0
+    for link in feed_items(site_root / "feed.xml") or []:
+        target, _ = output_target(site_root, site_root / "index.html", link)
+        if target is None or not target.exists():
+            continue
+        resolved = target.resolve()
+        parser = parsed_pages.get(resolved)
+        if parser is None:
+            parser, _ = parse_page(resolved)
+        if "en" in parser.alternate_langs:
+            expected += 1
+    if len(english_items) != expected:
+        errors.append(
+            f"feed-en.xml: expected {expected} items (works with an English page), found {len(english_items)}"
+        )
     return errors
 
 

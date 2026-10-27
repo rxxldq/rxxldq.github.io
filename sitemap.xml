@@ -5,9 +5,11 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>{{ site.url }}{{ site.baseurl }}/</loc></url>
   {% assign listed_pages = site.pages | where: 'listed', true %}
-  {% for work in listed_pages %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.url }}</loc></url>{% if work.english_url %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</loc></url>{% endif %}{% endfor %}
+  {% for work in listed_pages %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.url }}</loc></url>{% if work.english_url %}{% assign english_page = site.pages | where: 'url', work.english_url | first %}<url><loc>{{ site.url }}{{ site.baseurl }}{{ work.english_url }}</loc>{% if english_page.translation_revised %}<lastmod>{{ english_page.translation_revised | date: '%Y-%m-%d' }}</lastmod>{% endif %}</url>{% endif %}{% endfor %}
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/middle-class-children-en.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/hall.html</loc></url>
   <url><loc>{{ site.url }}{{ site.baseurl }}/hall-en.html</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/privacy.html</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/privacy-en.html</loc></url>
 </urlset>

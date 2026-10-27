@@ -14,8 +14,8 @@ translation_revised: 2026-09-10
 ---
 <p>[中国人的孩子，有些被归类成中产阶级，这是个被发明出来的词汇。最后才发现，我们和所有人都一样。什么都想是，什么都不是。<br>
   I’m a Chinese guy. Some of us are classified as middle class, a term invented by society. In the end, we realize that we are all the same. We want to be everything and are nothing at all]</p>
-<p>I<br>
-  I am astonished by the tidy minds of the middle class children,</p>
+<h2 class="part">I</h2>
+<p>I am astonished by the tidy minds of the middle class children,</p>
 <p>still handcuffed by disciplinarians to CNC lathes, hands behind their backs</p>
 <p>posed like an airplane,</p>
 <p>bent over,</p>

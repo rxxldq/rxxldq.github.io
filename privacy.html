@@ -1,0 +1,24 @@
+---
+layout: article
+title: 隐私说明
+about_page: true
+description: '本站不使用 Cookie，不在自己的记录中保存原始 IP。这里说明阅读统计、阅读位置、留言与订阅各自记录什么，以及如何用 ?notrack 关闭。'
+lang: zh-CN
+alternate: /privacy-en.html
+alternate_lang: en
+---
+<p>这是一个个人写作档案，没有广告，也不使用 Cookie。下面是代码实际做的事。</p>
+
+<p><strong>网络层。</strong>站点托管在 GitHub Pages，统计与留言接口运行在 Cloudflare Workers。这些服务商在提供服务时会看到访客 IP；本站自己的记录里不保存原始 IP。</p>
+
+<p><strong>阅读统计。</strong>在所有使用文章版式的页面（包括作者页和本页）上，页面停留约 3 秒后仍在前台可见，记为一次“阅读”；读到文末且停留超过约 15 秒，记为一次“读完”。每条记录只有文章路径、标题、语言、事件类型，以及每次打开页面时随机生成的临时标识；该标识不写入你的浏览器，下次打开即是新的。</p>
+
+<p><strong>阅读位置。</strong>“继续上次阅读”所用的位置只保存在你自己浏览器的 localStorage 中，约 90 天后失效，不会上传。</p>
+
+<p><strong>留言。</strong>如果你留言，会保存留言内容、你自愿填写的称呼和邮箱，以及你所选的片段（最多 800 字）和段落序号，由作者在后台查看。每条留言还会连带保存一个由访客 IP 加盐哈希得到的标识，仅用于限速，无法还原出 IP。</p>
+
+<p><strong>保留期。</strong>阅读记录与留言都未设自动删除期限，长期保留在后台数据库。</p>
+
+<p><strong>订阅。</strong>订阅表单把邮箱直接交给第三方 follow.it，由它发送邮件；本站不保存订阅邮箱。</p>
+
+<p><strong>关闭。</strong>在网址后加上 <code>?notrack</code>（例如 <code>/hall.html?notrack</code>），该页就不会发送阅读统计，不显示留言入口，也不读取或保存阅读位置。</p>

@@ -10,12 +10,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f5ee">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f8f5ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1915" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="{{ share_description | escape }}">
   <title>{{ page.title }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" type="image/png" href="{{ '/images/map.png' | relative_url }}">
+  {% if page.lang == 'en' %}<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} (English)" href="{{ '/feed-en.xml' | relative_url }}">{% endif %}
   <link rel="alternate" hreflang="{{ page.lang | default: 'zh-CN' }}" href="{{ page.url | absolute_url }}">
   {% if page.alternate %}<link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate | absolute_url }}">{% endif %}
   {% if page.lang == 'en' and page.alternate %}<link rel="alternate" hreflang="x-default" href="{{ page.alternate | absolute_url }}">{% else %}<link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">{% endif %}
@@ -63,13 +65,30 @@
     }{% endif %}
   }
   </script>
+  <script>
+    (function () {
+      try {
+        var d = document.documentElement, t = localStorage.getItem("rxxldq:theme:v1");
+        if (localStorage.getItem("rxxldq:text-size:v1") === "large") d.classList.add("text-large");
+        if (t !== "light" && t !== "dark") return;
+        d.dataset.theme = t;
+        document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) { m.content = t === "dark" ? "#1c1915" : "#f8f5ee"; });
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body data-insights-endpoint="{{ site.insights_endpoint | escape }}" data-article-path="{{ page.url | escape }}" data-article-title="{{ page.title | escape }}" data-article-language="{% if page.lang == 'en' %}en{% else %}zh{% endif %}">
+  <a class="skip-link" href="#main-content">{% if page.lang == 'en' %}Skip to content{% else %}跳到正文{% endif %}</a>
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   {% assign directory_url = page.url %}{% if page.lang == 'en' and page.alternate %}{% assign directory_url = page.alternate %}{% endif %}
   <a href="{{ '/' | relative_url }}{% unless page.about_page %}#work-{{ directory_url | remove: '/' | remove: '.html' }}{% endunless %}" class="back-home">← {% if page.lang == 'en' %}Index{% else %}目录{% endif %}</a>
-  <main class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}"{% if page.alternate %} data-alternate-url="{{ page.alternate | relative_url }}"{% endif %}>
+  <div class="reading-settings" role="group" aria-label="{% if page.lang == 'en' %}Reading settings{% else %}阅读设置{% endif %}">
+    <button type="button" class="theme-toggle" aria-pressed="false">{% if page.lang == 'en' %}Dark{% else %}深色{% endif %}</button>
+    <button type="button" data-text-size="standard" aria-pressed="true" aria-label="{% if page.lang == 'en' %}Standard text{% else %}标准字号{% endif %}">A−</button>
+    <button type="button" data-text-size="large" aria-pressed="false" aria-label="{% if page.lang == 'en' %}Larger text{% else %}大字号{% endif %}">A+</button>
+  </div>
+  <main id="main-content" tabindex="-1" class="wrap{% if page.lang == 'en' %} article-en{% endif %}{% if page.kind == 'poetry' %} poetry{% endif %}"{% if page.alternate %} data-alternate-url="{{ page.alternate | relative_url }}"{% endif %}>
     {% if page.alternate %}
     <nav class="language-switch" aria-label="{% if page.lang == 'en' %}Language{% else %}语言{% endif %}">
       {% if page.lang == 'en' %}<a href="{{ page.alternate | relative_url }}">中文</a> <span aria-current="page">English</span>{% else %}<span aria-current="page">中文</span> <a href="{{ page.alternate | relative_url }}" lang="en">English</a>{% endif %}
@@ -77,6 +96,12 @@
     {% endif %}
     {% if page.kind == 'poetry' %}<p class="edition-label">{% if page.lang == 'en' %}Poetry{% else %}诗{% endif %}</p>{% endif %}
     <h1>{{ page.title }}</h1>
+    {% if page.listed or page.kind == 'poetry' or page.ai_translation %}{% unless page.about_page %}
+    {% assign reading_text = content | strip_html %}
+    {% if page.lang == 'en' %}{% assign reading_units = reading_text | replace: "\n", ' ' | number_of_words %}{% assign reading_minutes = reading_units | divided_by: 230.0 | ceil %}{% else %}{% assign reading_units = reading_text | strip_newlines | remove: ' ' | size %}{% assign reading_minutes = reading_units | divided_by: 450.0 | ceil %}{% endif %}
+    {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
+    <p class="reading-time">{% if page.lang == 'en' %}{{ reading_minutes }} min read{% else %}约 {{ reading_minutes }} 分钟{% endif %}</p>
+    {% endunless %}{% endif %}
     {% if page.author_name %}<p class="about-author-name">{{ page.author_name }}</p>{% endif %}
     {% if page.instagram_handle and page.instagram_url %}<p class="about-instagram"><span lang="en">Instagram</span>: <a href="{{ page.instagram_url }}" target="_blank" rel="me noopener noreferrer">{{ page.instagram_handle }}</a></p>{% endif %}
     {% if page.subtitle %}<p class="about-subtitle{% if page.author_name %} about-subtitle-after-name{% endif %}">{{ page.subtitle }}{% if page.location_map %} <button class="location-trigger" type="button" aria-expanded="false" aria-controls="location-map" title="Locate Qinhuangdao">&#x2316;</button>{% endif %}</p>{% endif %}
@@ -113,7 +138,7 @@
         <span class="article-navigation-direction">{% if page.lang == 'en' %}Previous{% else %}上一篇{% endif %}</span>
         <span class="article-navigation-title" data-reading-previous-title></span>
       </a>
-      <a class="article-navigation-random" href="{{ '/' | relative_url }}" data-reading-random>{% if page.lang == 'en' %}Random{% else %}随机一篇{% endif %}</a>
+      <a class="article-navigation-random" href="{{ '/' | relative_url }}" data-reading-random>{% if page.lang == 'en' %}Random piece{% else %}随机一篇{% endif %}</a>
       <a class="article-navigation-link article-navigation-next" href="{{ '/' | relative_url }}" data-reading-next>
         <span class="article-navigation-direction">{% if page.lang == 'en' %}Next{% else %}下一篇{% endif %}</span>
         <span class="article-navigation-title" data-reading-next-title></span>
@@ -127,12 +152,15 @@
     {% unless page.about_page %}
     <footer class="article-author-link">
       <a href="{% if page.lang == 'en' %}{{ '/hall-en.html' | relative_url }}{% else %}{{ '/hall.html' | relative_url }}{% endif %}">{% if page.lang == 'en' %}About the Author{% else %}关于作者{% endif %}</a>
+      <span aria-hidden="true"> · </span>
+      <a href="{% if page.lang == 'en' %}{{ '/privacy-en.html' | relative_url }}{% else %}{{ '/privacy.html' | relative_url }}{% endif %}">{% if page.lang == 'en' %}Privacy{% else %}隐私说明{% endif %}</a>
     </footer>
     {% endunless %}
     {% if page.bottom_image %}<figure class="article-footer-image"><img src="{{ page.bottom_image | relative_url }}" alt="{{ page.bottom_image_alt | default: '' | escape }}" width="1280" height="1280" loading="lazy" decoding="async"></figure>{% endif %}
   </main>
   <script src="{{ '/footnotes.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script src="{{ '/reading-tools.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/theme-settings.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script src="{{ '/passage-links.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   <script src="{{ '/reader-insights.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   {% if page.location_map %}<script src="{{ '/location.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>{% endif %}

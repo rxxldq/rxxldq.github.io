@@ -79,7 +79,7 @@ Man 3: Small round face, upturned eyes. Her eyes are diamond-shaped; their corne
 
 Strong Man: I hunt like the grown-ups do. Priest, watch. Watch her, old bastard! Stop recording everything!
 
-Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui<button class="note-ref" type="button" data-note="Mawangdui is a Han-dynasty tomb site in Changsha.">※</button>—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to have lots of children. Her hair falls across her face like this, and now the sunlight turns it into the layer of rice paper wrapped around candied hawthorns on a stick. I really want to take a bite.
+Man 2: Hair like that lets light through, like the lightest garment in the world unearthed at Mawangdui<button class="note-ref" type="button" data-note="Mawangdui is a Han-dynasty tomb site in Changsha.">※</button>—the plain unlined gauze gown, forty-nine grams, roughly two ounces. They are our descendants. We need to have lots of children. Her hair falls across her face like this, and now the sunlight turns it into the layer of edible glutinous-rice paper wrapped around candied hawthorns on a stick. I really want to take a bite.
 
 Strong Man: None of that casting-couch shit. This is the set of an avant-garde experimental film. What, are you going to pick consorts like those old cunts?
 

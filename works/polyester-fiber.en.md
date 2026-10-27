@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Polyester Fiber
+title: Polyester Fibre
 description: 'One night I was reading when my friend C called me out of nowhere. He had been dead for ages.'
 lang: en
 year: 2026
@@ -135,18 +135,18 @@ A plush toy. Plush. The one I bought her, through WeChat's gift feature.
 
 Thirty yuan.
 
-She could not sleep, holding that toy. Plush, except none of it was plush. The cushion was made of polyester fiber, and the filling was one hundred percent polyester fiber.
+She could not sleep, holding that toy. Plush, except none of it was plush. The cushion was made of polyester fibre, and the filling was one hundred percent polyester fibre.
 
-At least polyester fiber had no strange smell. Before I died, when I was still with her, I read an article on WeChat that said polyester fiber was all made from plastic bottles.
+At least polyester fibre had no strange smell. Before I died, when I was still with her, I read an article on WeChat that said polyester fibre was all made from plastic bottles.
 
-I was already dead, dead like a plastic bottle, disgusting as polyester fiber.
+I was already dead, dead like a plastic bottle, disgusting as polyester fibre.
 
 F could not see the people she wanted to see or do the things she wanted to do. She could not turn away from the cushion beside her. She could not turn away from longing. Every day new people appeared on her social apps. She
 put down her phone, and the world ended.
 
 She checked her phone again to see whether anyone had replied to her comment. She checked her phone, and the world still did not appear around her—only a few things that did not matter.
 
-I stood beside her. F could not see me. I looked at the polyester fiber. F held it tighter.
+I stood beside her. F could not see me. I looked at the polyester fibre. F held it tighter.
 
 F thought about C. He was dead. Even before he died, he had never thought about her. F and her friends were all the same. Every time, they sorted their bottles by type and left them separately beside the rubbish bin, making things easier for the auntie who collected recyclables.
 
@@ -173,8 +173,8 @@ All they<button class="note-ref" type="button" data-note="The Chinese switches h
 I have many dead friends. All I can do is think about them often. They lived into their teens or twenties
 and then went and died.
 
-There are many people like that. They are eulogized.
+There are many people like that. They are eulogised.
 
 I cannot do anything now. Most of the time all I have is the guilt and grief after masturbating, and after waking from a dream in which I saw people I will never see again. Then I want to die, want to die just to show the alarm clock that woke me, to show the people who are always telling me to get up, but it is no use at all.
 
-While F held polyester fiber, I was writing—writing a little about life and death, thinking I was so far above it all. Just like holding polyester fiber.
+While F held polyester fibre, I was writing—writing a little about life and death, thinking I was so far above it all. Just like holding polyester fibre.

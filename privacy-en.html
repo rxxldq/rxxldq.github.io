@@ -1,0 +1,24 @@
+---
+layout: article
+title: Privacy
+about_page: true
+description: 'This site uses no cookies and keeps no raw IP addresses in its own records. Here is what reading statistics, reading position, messages and subscriptions record, and how to opt out with ?notrack.'
+lang: en
+alternate: /privacy.html
+alternate_lang: zh-CN
+---
+<p>This is a personal writing archive. It has no advertising and uses no cookies. What follows is what the code actually does.</p>
+
+<p><strong>Network.</strong> The site is hosted on GitHub Pages, and the statistics and message service runs on Cloudflare Workers. These providers see visitors' IP addresses in the course of serving requests; the site's own records do not store the raw IP.</p>
+
+<p><strong>Reading statistics.</strong> On every page that uses the article layout (including the author page and this one), a page still visible in the foreground after about three seconds counts as a "read", and reaching the end after staying more than about 15 seconds counts as "finished". Each record holds only the article path, title, language, event type, and a temporary identifier generated at random each time the page is opened. That identifier is not stored in your browser, so the next visit starts fresh.</p>
+
+<p><strong>Reading position.</strong> The position used by "Resume reading" is kept only in your own browser's localStorage and expires after about 90 days. It is never uploaded.</p>
+
+<p><strong>Messages.</strong> If you leave a message, the site stores its text, the name and email you chose to give, and the selected passage (up to 800 characters) with its paragraph number; the author reads it in a private dashboard. Each message also stores an identifier derived from a salted hash of the visitor's IP address, used only for rate limiting; the IP cannot be recovered from it.</p>
+
+<p><strong>Retention.</strong> Neither reading records nor messages have an automatic deletion period; they are kept in the back-end database indefinitely.</p>
+
+<p><strong>Subscriptions.</strong> The subscription form hands your email directly to the third party follow.it, which sends the mail. This site does not store subscriber emails.</p>
+
+<p><strong>Opting out.</strong> Add <code>?notrack</code> to a page's address (for example <code>/hall-en.html?notrack</code>). That page then sends no reading statistics, hides the message entry points, and neither reads nor saves a reading position.</p>

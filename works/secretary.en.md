@@ -53,7 +53,7 @@ In those days, the cleaners would rather put up with rats running around a resta
 
 Now the cleaner was growing old, though her square face remained as rigid as ever. She had always moved this slowly. By now she was out of new tricks.
 
-K could not remember how many storeys the building had. He had never paid attention; his mother pressed the button. The lift was elegant. Once through the bureau's great glass doors, everything was large. K thought it a lifeless place. Everyone recognized him, everyone knew whose son he was, and still it felt strange.
+K could not remember how many storeys the building had. He had never paid attention; his mother pressed the button. The lift was elegant. Once through the bureau's great glass doors, everything was large. K thought it a lifeless place. Everyone recognised him, everyone knew whose son he was, and still it felt strange.
 
 Every floor was the same, and K could not remember which ones he had visited. Whenever the lift doors opened, an enormous space appeared before him, rows of fluorescent tubes extending to the limit of sight. He could not even be sure there were windows at the far end. Pale blue carpet covered the floor, looking like plastic under the harsh white light. Then came the cubicles and workstations.
 
