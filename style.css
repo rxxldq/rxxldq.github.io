@@ -3,6 +3,8 @@
   --ink: #22201c;
   --quiet: #6b665d;
   --rule: #ddd6c8;
+  --field-line: #ddd6c8;
+  --progress: #22201c;
   --select: #ebe3d2;
   --link-line: #ddd6c8;
   --surface: #f8f5ee;
@@ -27,6 +29,8 @@
     --ink: #ddd5c5;
     --quiet: #a39b8c;
     --rule: #3d372e;
+    --field-line: #6a6154;
+    --progress: #8a8071;
     --select: #4a3f2e;
     --link-line: #5a5246;
     --surface: #25211c;
@@ -47,6 +51,8 @@
   --ink: #ddd5c5;
   --quiet: #a39b8c;
   --rule: #3d372e;
+  --field-line: #6a6154;
+  --progress: #8a8071;
   --select: #4a3f2e;
   --link-line: #5a5246;
   --surface: #25211c;
@@ -107,7 +113,7 @@ body::before {
   display: block;
   width: 100%;
   height: 100%;
-  background: var(--ink);
+  background: var(--progress);
   transform: scaleX(0);
   transform-origin: left center;
 }
@@ -539,7 +545,7 @@ main p { margin: 0 0 1.45em; font-size: 1rem; line-height: 1.95; }
 .subscription-fields input,
 .subscription-fields button {
   min-height: 2.85rem;
-  border: 1px solid var(--rule);
+  border: 1px solid var(--field-line);
   border-radius: 0;
   font: inherit;
   font-size: 0.78rem;
@@ -677,7 +683,7 @@ html[lang="zh-CN"] .article-body p { line-height: 2; }
 .reader-message input {
   box-sizing: border-box;
   width: 100%;
-  border: 1px solid var(--rule);
+  border: 1px solid var(--field-line);
   border-radius: 0;
   background: transparent;
   color: var(--ink);
@@ -1086,6 +1092,8 @@ main[tabindex="-1"]:focus { outline: none; }
     --ink: #22201c;
     --quiet: #6b665d;
     --rule: #ddd6c8;
+    --field-line: #ddd6c8;
+    --progress: #22201c;
     --select: #ebe3d2;
     --link-line: #ddd6c8;
     --surface: #f8f5ee;
