@@ -82,7 +82,7 @@ class PageParser(HTMLParser):
                 self.canonicals.append(href)
             if "alternate" in rel and values.get("hreflang"):
                 self.alternate_langs.add(values["hreflang"].lower())
-            if "icon" in rel and href == "/images/map.png":
+            if "icon" in rel and href == "/images/favicon-32.png":
                 self.has_favicon = True
         elif tag == "img" and "alt" not in values:
             self.missing_image_alt += 1
@@ -149,6 +149,7 @@ def check_rendered_site(site_root: Path) -> list[str]:
     if not site_root.is_dir():
         return [f"rendered site directory does not exist: {site_root}"]
 
+    site_root = site_root.resolve()
     html_files = sorted(site_root.rglob("*.html"))
     if not html_files:
         return [f"no rendered HTML files found in {site_root}"]

@@ -16,7 +16,8 @@
   <meta name="description" content="{{ share_description | escape }}">
   <title>{{ page.title }}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="icon" type="image/png" href="{{ '/images/map.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
   {% if page.lang == 'en' %}<link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} (English)" href="{{ '/feed-en.xml' | relative_url }}">{% endif %}
   <link rel="alternate" hreflang="{{ page.lang | default: 'zh-CN' }}" href="{{ page.url | absolute_url }}">
   {% if page.alternate %}<link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate | absolute_url }}">{% endif %}

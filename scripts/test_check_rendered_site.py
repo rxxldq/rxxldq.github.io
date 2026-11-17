@@ -15,7 +15,7 @@ HOME = """<!doctype html>
 <meta name="color-scheme" content="light dark">
 <script>try{localStorage.getItem("rxxldq:theme:v1");localStorage.getItem("rxxldq:text-size:v1")}catch(e){}</script>
 <title>Home</title><link rel="canonical" href="https://rxxldq.club/">
-<link rel="icon" type="image/png" href="/images/map.png">
+<link rel="icon" type="image/png" href="/images/favicon-32.png">
 </head><body class="home-page"><div id="work-article"><a href="/article.html#text">Article</a></div><img src="/image.png" alt=""><button class="site-footer-button theme-toggle" type="button" aria-pressed="false">Dark</button></body></html>
 """
 ARTICLE = """<!doctype html>
@@ -26,7 +26,7 @@ ARTICLE = """<!doctype html>
 <meta name="color-scheme" content="light dark">
 <script>try{localStorage.getItem("rxxldq:theme:v1");localStorage.getItem("rxxldq:text-size:v1")}catch(e){}</script>
 <title>Article</title><link rel="canonical" href="https://rxxldq.club/article.html">
-<link rel="icon" type="image/png" href="/images/map.png">
+<link rel="icon" type="image/png" href="/images/favicon-32.png">
 </head><body><div class="reading-settings"><button class="theme-toggle" type="button">Dark</button></div><main id="text"><article class="article-body">Text</article></main><a class="back-home" href="/#work-article">Index</a></body></html>
 """
 NOT_FOUND = """<!doctype html>
@@ -38,7 +38,7 @@ NOT_FOUND = """<!doctype html>
 <script>try{localStorage.getItem("rxxldq:theme:v1");localStorage.getItem("rxxldq:text-size:v1")}catch(e){}</script>
 <meta name="robots" content="noindex">
 <title>404</title>
-<link rel="icon" type="image/png" href="/images/map.png">
+<link rel="icon" type="image/png" href="/images/favicon-32.png">
 </head><body><a href="/">Home</a></body></html>
 """
 FEED = """<?xml version="1.0"?><rss><channel><link>https://rxxldq.club/</link><language>zh-CN</language></channel></rss>"""
@@ -57,7 +57,7 @@ def write_fixture(root: Path) -> None:
     (root / "sitemap.xml").write_text(SITEMAP, encoding="utf-8")
     (root / "image.png").write_bytes(b"png")
     (root / "images").mkdir()
-    (root / "images" / "map.png").write_bytes(b"png")
+    (root / "images" / "favicon-32.png").write_bytes(b"png")
 
 
 def main() -> None:
@@ -71,7 +71,7 @@ def main() -> None:
             ("<meta name=\"theme-color\" content=\"#1c1915\" media=\"(prefers-color-scheme: dark)\">", "theme-color metadata"),
             ("<meta name=\"color-scheme\" content=\"light dark\">", "color-scheme metadata"),
             (META_SCRIPT, "theme anti-flash script"),
-            ("<link rel=\"icon\" type=\"image/png\" href=\"/images/map.png\">", "favicon link"),
+            ("<link rel=\"icon\" type=\"image/png\" href=\"/images/favicon-32.png\">", "favicon link"),
         )
         for page_name in ("index.html", "article.html", "404.html"):
             original = (root / page_name).read_text(encoding="utf-8")
